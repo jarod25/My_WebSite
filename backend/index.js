@@ -1,19 +1,20 @@
-const express = require('express');
+import express from 'express'
+import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
+import AboutMeRouter from './Routers/about_me.router.js';
+import CVRouter from './Routers/cv.router.js';
+import PortfolioRouter from './Routers/portfolio.router.js';
+dotenv.config();
 const app = express();
-const bodyParser = require('body-parser');
-const { CVRouter } = require('./Routers/cv.router');
-const { AboutMeRouter } = require('./Routers/about_me.router');
-const { PortfolioRouter } = require('./Routers/portfolio.router');
-require('dotenv').config();
-PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
-app.use('/cv', CVRouter);
 app.use('/about_me', AboutMeRouter);
+app.use('/cv', CVRouter);
 app.use('/portfolio', PortfolioRouter);
 
 app.listen(PORT, () => {

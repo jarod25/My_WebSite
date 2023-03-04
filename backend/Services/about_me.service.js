@@ -1,11 +1,8 @@
-const { AboutMeModels } = require('../Models/about_me.model');
+import fs from 'fs';
+//const json = fs.readFileSync('./data/about_me_fr.json');
 
-function getAboutMe() {
-    return AboutMeModels.getAboutMe();
-}
-
-module.exports = {
-    AboutMeService: {
-        getAboutMe
-    }
+export default class AboutMeService {
+  getAboutMe(callback) {
+    return callback(null, "Jarod's about me page");
+  }
 }

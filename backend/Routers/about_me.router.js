@@ -1,9 +1,8 @@
-const { AboutMeController } = require('../Controllers/about_me.controller');
-const express = require('express');
-const router = express.Router();
+import express from "express";
+import { getAboutMe } from "../Controllers/about_me.controller.js";
 
-router.get('/', AboutMeController.getAboutMe);
+const AboutMeRouter = express.Router();
 
-module.exports = {
-    AboutMeRouter: router
-}
+AboutMeRouter.get("/", getAboutMe);
+
+export default AboutMeRouter;

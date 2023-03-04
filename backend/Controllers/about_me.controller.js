@@ -1,18 +1,12 @@
-const { AboutMeService } = require('../Services/about_me.service');
+import { default as AboutMeService } from '../Services/about_me.service.js';
 
-
-function getAboutMe(req, res) {
-    AboutMeService.getAboutMe()
-        .then((about_me) => {
-            res.status(200).json(about_me);
-        })
-        .catch((err) => {
-            res.status(500).json(err);
-        });
-}
-
-module.exports = {
-    AboutMeController: {
-        getAboutMe
-    }
+export const getAboutMe = (req, res) => {
+    let service = new AboutMeService();
+    service.getAboutMe((error, results) => {
+        if (error) {
+            return res.status(400)
+                .send({success: 0, data: error});
+        }
+        return res.status(200).send(results);
+    });
 }

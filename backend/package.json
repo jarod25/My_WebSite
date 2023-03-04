@@ -1,8 +1,9 @@
 {
   "name": "my_website",
   "version": "1.0.0",
-  "description": "Mon site web en nodejs",
+  "description": "Mon site web en nodejs et vuejs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node_modules/.bin/nodemon Backend/index.js"
