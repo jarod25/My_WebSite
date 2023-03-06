@@ -1,23 +1,57 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
+    {
+        path: '/',
+        redirect: '/fr'
+    },
+    {
+        path: '/fr',
+        name: 'fr',
+        component: () => import('../views/FrView.vue'),
+        children: [
+            {
+                path: '/moi',
+                name: 'moi',
+                component: () => import('../views/FrAboutMeView.vue')
+            },
+            {
+                path: '/cv',
+                name: 'cv',
+                component: () => import('../views/FrCvView.vue')
+            },
+            {
+                path: '/portfolio',
+                name: 'portfolio',
+                component: () => import('../views/FrPortfolioView.vue')
+            }
+        ],
+    },
+    {
+        path: '/en',
+        name: 'en',
+        component: () => import('../views/EnView.vue'),
+        children: [
+            {
+                path: '/moi',
+                name: 'moi',
+                component: () => import('../views/EnAboutMeView.vue')
+            },
+            {
+                path: '/cv',
+                name: 'cv',
+                component: () => import('../views/EnCvView.vue')
+            },
+            {
+                path: '/portfolio',
+                name: 'portfolio',
+                component: () => import('../views/EnPortfolioView.vue')
+            }
+        ],
+    }
 ]
 
 const router = new VueRouter({
