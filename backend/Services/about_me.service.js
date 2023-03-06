@@ -1,5 +1,6 @@
 import fs from 'fs';
-//const json = fs.readFileSync('./data/about_me_fr.json');
+//const jsonFr = JSON.parse(fs.readFileSync('./data/jsonFr.json', 'utf8'));
+//const jsonEn = JSON.parse(fs.readFileSync('./data/jsonEn.json', 'utf8'));
 
 export default class AboutMeService {
   getAboutMe(callback) {

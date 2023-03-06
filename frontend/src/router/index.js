@@ -36,8 +36,8 @@ const routes = [
         component: () => import('../views/EnView.vue'),
         children: [
             {
-                path: '/moi',
-                name: 'moi',
+                path: '/me',
+                name: 'me',
                 component: () => import('../views/EnAboutMeView.vue')
             },
             {
