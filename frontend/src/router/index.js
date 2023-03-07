@@ -12,46 +12,42 @@ const routes = [
         path: '/fr',
         name: 'fr',
         component: () => import('../views/FrView.vue'),
-        children: [
-            {
-                path: '/moi',
-                name: 'moi',
-                component: () => import('../views/FrAboutMeView.vue')
-            },
-            {
-                path: '/cv',
-                name: 'cv',
-                component: () => import('../views/FrCvView.vue')
-            },
-            {
-                path: '/portfolio',
-                name: 'portfolio',
-                component: () => import('../views/FrPortfolioView.vue')
-            }
-        ],
     },
     {
-        path: '/en',
-        name: 'en',
-        component: () => import('../views/EnView.vue'),
-        children: [
-            {
-                path: '/me',
-                name: 'me',
-                component: () => import('../views/EnAboutMeView.vue')
-            },
-            {
-                path: '/cv',
-                name: 'cv',
-                component: () => import('../views/EnCvView.vue')
-            },
-            {
-                path: '/portfolio',
-                name: 'portfolio',
-                component: () => import('../views/EnPortfolioView.vue')
-            }
-        ],
-    }
+        path: '/fr/a-propos',
+        name: 'A propos',
+        component: () => import('../views/FrAboutMeView.vue')
+    },
+    {
+        path: '/fr/cv',
+        name: 'cv',
+        component: () => import('../views/FrCvView.vue')
+    },
+    {
+        path: '/fr/portfolio',
+        name: 'portfolio',
+        component: () => import('../views/FrPortfolioView.vue')
+    },
+        {
+            path: '/en',
+            name: 'en',
+            component: () => import('../views/EnView.vue'),
+        },
+        {
+            path: '/en/about',
+            name: 'about',
+            component: () => import('../views/EnAboutMeView.vue')
+        },
+        {
+            path: '/en/cv',
+            name: 'cv',
+            component: () => import('../views/EnCvView.vue')
+        },
+        {
+            path: '/en/portfolio',
+            name: 'portfolio',
+            component: () => import('../views/EnPortfolioView.vue')
+        }
 ]
 
 const router = new VueRouter({

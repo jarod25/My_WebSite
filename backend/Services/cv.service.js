@@ -3,7 +3,11 @@ import fs from 'fs';
 //const jsonEn = JSON.parse(fs.readFileSync('./data/jsonEn.json', 'utf8'));
 
 export default class CVService {
-    getCV(callback) {
+    getCVFr(callback) {
+        return callback(null, "Jarod's CV page");
+    }
+
+    getCVEn(callback) {
         return callback(null, "Jarod's CV page");
     }
 }

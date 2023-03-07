@@ -1,8 +1,10 @@
 import express from "express";
-import { getCV } from "../Controllers/cv.controller.js";
+import {getCVEn, getCVFr} from "../Controllers/cv.controller.js";
 
 const CVRouter = express.Router();
 
-CVRouter.get("/", getCV);
+CVRouter.get("/fr", getCVFr);
+
+CVRouter.get("/en", getCVEn)
 
 export default CVRouter;

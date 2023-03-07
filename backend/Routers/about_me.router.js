@@ -1,8 +1,10 @@
 import express from "express";
-import { getAboutMe } from "../Controllers/about_me.controller.js";
+import {getAboutMeEn, getAboutMeFr} from "../Controllers/about_me.controller.js";
 
 const AboutMeRouter = express.Router();
 
-AboutMeRouter.get("/", getAboutMe);
+AboutMeRouter.get("/fr", getAboutMeFr);
+
+AboutMeRouter.get("/en", getAboutMeEn);
 
 export default AboutMeRouter;

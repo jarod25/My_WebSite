@@ -3,7 +3,11 @@ import fs from 'fs';
 //const jsonEn = JSON.parse(fs.readFileSync('./data/jsonEn.json', 'utf8'));
 
 export default class PortfolioService {
-    getAll(callback) {
+    getProjectFr(callback) {
+        return callback(null, "Jarod's portfolio page");
+    }
+
+    getProjectEn(callback) {
         return callback(null, "Jarod's portfolio page");
     }
 }

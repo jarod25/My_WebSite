@@ -1,8 +1,8 @@
-import { default as CvService } from '../Services/cv.service.js';
+import { default as HomeService } from '../Services/home.service.js';
 
-export const getCVFr = (req, res) => {
-    let service = new CvService();
-    service.getCVFr((error, results) => {
+export function getHomeFr() {
+    let service = new HomeService();
+    service.getHomeFr((error, results) => {
 
         if (error) {
             return res.status(400)
@@ -12,9 +12,9 @@ export const getCVFr = (req, res) => {
     });
 }
 
-export const getCVEn = (req, res) => {
-    let service = new CvService();
-    service.getCVEn((error, results) => {
+export function getHomeEn() {
+    let service = new HomeService();
+    service.getHomeEn((error, results) => {
 
         if (error) {
             return res.status(400)
