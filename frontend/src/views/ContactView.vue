@@ -37,7 +37,6 @@ export default {
 
 <style>
 .skip-navbar {
-  margin-top: 95px;
-  margin-left: 30px;
+  padding: 8vh 30px;
 }
 </style>
