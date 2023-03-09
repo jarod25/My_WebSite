@@ -1,7 +1,6 @@
 {
   "home": {
-    "title": "Bienvenue sur mon site",
-    "description": "Bienvenue sur mon site personnel. Découvrez mes compétences et mon expérience professionnelle."
+    "header": "Le développement, plus qu'un métier, une passion !"
   },
   "about": {
     "title": "A propos de moi",

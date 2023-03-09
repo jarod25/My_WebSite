@@ -1,11 +1,17 @@
 <template>
-  <div class="skip-navbar">
-    <h1>{{ home.title }}</h1>
-    <p>{{ home.description }}</p>
+<div>
+  <div class="bg">
+    <h1 id="header">{{ home.header }}</h1>
   </div>
+  <div class="text-center">
+    <h1>{{ home.header }}</h1>
+    <div id="mon-objet">Texte de test</div>
+  </div>
+</div>
 </template>
 
 <script>
+import anime from 'animejs/lib/anime.es.js';
 
 export default {
   name: 'HomeView',
@@ -27,6 +33,15 @@ export default {
     },
   },
   mounted() {
+    anime({
+      targets: '#header',
+      width: '400px',
+      height: '40px',
+      easing: 'easeInOutQuad',
+      duration: 1000,
+      translateX: 750,
+      translateY: 350,
+    });
     if (this.$route.path.startsWith('/fr')) {
       this.getDataFr()
     } else {
@@ -37,8 +52,11 @@ export default {
 </script>
 
 <style>
-.skip-navbar {
-  margin-top: 95px;
-  margin-left: 30px;
+.bg {
+  background: url("../../public/background.jpg") no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 8vh 30px;
 }
 </style>
