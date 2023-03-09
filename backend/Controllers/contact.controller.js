@@ -1,8 +1,8 @@
-import {default as HomeService} from '../Services/home.service.js';
+import {default as Contact} from '../Services/contact.service.js';
 
-export const getHomeFr = (req, res) => {
-    let service = new HomeService();
-    service.getHomeFr((error, results) => {
+export const getContactFr = (req, res) => {
+    let service = new Contact();
+    service.getContactFr((error, results) => {
 
         if (error) {
             return res.status(400)
@@ -12,9 +12,9 @@ export const getHomeFr = (req, res) => {
     });
 }
 
-export const getHomeEn = (req, res) => {
-    let service = new HomeService();
-    service.getHomeEn((error, results) => {
+export const getContactEn = (req, res) => {
+    let service = new Contact();
+    service.getContactEn((error, results) => {
 
         if (error) {
             return res.status(400)

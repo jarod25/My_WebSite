@@ -1,0 +1,38 @@
+{
+  "home": {
+    "title": "Welcome to my website",
+    "description": "Welcome to my personal website. Discover my skills and my professional experience."
+  },
+  "about": {
+    "title": "About me",
+    "description": "I am a passionate and creative developer who enjoys solving complex problems and creating powerful and elegant applications."
+  },
+  "cv": {
+    "title": "My CV",
+    "description": "Check out my CV to learn about my professional background, technical skills and accomplishments."
+  },
+  "projects": [
+    {
+      "title": "Project management application",
+      "description": "A web application for project management developed using React and Node.js",
+      "image": "https://example.com/images/project1.png",
+      "link": "https://example.com/projects/project1"
+    },
+    {
+      "title": "Expense tracking application",
+      "description": "A mobile application for tracking personal expenses developed using Flutter and Firebase",
+      "image": "https://example.com/images/project2.png",
+      "link": "https://example.com/projects/project2"
+    },
+    {
+      "title": "E-commerce website",
+      "description": "An e-commerce site developed using Shopify and Liquid",
+      "image": "https://example.com/images/project3.png",
+      "link": "https://example.com/projects/project3"
+    }
+  ],
+  "contact": {
+    "title": "Contact me",
+    "description": "If you have any questions or would like to work with me, please contact me using the form below."
+  }
+}
