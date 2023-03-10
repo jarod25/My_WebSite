@@ -1,7 +1,7 @@
 <template>
-  <b-navbar fixed="top" toggleable="lg" type="dark" variant="dark">
+  <b-navbar fixed="top" toggleable="lg" type="light" variant="light">
     <b-navbar-brand>
-      <img src="http://localhost:8080/logo.ico" alt="Logo" width="50" height="50">
+      <img src="logo.ico" alt="Logo" width="50" height="50">
     </b-navbar-brand>
     <b-navbar-brand>Jarod Kohler</b-navbar-brand>
 
