@@ -20,17 +20,17 @@ const routes = [
     },
     {
         path: '/fr/cv',
-        name: 'cv',
+        name: 'cv français',
         component: () => import('../views/CvView.vue')
     },
     {
         path: '/fr/portfolio',
-        name: 'portfolio',
+        name: 'portfolio français',
         component: () => import('../views/PortfolioView.vue')
     },
     {
         path: '/fr/contact',
-        name: 'contact',
+        name: 'contact français',
         component: () => import('../views/ContactView.vue')
     },
     {
@@ -45,17 +45,17 @@ const routes = [
     },
     {
         path: '/en/cv',
-        name: 'cv',
+        name: 'cv english',
         component: () => import('../views/CvView.vue')
     },
     {
         path: '/en/portfolio',
-        name: 'portfolio',
+        name: 'portfolio english',
         component: () => import('../views/PortfolioView.vue')
     },
     {
         path: '/en/contact',
-        name: 'contact',
+        name: 'contact english',
         component: () => import('../views/ContactView.vue')
     }
 ]

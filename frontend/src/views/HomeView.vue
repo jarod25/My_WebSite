@@ -66,8 +66,8 @@ export default {
       height: '40px',
       easing: 'easeInOutQuad',
       duration: 1000,
-      translateX: '225%',
-      translateY: '750%',
+      translateX: '95%',
+      translateY: '900%',
     });
     if (this.$route.path.startsWith('/fr')) {
       this.getDataFr()
@@ -80,7 +80,7 @@ export default {
 
 <style>
 .bg {
-  background: url("../../public/backgroundv2.jpg") no-repeat center fixed;
+  background: url("@/assets/backgroundv2.jpg") no-repeat center fixed;
   background-size: cover;
   height: 100vh;
   width: 100%;

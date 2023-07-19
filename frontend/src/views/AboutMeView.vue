@@ -8,7 +8,7 @@
 <script>
 
 export default {
-  name: 'FrAboutMeView',
+  name: 'AboutMeView',
   data() {
     return {
       about: {}

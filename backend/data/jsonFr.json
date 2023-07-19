@@ -13,22 +13,55 @@
   },
   "projects": [
     {
-      "title": "Application de gestion de projet",
-      "description": "Une application web pour la gestion de projet développée en utilisant React et Node.js",
-      "image": "https://example.com/images/project1.png",
-      "link": "https://example.com/projects/project1"
+      "title": "Projet 1",
+      "description": "Description du projet 1",
+      "images": [
+        {
+          "src": "https://via.placeholder.com/300x200",
+          "alt": "Image 1"
+        },
+        {
+          "src": "https://via.placeholder.com/300x200",
+          "alt": "Image 2"
+        },
+        {
+          "src": "https://via.placeholder.com/300x200",
+          "alt": "Image 3"
+        }
+      ],
+      "position": "left"
     },
     {
-      "title": "Application de suivi des dépenses",
-      "description": "Une application mobile pour le suivi des dépenses personnelles développée en utilisant Flutter et Firebase",
-      "image": "https://example.com/images/project2.png",
-      "link": "https://example.com/projects/project2"
+      "title": "Projet 2",
+      "description": "Description du projet 2",
+      "images": [
+        {
+          "src": "https://via.placeholder.com/300x200",
+          "alt": "Image 1"
+        }
+      ],
+      "position": "right"
     },
     {
-      "title": "Site de commerce électronique",
-      "description": "Un site de commerce électronique développé en utilisant Shopify et Liquid",
-      "image": "https://example.com/images/project3.png",
-      "link": "https://example.com/projects/project3"
+      "title": "Projet 3",
+      "description": "Description du projet 3",
+      "images": [
+        {
+          "src": "https://via.placeholder.com/300x200",
+          "alt": "Image 1"
+        },
+        {
+          "src": "https://via.placeholder.com/300x200",
+          "alt": "Image 2"
+        }
+      ],
+      "position": "left"
+    },
+    {
+      "title": "Projet 4",
+      "description": "Description du projet 4",
+      "images": [],
+      "position": "right"
     }
   ],
   "contact": {

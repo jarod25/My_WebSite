@@ -17,11 +17,6 @@
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto">
-        <b-nav-form>
-          <b-form-input size="sm" class="mr-sm-2" placeholder="Rechercher" disabled></b-form-input>
-          <b-button size="sm" class="my-2 my-sm-0" type="submit" disabled>Recherche</b-button>
-        </b-nav-form>
-
         <b-nav-item-dropdown text="Langues" right>
           <b-dropdown-item href="/fr" disabled>FR</b-dropdown-item>
           <b-dropdown-item href="/en">EN</b-dropdown-item>
@@ -38,11 +33,6 @@
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto">
-        <b-nav-form>
-          <b-form-input size="sm" class="mr-sm-2" placeholder="Search" disabled></b-form-input>
-          <b-button size="sm" class="my-2 my-sm-0" type="submit" disabled>Search</b-button>
-        </b-nav-form>
-
         <b-nav-item-dropdown text="Langages" right>
           <b-dropdown-item href="/fr">FR</b-dropdown-item>
           <b-dropdown-item href="/en" disabled>EN</b-dropdown-item>
