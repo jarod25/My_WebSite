@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site en développement</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #F4F4F4!important; 
+        color: #333; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        opacity: 0; 
+        transition: opacity 1s ease-in-out;
+    }
+    .front-content {
+        margin-top: 13%;
+        width: 50%;
+        height: 30%;
+        padding: 2%;
+        background-color: #FFF; 
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        border-radius: 10px;
+    }
+    h1, h2, h3 {
+        color: #000000; 
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    p {
+        color: #666; 
+    }
+    .highlight {
+        color: #8126cc; 
+        font-weight: bold;
+    }
+    .skills {
+        margin-top: 2%;
+    }
+    .skill {
+        display: inline-block;
+        margin: 2%;
+        font-size: 1.6rem;
+        color: #5f3dbe; 
+    }
+    .about {
+        margin-top: 2%;
+    }
+    .contact {
+        margin-top: 2%;
+    }
+    .link {
+        color: #1c65c5; 
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .link:hover {
+        color: #3186f7; 
+        text-decoration: underline;
+    }
+    .workinprogress {
+        margin: 0;
+    }
+    @media screen and (max-width: 1195px) {
+        .front-content {
+            width: 75%;
+            height: 30%;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .front-content {
+            margin-top: 0;
+            width: 100vw!important;
+            height: 100vh!important;
+        }
+        .contact {
+            position: fixed;
+            bottom: 0;
+            left: 0; 
+            width: 100%; 
+        }
+        .responsive {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        h1 {
+            padding-top: 15%;
+        } 
+    }
+    @media screen and (max-width: 402px) {
+        .workinprogress {
+           display: none;
+        }
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="front-content">
+    <h1><span class="workinprogress">🚧</span> Site en développement <span class="workinprogress">🚧</span></h1>
+    <div class="about responsive">
+        <p>
+            Actuellement étudiant en BUT Informatique à Belfort, passioné de badminton et de jeux vidéos,
+            <span id="dynamic-br"></span>
+            je développe ce site pour y exposer mes différents projets réalisés, personnels comme scolaires.
+        </p>
+    </div>
+    <div class="skills responsive">
+        <span class="skill mx-3"><i class="fas fa-code"></i> Programmation</span>
+        <span class="skill mx-3"><i class="fas fa-laptop-code"></i> Développement Web</span>
+        <span class="skill mx-3"><i class="fas fa-database"></i> Bases de données</span>
+    </div>
+    <div class="contact">
+        <p>Pour en savoir plus, n'hésitez pas à me suivre ou me contacter :</p>
+        <p><a href="https://github.com/jarod25" class="link mx-3" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/jarod-kohler-b55060250/" class="link mx-3" target="_blank">LinkedIn</a></p>
+    </div>
+</div>
+<script>
+    function adjustBr() {
+        var width = window.innerWidth;
+        var brSpan = document.getElementById('dynamic-br');
+        if (width > 1458) {
+            brSpan.innerHTML = '<br>';
+        } else {
+            brSpan.innerHTML = '';
+        }
+    }
+
+    window.onload = adjustBr;
+    window.onresize = adjustBr;
+    window.onload = function() {
+        document.body.style.opacity = '1'; 
+    };
+</script>
+</body>
+</html>
