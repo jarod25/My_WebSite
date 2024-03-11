@@ -1,21 +1,22 @@
 {
-  "name": "my_website",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Mon site web en nodejs et vuejs",
+  "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/.bin/nodemon Backend/index.js"
+    "start:prod": "npm run build && node build/index.js",
+    "start:dev": "npx nodemon",
+    "build": "rimraf ./build && tsc"
   },
-  "author": "Jarod",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2"
-  },
   "devDependencies": {
-    "nodemon": "^2.0.21"
+    "@types/node": "^20.11.25",
+    "nodemon": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
   }
 }
