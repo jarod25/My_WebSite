@@ -49,7 +49,7 @@
     ├── dev                         <- Database development
         └── mariadb_init            <- Contains the initialization file
     ├── backend                     <- NodeJS application
-        ├── src                     <- Routes and database connection
+        ├── src                     <- API files
         ├── Dockerfile              <- Script assembling and deploying the backend container
         ├── nodemon.json            <- Automatic restart of the application
         ├── package.json
@@ -57,7 +57,7 @@
         └── tsconfig.json
     └── frontend                    <- React application
         ├── public                  <- Manifest, favicon, ...
-        ├── src                     <- Client interface sources
+        ├── src                     <- User interface sources
         ├── Dockerfile              <- Script assembling and deploying the backend container
         ├── package.json
         └── package-lock.json
