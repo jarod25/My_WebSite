@@ -1,13 +1,13 @@
-const mysql = require('mysql');
-const dotenv = require('dotenv');
+import mysql, {Connection} from 'mysql';
+import dotenv from 'dotenv';
 dotenv.config();
 
-const db = mysql.createConnection({
+const db: Connection = mysql.createConnection({
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
     password: process.env.DB_PWD,
     database: process.env.DB_NAME,
-    port: process.env.DB_PORT
+    port: process.env.DB_PORT ? parseInt(process.env.DB_PORT) : undefined
 });
 
 db.connect((err: Error) => {
@@ -18,4 +18,4 @@ db.connect((err: Error) => {
     }
 });
 
-module.exports = db;
+export default db;
