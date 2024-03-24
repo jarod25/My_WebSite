@@ -1,5 +1,6 @@
 import mysql, {Connection} from 'mysql';
 import dotenv from 'dotenv';
+
 dotenv.config();
 
 const db: Connection = mysql.createConnection({
@@ -10,7 +11,7 @@ const db: Connection = mysql.createConnection({
     port: process.env.DB_PORT ? parseInt(process.env.DB_PORT) : undefined
 });
 
-db.connect((err: Error) => {
+db.connect((err: Error): void => {
     if (err) {
         console.log(err);
     } else {
