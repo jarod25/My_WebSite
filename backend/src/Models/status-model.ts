@@ -1,17 +1,17 @@
 import db from "../Utils/db-connect";
-import {MysqlError, Query} from "mysql";
+import { DataTypes } from 'sequelize';
 
-const statusModel: Query = db.query(`
-            CREATE TABLE IF NOT EXISTS status
-            (
-                id   INT AUTO_INCREMENT PRIMARY KEY,
-                name VARCHAR(255) NOT NULL UNIQUE
-            )
-    `, (err: MysqlError): void => {
-        if (err) {
-            console.error(err);
-        }
+const status = db.define('status', {
+    status_id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+        allowNull: false
+    },
+    status_name: {
+        type: DataTypes.STRING,
+        allowNull: false
     }
-);
+});
 
-export default statusModel;
+export default status;

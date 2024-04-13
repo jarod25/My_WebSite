@@ -1,21 +1,29 @@
 import db from "../Utils/db-connect";
-import {MysqlError, Query} from "mysql";
+import { DataTypes } from 'sequelize';
 
-const contentModel: Query = db.query(`
-            CREATE TABLE IF NOT EXISTS content
-            (
-                id       INT AUTO_INCREMENT PRIMARY KEY,
-                name     VARCHAR(255) NOT NULL,
-                content  TEXT         NOT NULL,
-                date     DATE         NOT NULL,
-                id_block INT          NOT NULL,
-                CONSTRAINT fk_content_block FOREIGN KEY (id_block) REFERENCES block (id)
-            )
-    `, (err: MysqlError): void => {
-        if (err) {
-            console.error(err);
-        }
-    }
-);
+const content = db.define('content', {
+    content_id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+        allowNull: false
+    },
+    content_name: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    content_content: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    content_type: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    content_date: {
+        type: DataTypes.DATE,
+        allowNull: false
+    },
+});
 
-export default contentModel;
+export default content;

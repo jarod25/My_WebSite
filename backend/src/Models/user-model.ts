@@ -1,18 +1,26 @@
 import db from "../Utils/db-connect";
-import {MysqlError, Query} from "mysql";
+import { DataTypes } from 'sequelize';
 
-const userModel: Query = db.query(`
-            CREATE TABLE IF NOT EXISTS user
-            (
-                email    VARCHAR(255) NOT NULL UNIQUE PRIMARY KEY,
-                username VARCHAR(255) NOT NULL UNIQUE,
-                password TEXT         NOT NULL
-            )
-    `, (err: MysqlError): void => {
-        if (err) {
-            console.error(err);
-        }
+const user = db.define('user', {
+    user_id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+        allowNull: false
+    },
+    user_username: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    user_email: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true
+    },
+    user_password: {
+        type: DataTypes.STRING,
+        allowNull: false
     }
-);
+});
 
-export default userModel;
+export default user;

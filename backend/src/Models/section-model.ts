@@ -1,17 +1,17 @@
 import db from "../Utils/db-connect";
-import {MysqlError, Query} from "mysql";
+import { DataTypes } from 'sequelize';
 
-const sectionModel: Query = db.query(`
-            CREATE TABLE IF NOT EXISTS section
-            (
-                id   INT AUTO_INCREMENT PRIMARY KEY,
-                name VARCHAR(255) NOT NULL UNIQUE
-            )
-    `, (err: MysqlError): void => {
-        if (err) {
-            console.error(err);
-        }
+const section = db.define('section', {
+    section_id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+        allowNull: false
+    },
+    section_name: {
+        type: DataTypes.STRING,
+        allowNull: false
     }
-);
+});
 
-export default sectionModel;
+export default section;

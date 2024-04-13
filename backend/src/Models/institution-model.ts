@@ -1,16 +1,17 @@
 import db from "../Utils/db-connect";
-import {MysqlError, Query} from "mysql";
+import { DataTypes } from 'sequelize';
 
-const institutionModel: Query = db.query(`
-    CREATE TABLE IF NOT EXISTS institution (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        name VARCHAR(255) NOT NULL UNIQUE
-    )
-`, (err: MysqlError) => {
-        if (err) {
-            console.error(err);
-        }
-    }
-);
+const institution = db.define('institution', {
+    institution_id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+        allowNull: false
+    },
+    institution_name: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+});
 
-export default institutionModel;
+export default institution;
