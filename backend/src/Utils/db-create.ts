@@ -9,6 +9,7 @@ import institution from "../Models/institution-model";
 import block from "../Models/block-model";
 import content from "../Models/content-model";
 import contentHasSkills from "../Models/contentHasSkills-model";
+import token from "../Models/token-model";
 
 content.belongsTo(block, {foreignKey: 'block_id'});
 block.hasMany(content, {foreignKey: 'block_id'});
@@ -28,23 +29,11 @@ block.hasOne(status, {foreignKey: 'block_id'});
 block.belongsTo(section, {foreignKey: 'section_id'});
 section.hasMany(block, {foreignKey: 'section_id'});
 
-user.sync({
-    alter: true,
-    force: false // to drop tables and recreate them, else false
-})
-    .then(
-        () => {
-            console.log('User table created');
-        }
-    )
-    .catch(
-        (err) => {
-            console.log(err);
-        }
-    );
+token.belongsTo(user, {foreignKey: 'user_id'});
+user.hasOne(token, {foreignKey: 'user_id'});
 
 db.sync({
-    alter: true,
+    alter: true, // to alter tables on reload, else false
     force: false // to drop tables and recreate them, else false
 })
     .then(

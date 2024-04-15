@@ -8,7 +8,7 @@ const block = db.define('block', {
         autoIncrement: true,
         allowNull: false
     },
-    position: {
+    block_position: {
         type: DataTypes.INTEGER,
         allowNull: false
     },
