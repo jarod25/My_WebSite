@@ -1,5 +1,4 @@
 import block from "../Models/block-model";
-import {Model} from "sequelize";
 
 export default class BlockService {
     static async getBlocks(): Promise<any> {
