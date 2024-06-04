@@ -17,10 +17,10 @@ export default class CityService {
         let updatedCity: any = {
             city_name: cityData.city_name,
         };
-        return await city.update(updatedCity, {where: {block_id: id}});
+        return await city.update(updatedCity, {where: {city_id: id}});
     }
 
-    static async deleteCity(id: number): Promise<any> {
+    static async deleteCity(id: number): Promise<number> {
         return await city.destroy({
             where: {
                 city_id: id

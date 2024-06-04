@@ -20,7 +20,7 @@ export default class BlockService {
         return await block.update(updatedBlock, {where: {block_id: id}});
     }
 
-    static async deleteBlock(id: number) {
+    static async deleteBlock(id: number): Promise<number> {
         return await block.destroy({
             where: {
                 block_id: id
