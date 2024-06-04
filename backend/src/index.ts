@@ -8,6 +8,7 @@ dotenv.config();
 require('./Utils/db-create');
 
 import blockRouter from "./Routers/block-router";
+import authenticateToken from "./Utils/auth";
 
 const app: Express = express();
 const port: number = process.env.PORT ? parseInt(process.env.PORT) : 5000;
@@ -55,7 +56,15 @@ const swaggerOptions = {
 const swaggerDocs: object = swaggerJsDoc(swaggerOptions);
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs))
-app.use('/api/blocks', blockRouter);
+app.use('/api/blocks', authenticateToken, blockRouter);
+
+app.post('/api/login', async (req: Request, res: Response) => {
+    const username = req.body.username;
+    const user = { name: username };
+
+    const accessToken = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET as string, { expiresIn: '1800s' });
+    res.json({ accessToken: accessToken });
+});
 
 app.get('/', (req: Request, res: Response): void => {
     res.send('Hello World!');
