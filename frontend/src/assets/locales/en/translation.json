@@ -1,0 +1,46 @@
+{
+  "welcome": "Welcome to Villepin IT!",
+  "lang": "Français",
+  "contactButton": "Contact",
+  
+  "intro1": "My goal is to develop websites which make your life ",
+  "intro2": "easier",
+  "intro3": ".",
+
+  "profile": {
+    "fields":"My areas of expertise:",
+    "website":"Creation of showcase websites",
+    "fullStack":"Full-stack JavaScript development",
+    "database":"SQL and NoSQL database management",
+    "teaching": "Web development training",
+    "graphics":"UI/UX design",
+    "about": "About me:",
+    "intro": "My name is Héloïse de Villepin and I created Villepin IT in 2022 as an independent full-stack developer. I live near Strasbourg, France, in the heart of the beautiful Alsace, and I consider a coffee latte to be essential for a good day.",
+    "passions": "Outside of programming, I am passionate about cultures, arts and personal development. At the moment, I am learning German and Spanish by myself, painting with acrylics and never miss an opportunity to discuss how to become a better human being.",
+    "values": "Having grown up in Burkina Faso, benevolence and solidarity are rooted in the values I wish to share through my work and my daily actions."
+  },
+
+  "experience": {
+    "title1": "Work experience",
+    "title2": "Education",
+    "title3": "Projects"
+  },
+
+  "contact": {
+    "title" : "Let's keep in touch!",
+    "writeMe": "Send me a message at: ",
+    "mail": "heloise",
+    "domain_name": "@villepin-it.com",
+    "callMe": "Call me at: ",
+    "phone": "+33 7 83 53 83 15",
+    "available": "I am available to discuss about your project!",
+    "notAvailable": "I am not available right now for a new opportunity.",
+    "socialNetworks": "My social networks"
+  },
+
+  "alt": {
+    "logo": "Logo of Villepin IT company, with \"Villepin IT\" in bold on a dark blue bubbly shape with a little pink circle behind its right.",
+    "picture": "Portrait of Héloïse de Villepin, freelance developer for Villepin IT.",
+    "contact": "Contact image from \"storyset\" on Freepik website."
+  }
+}

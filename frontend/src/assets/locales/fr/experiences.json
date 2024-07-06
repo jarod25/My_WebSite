@@ -1,0 +1,198 @@
+{
+        "work": [
+            {
+                "id": 0,
+                "title": "Stage — Développeuse web",
+                "date": "2016",
+                "place": "Montréal, Canada",
+                "company": "JITBase",
+                "desc": "Ce stage a duré 3 mois. J'avais pour mission de développer une refonte de site vitrine, à designer un réseau social sur la web app et à commencer sa réalisation.",
+                "skills": [
+                    "ReactJS",
+                    "HTML",
+                    "CSS",
+                    "UI"
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Stage — Développeuse mobile",
+                "date": "2016",
+                "place": "Paris",
+                "company": "Quatre Épingles",
+                "desc": "Ce stage a duré 2 mois. Ma mission consistait principalement à installer un système multilingue sur l'application mobile et à organiser les données à traduire. J'ai également effectué des tests fonctionnels.",
+                "skills": [
+                    "AngularJS",
+                    "HTML",
+                    "CSS",
+                    "UI"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Stage — Assistante OPEX",
+                "date": "2018",
+                "place": "Paris",
+                "company": "Epitech",
+                "desc": "Ce stage a duré 5 mois, où je faisais partie d'Operational Excellence et de son support informatique. Je répondais principalement aux tickets des employés de l'école et créais des scripts d'automatisation.",
+                "skills": [
+                    "Zendesk",
+                    "Ruby",
+                    "Communication",
+                    "SCRUM"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Stage — Product Owner",
+                "date": "2019",
+                "place": "Paris",
+                "company": "Bluecoders",
+                "desc": "Le stage a duré 1 mois. J'ai découvert le métier de product owner et de commercial, ai réalisé plusieurs tests fonctionnels sur de nouvelles fonctionnalités et ai participé à l'évolution de la web app.",
+                "skills": [
+                    "UI/UX",
+                    "Assurance qualité",
+                    "SCRUM"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "CDI — Responsable de module pédagogique",
+                "date": "2019-2022",
+                "place": "Strasbourg",
+                "company": "Epitech",
+                "desc": "J'ai géré le Coding Club ainsi que le service d'Epitech Diversity au sein de la direction nationale de l'école. Ma mission principale consistait à mettre en place des activités pour réduire la fracture du numérique.",
+                "skills": [
+                    "Gestion de projet",
+                    "Pédagogie",
+                    "SCRUM",
+                    "Communication",
+                    "UI/UX",
+                    "Community management",
+                    "Relations entreprises",
+                    "SalesForces"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Freelance — Formatrice en développement web",
+                "date": "depuis 2022",
+                "place": "À distance",
+                "company": "FORMAWAVE",
+                "desc": "En tant que freelance, je dispense des cours et des travaux pratiques sur le développement web pour des organismes de formation clientes de FORMAWAVE.",
+                "skills": [
+                    "Pédagogie",
+                    "JavaScript",
+                    "Angular",
+                    "Java",
+                    "Spring Boot",
+                    "Hibernate",
+                    "JPA",
+                    "MySQL",
+                    "PHP"
+                ]
+            }
+        ],
+        
+        "education": 
+        [
+            {
+                "id": 0,
+                "diploma": "Mise à niveau en arts appliqués (MANAA)",
+                "place": "Montreuil (93)",
+                "name": "CIFACOM",
+                "date": "2014-2015",
+                "desc": "Classe préparant au parcours Design graphique et communication visuel dans la même école.",
+                "skills": [
+                    "Suite Adobe",
+                    "UI",
+                    "Photographie",
+                    "Publicité"
+                ]
+            },
+            {
+                "id": 1,
+                "diploma": "Bachelor — Technologies de l'Information",
+                "place": "Paris",
+                "name": "Epitech",
+                "date": "2015-2018",
+                "desc": "Enseignement principalement centré autour de la pédagogie par projets. En 3e année commence le projet de fin d'études.",
+                "skills": [
+                    "C",
+                    "C++",
+                    "C#",
+                    "Java",
+                    "Kotlin",
+                    "SQL",
+                    "Gestion de projets"
+                ]
+            },
+            {
+                "id": 2,
+                "diploma": "Développement de jeux vidéos",
+                "place": "Daegu, Corée du Sud",
+                "name": "Keimyung University",
+                "date": "2018-2019",
+                "desc": "Échange universitaire pendant 1 an. Intégrée au département de développement de jeux vidéos, j'ai pu découvrir la culture coréenne, la modélisation 3D et apprendre à utiliser Unity.",
+                "skills": [
+                    "C#",
+                    "JavaScript",
+                    "Unity",
+                    "Maya 3D",
+                    "Entrepreneuriat",
+                    "Droit",
+                    "Gestion de projets"
+                ]
+            },
+            {
+                "id": 3,
+                "diploma": "Master — Expert en Technologies de l'Information",
+                "place": "Paris",
+                "name": "Epitech",
+                "date": "2018-2020",
+                "desc": "La période comprend l'année d'études à l'étranger. Le projet de fin d'études de mon groupe de 10 étudiants, Contra Legem, est une intelligence artificielle qui résume des contrats.",
+                "skills": [
+                    "JavaScript",
+                    "NoSQL",
+                    "Gestion de projets",
+                    "Pédagogie",
+                    "SCRUM"
+                ]
+            }
+        ],
+
+        "miscellaneous": 
+        [
+            
+            {
+                "id": 0,
+                "title": "Hackathon : Epitech x Sony Music",
+                "place": "Paris",
+                "date": "7 février 2018",
+                "link": "https://www.epitech.eu/fr/actualites-evenements/speedhack-sony-music-entertainment-france-rush-epitech",
+                "linkDesc": "Article d'Epitech",
+                "desc": "Equipe gagnante du SpeedHack Sony Music x Epitech, dont le thème était \"Comment rapprocher le fan de l'artiste ?\". Notre équipe a proposé la création d'un chatbot intelligent qui assisterait l'artiste pour communiquer plus facilement avec sa communauté sur les réseaux.",
+                "skills": [
+                    "Créativité",
+                    "Travail d'équipe",
+                    "Communication"
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Projet : Le BaguetteClicker",
+                "place": "En ligne",
+                "date": "Mars 2023",
+                "link": "https://baguetteclicker.villepin-it.com",
+                "linkDesc": "Lien du projet",
+                "desc": "Inspiré du jeu du Cookie Clicker, ce projet sert d'évaluation à une formation d'initiation à Angular que je dispense. Cliquez sur le pain pour commencer à jouer !",
+                "skills": [
+                    "Créativité",
+                    "UI",
+                    "Angular",
+                    "Algorithme",
+                    "Pédagogie"
+                ]
+            }
+        ]
+    }

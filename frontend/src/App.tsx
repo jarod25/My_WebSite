@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState } from "react";
+import { Header } from "./Header/Header";
+import { Footer } from "./Footer/Footer";
+import getTranslations from "./i18n";
+import { Intro } from "./Intro/Intro";
+import { Profile } from "./Profile/Profile";
+import { BackToTop } from "./BackToTop/BackToTop";
+import { Experience } from "./Experience/Experience";
+import { Contact } from "./Contact/Contact";
 
-function App() {
+export const App = () => {
+  const company: string = "Villepin IT";
+  const ownerName: string = "Héloïse de Villepin";
+  const availability: boolean = true;
+  const [translate, setTranslate] = useState(getTranslations("fr"));
+
+  const changeLanguage = (code: string) => {
+    setTranslate(getTranslations(code));
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BackToTop />
+      <Header company={company} t={translate} changeLanguage={changeLanguage} />
+      <Intro t={translate} />
+      <Profile t={translate} owner={ownerName} />
+      <Experience t={translate} />
+      <Contact t={translate} availability={availability} />
+      <Footer owner={ownerName} />
     </div>
   );
-}
-
-export default App;
+};

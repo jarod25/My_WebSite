@@ -1,0 +1,197 @@
+{
+        "work": [
+            {
+                "id": 0,
+                "title": "Internship - Web developer",
+                "date": "2016",
+                "place": "Montreal, Canada",
+                "company": "JITBase",
+                "desc": "This internship lasted 3 months. I had to redesign and develop a showcase site, to design a social network on the web app and to start its implementation.",
+                "skills": [
+                    "ReactJS",
+                    "HTML",
+                    "CSS",
+                    "UI design"
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Internship - Mobile developer",
+                "date": "2016",
+                "place": "Paris, France",
+                "company": "Quatre Épingles",
+                "desc": "This internship lasted 2 months. My mission was mainly to install a multilingual system on the mobile application and to organize the data to be translated. I also conducted functional tests.",
+                "skills": [
+                    "AngularJS",
+                    "HTML",
+                    "CSS",
+                    "UI design"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Internship - OPEX assistant",
+                "date": "2018",
+                "place": "Paris, France",
+                "company": "Epitech",
+                "desc": "This internship lasted 5 months, I was part of Operational Excellence and its IT support. I was mainly responding to tickets from school employees and creating automation scripts.",
+                "skills": [
+                    "Zendesk",
+                    "Ruby",
+                    "Communication",
+                    "SCRUM"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Internship - Product Owner",
+                "date": "2019",
+                "place": "Paris, France",
+                "company": "Bluecoders",
+                "desc": "The internship lasted 1 month. I discovered the product owner and salesman missions, I performed several functional tests on new features and participated in the evolution of the web app.",
+                "skills": [
+                    "UI/UX",
+                    "Quality assurance",
+                    "SCRUM"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Permanent contract - Educational module manager",
+                "date": "2019-2022",
+                "place": "Strasbourg, France",
+                "company": "Epitech",
+                "desc": "I was responsible for the Coding Club as well as the Epitech Diversity department within the school's national management. My main mission was to set up activities to reduce the digital divide.",
+                "skills": [
+                    "Project management",
+                    "Pedagogy",
+                    "SCRUM",
+                    "Communication",
+                    "UI/UX",
+                    "Community management",
+                    "Corporate relations",
+                    "SalesForces"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Freelance — Web development trainer",
+                "date": "since 2022",
+                "place": "Remote",
+                "company": "FORMAWAVE",
+                "desc": "As a freelancer, I provide courses and practical work on web development for FORMAWAVE's client training organisations.",
+                "skills": [
+                    "Pedagogy",
+                    "JavaScript",
+                    "Angular",
+                    "Java",
+                    "Spring Boot",
+                    "Hibernate",
+                    "JPA",
+                    "MySQL",
+                    "PHP"
+                ]
+            }
+        ],
+        
+        "education": 
+        [
+            {
+                "id": 0,
+                "diploma": "Skills upgrade classe for applied arts (MANAA)",
+                "place": "Montreuil, France",
+                "name": "CIFACOM",
+                "date": "2014-2015",
+                "desc": "Class preparing for the Graphic Design and Visual Communication course in the same school.",
+                "skills": [
+                    "Adobe suite",
+                    "UI",
+                    "Photography",
+                    "Advertising"
+                ]
+            },
+            {
+                "id": 1,
+                "diploma": "Bachelor — IT Expert",
+                "place": "Paris, France",
+                "name": "Epitech",
+                "date": "2015-2020",
+                "desc": "Education is mainly focused on project-based teaching. During the third year, the final project begins.",
+                "skills": [
+                    "C",
+                    "C++",
+                    "C#",
+                    "Java",
+                    "Kotlin",
+                    "SQL",
+                    "Project management"
+                ]
+            },
+            {
+                "id": 2,
+                "diploma": "Video game development",
+                "place": "Daegu, South Korea",
+                "name": "Keimyung University",
+                "date": "2018-2019",
+                "desc": "University exchange for 1 year. Integrated in the video game development department, I was able to discover Korean culture, 3D modeling and to learn how to use Unity.",
+                "skills": [
+                    "C#",
+                    "JavaScript",
+                    "Unity",
+                    "Maya 3D",
+                    "Entrepreneurship",
+                    "Law",
+                    "Project management"
+                ]
+            },
+            {
+                "id": 3,
+                "diploma": "Master —  Expert in IT",
+                "place": "Paris, France",
+                "name": "Epitech",
+                "date": "2018-2020",
+                "desc": "The period includes the study year abroad. The final project of my group of 10 students, Contra Legem, is an artificial intelligence that summarizes contracts.",
+                "skills": [
+                    "JavaScript",
+                    "NoSQL",
+                    "Project management",
+                    "Pedagogy",
+                    "SCRUM"
+                ]
+            }
+        ],
+
+        "miscellaneous": 
+        [
+            {
+                "id": 0,
+                "title": "Hackathon: Epitech x Sony Music",
+                "place": "Paris",
+                "date": "7 February 2018",
+                "link": "https://www.epitech.eu/fr/actualites-evenements/speedhack-sony-music-entertainment-france-rush-epitech",
+                "linkDesc": "Article from Epitech",
+                "desc": "The winning team in the Sony Music x Epitech Hackathon, the theme of which was \"How to bring the fan closer to the artist\". Our team proposed the creation of a chatbot that would help the artist to communicate more easily with his community on the social networks.",
+                "skills": [
+                    "Creativity",
+                    "Team work",
+                    "Communication"
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Project: BaguetteClicker",
+                "place": "Online",
+                "date": "March 2023",
+                "link": "https://baguetteclicker.villepin-it.com",
+                "linkDesc": "Link to the projet",
+                "desc": "Inspired by the Cookie Clicker game, this project serves as an evaluation for an introductory course on Angular that I'm giving. Click on the bread to start playing!",
+                "skills": [
+                    "Creativity",
+                    "UI",
+                    "Angular",
+                    "Algorithm",
+                    "Pedagogy"
+                ]
+            }
+        ]
+    }

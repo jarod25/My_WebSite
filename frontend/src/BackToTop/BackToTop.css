@@ -1,0 +1,21 @@
+.round-shape {
+    display: none;
+    position: fixed;
+    bottom: 5vh;
+    right: 5vh;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--link);
+    cursor: pointer;
+    padding: 2vh 2vh 1.5vh 2vh;
+    border-radius: 10rem;
+    box-shadow: 1vh 1vh black solid;
+    opacity: 0.4;
+    box-shadow: 0.3vh 0.3vh 1vh var(--shadow);
+    transition: all .4s;
+}
+
+.round-shape:hover {
+    opacity: 1;
+}

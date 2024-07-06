@@ -1,0 +1,66 @@
+.header {
+    background-color: var(--bg-color);
+    height: 10vh;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    padding: 0 2vw;
+    overflow: hidden;
+    z-index: 1; /* pour que le header soit au premier-plan par rapport aux autres éléments */
+}
+
+.logo {
+    width: 30vw;
+    height: 10vh;
+}
+
+.buttons {
+    float: right;
+    line-height: 10vh;
+}
+
+.space-buttons {
+    margin-right: 4vw;
+    width: calc(27vw + 2vmin);
+    font-family: "Clear Sans Medium", sans-serif;
+}
+
+@media screen and (min-width: 425px) {
+    .header {
+        padding: 0 3vw;
+    }
+
+    .space-buttons {
+        margin-right: 0;
+        margin-left: 2vw;
+        width: calc(25vw + 1vmin);
+    }
+
+    .buttons {
+        padding-right: 7vw;
+    }
+
+    .logo {
+        width: 20vw;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 0 3vw;
+    }
+
+    .logo {
+        height: 10vh;
+        width: 10vw;
+    }
+
+    .buttons {
+        padding-right: 5vw;
+    }
+
+    .space-buttons {
+        width: 10vw;
+    }
+}

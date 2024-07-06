@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+/* Color theme */
+:root {
+  --theme-text: hsl(210 100% 11%);
+  --theme-lighter-text: hsl(210 80% 18%);
+  --bg-color: hsl(0 0% 93%);
+  --bg-clear: hsl(0 15% 97%);
+  --main-title: hsl(332 57% 35%);
+  --plain-text: hsl(203 75% 35%);
+  --important-text: hsl(340 78% 52%);
+  --copyright: hsl(214 38% 40%);
+  --shadow: hsl(0 0% 67%);
+  --weak-shadow: hsl(0 0% 82%);
+  --link: hsl(160 79% 52%);
+  --timeline: hsl(160 90% 90%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Text */
+h1 {
+  font-family: "Clear Sans Medium", sans-serif;
+  font-size: calc(2.5vh + 2vmin);
+  color: var(--important-text);
+  text-shadow: 0 0.05vh 0.5vh var(--theme-pink);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-family: "Clear Sans Thin", sans-serif;
+  color: var(--theme-text);
+  font-size: calc(1.4vh + 0.7vmin);
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
+body {
+  font-family: "Clear Sans Light", sans-serif;
+  color: var(--theme-text);
+  font-size: calc(1.4vh + 0.5vmin);
+}
+
+a {
+  color: var(--link);
+}
+
+.reverse-txt {
+  unicode-bidi:bidi-override;
+  direction:rtl;
+  color: var(--important-text);
+}
+
+/* Scrollbar */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*  */
+
+.page {
   min-height: 100vh;
+  width: 100%;
+  background-color: var(--bg-clear);
+}
+
+.title-banner {
+  width: 100%;
+  background-color: var(--theme-text);
+}
+
+.center-items {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: calc(3.5vh + 2vmin);
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .page {
+      min-height: 50vh;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }

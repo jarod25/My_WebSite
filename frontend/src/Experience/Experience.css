@@ -1,0 +1,25 @@
+.experience {
+    background-image: url("../assets/img/bg-exp.png");
+    background-position: top;
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+
+.reverse-gradient {
+    height: fit-content;
+    width: 100%;
+    padding: 15vh 0;
+    background: linear-gradient(
+        90deg,  
+        rgba(63,94,251,0) 0%,
+        var(--bg-color) 50%, 
+        rgba(63,94,251,0) 100%);
+}
+
+
+@media screen and (min-width: 780px) {
+    .experience {
+        background-size: 50%;
+    }
+}

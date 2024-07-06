@@ -1,0 +1,58 @@
+.profile {
+    padding: 5vh 5vw;
+    text-align: center;
+}
+
+.profile-desc {
+    text-align: justify;
+}
+
+.profile-desc-height {
+    height: 100%;
+    width: 100%;
+}
+
+.picture {
+    width: 90%;
+    border-radius: 700px;
+    box-shadow: 2px 2px 10px var(--shadow);
+}
+
+.profile-skills {
+    background-color: var(--theme-text);
+    color: var(--bg-clear);
+    padding: 1.5%;
+    margin: 1vh 0;
+    border-radius: 7px;
+    transition: all .4s;
+}
+
+.profile-skills:hover {
+    background-color: var(--theme-lighter-text);
+    color: var(--important-text);
+    font-size: calc(1.4vh + 1vmin);
+    padding: 3%;
+    cursor:default;
+}
+
+@media screen and (min-width: 426px) {
+    .profile {
+        padding: 15vh 5vw;
+    }
+    
+    .picture {
+        width: 70% ;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .picture {
+        width: calc(70% - 2vw);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .picture {
+        width:90%;
+    }
+}
