@@ -13,9 +13,11 @@
 }
 
 .picture {
-    width: 90%;
+    width: 42vh;
     border-radius: 700px;
     box-shadow: 2px 2px 10px var(--shadow);
+    height: 42vh;
+    object-fit: cover;
 }
 
 .profile-skills {
@@ -41,18 +43,18 @@
     }
     
     .picture {
-        width: 70% ;
+        /* width: 70%; */
     }
 }
 
 @media screen and (min-width: 768px) {
     .picture {
-        width: calc(70% - 2vw);
+        /* width: calc(70% - 2vw); */
     }
 }
 
 @media screen and (min-width: 1200px) {
     .picture {
-        width:90%;
+        /* width:90%; */
     }
 }

@@ -1,8 +1,7 @@
 .intro {
-    background-size: 300% 300%;
+    background-size: 300%;
     background-image: url("../assets/img/bg-intro.jpg");
-    background-position: bottom;
-    background-size: 200%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -10,10 +9,10 @@
     min-height: 60vh;
     width: 100%;
     top:0;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         to right, 
         rgba(255,0,0,0) 0%, 
-        var(--bg-color) 75%);
+        var(--bg-color) 75%); */
 }
 
 .intro-text {
@@ -39,7 +38,7 @@
 
 @media screen and (min-width: 1441px) {
     .intro {
-        background-size: 200% 200%;
+        background-size: cover;
     }
 
     .intro-text {

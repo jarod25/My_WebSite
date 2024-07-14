@@ -4,7 +4,7 @@ import CallIcon from "@mui/icons-material/Call";
 import TranslateIcon from "@mui/icons-material/Translate";
 import "./Header.css";
 import { Translations } from "../i18n";
-import logo from "../assets/img/clear_logo.svg";
+import logo from "../assets/img/clear-logo.svg";
 import { HamburgerMenu } from "../HamburgerMenu/HamburgerMenu";
 
 interface IProps {
@@ -53,6 +53,7 @@ export const Header = ({ company, t, changeLanguage }: IProps) => {
               sx={{
                 color: "var(--theme-text)",
                 backgroundColor: "var(--link)",
+                '&:hover': { border: "3px solid var(--link)", transition: ".1s ease-out"},
                 fontWeight: "bold",
                 fontSize: "calc(1.4vh + 0.5vmin);",
               }}

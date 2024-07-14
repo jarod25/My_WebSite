@@ -3,9 +3,9 @@
   "lang": "Français",
   "contactButton": "Contact",
   
-  "intro1": "My goal is to develop websites which make your life ",
-  "intro2": "easier",
-  "intro3": ".",
+  "intro1": "My goal: to create robust and effective web apps, a ",
+  "intro2": "route API ",
+  "intro3": "at a time.",
 
   "profile": {
     "fields":"My areas of expertise:",
@@ -33,9 +33,14 @@
     "domain_name": "@villepin-it.com",
     "callMe": "Call me at: ",
     "phone": "+33 7 83 53 83 15",
+    "copyMail": "Phone number successfully copied!",
+    "copyPhone": "E-mail address successfully copied!",
+    "errorCopy": "Copy failed.",
     "available": "I am available to discuss about your project!",
     "notAvailable": "I am not available right now for a new opportunity.",
-    "socialNetworks": "My social networks"
+    "socialNetworks": "My social networks",
+    "linkedInLink": "https://www.linkedin.com/in/jarod-kohler-b55060250",
+    "githubLink": "https://github.com/jarod25"
   },
 
   "alt": {

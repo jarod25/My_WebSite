@@ -55,15 +55,15 @@ export const Contact = ({ t, availability }: IProps) => {
     try {
       await navigator.clipboard.writeText(data);
       if (data === t.contact.phone) {
-        setSnackResult({AlertColor: "success", message: "Numéro de téléphone copié avec succès !"});
+        setSnackResult({AlertColor: "success", message: t.contact.copyPhone});
       }
       else {
-        setSnackResult({AlertColor: "success", message: "Adresse mail copiée avec succès !"});
+        setSnackResult({AlertColor: "success", message: t.contact.copyMail});
       }
       
     }
     catch (e) {
-      setSnackResult({AlertColor: "error", message: "Échec de la copie."});
+      setSnackResult({AlertColor: "error", message: t.contact.errorCopy});
     }
   };
 
@@ -84,7 +84,7 @@ export const Contact = ({ t, availability }: IProps) => {
           </div>
         </Grid2>
         <Grid2 xs={12} lg={4}>
-          {availableForWork()}
+          {/* {availableForWork()} */}
           <p>
             <MailIcon sx={{ fontSize: "1.2rem", margin: "0 1rem -.2rem" }} />
             {t.contact.writeMe}
@@ -115,7 +115,7 @@ export const Contact = ({ t, availability }: IProps) => {
             <IconButton
               aria-label="LinkedIn"
               size="large"
-              href={"https://www.linkedin.com/in/heloise-de-villepin/"}
+              href={t.contact.linkedInLink}
               target="_blank"
               sx={{ color: "var(--theme-text)" }}
             >
@@ -124,7 +124,7 @@ export const Contact = ({ t, availability }: IProps) => {
             <IconButton
               aria-label="GitHub"
               size="large"
-              href={"https://github.com/devillh"}
+              href={t.contact.githubLink}
               target="_blank"
               sx={{ color: "var(--theme-text)" }}
             >

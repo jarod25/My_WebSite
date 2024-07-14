@@ -1,11 +1,11 @@
 {
-  "welcome": "Bienvenue chez Villepin IT !",
+  "welcome": "Bienvenue sur mon site !",
   "lang": "English",
   "contactButton": "Contact",
 
-  "intro1": "Mon but : développer des sites qui vous ",
-  "intro2": "simplifient ",
-  "intro3": "la vie.",
+  "intro1": "Mon but : créer des web apps robustes et efficaces, une ",
+  "intro2": "route API ",
+  "intro3": "à la fois.",
 
   "profile": {
     "fields": "Mes domaines d'expertise :",
@@ -29,18 +29,23 @@
   "contact": {
     "title" : "Restons en contact !",
     "writeMe": "Écrivez-moi à : ",
-    "mail": "heloise",
-    "domain_name": "@villepin-it.com",
+    "mail": "kohler.jarod.2004",
+    "domain_name": "@gmail.com",
     "callMe": "Appelez-moi au : ",
-    "phone": "+33 7 83 53 83 15",
+    "phone": "+33 6 59 73 51 58",
+    "copyMail": "Adresse mail copiée avec succès !",
+    "copyPhone": "Numéro de téléphone copié avec succès !",
+    "errorCopy": "Échec de la copie.",
     "available": "Je suis disponible pour travailler sur votre projet !",
     "notAvailable": "Je ne suis pas encore disponible pour un nouveau projet.",
-    "socialNetworks": "Mes réseaux sociaux"
+    "socialNetworks": "Mes réseaux sociaux",
+    "linkedInLink": "https://www.linkedin.com/in/jarod-kohler-b55060250",
+    "githubLink": "https://github.com/jarod25"
   },
 
   "alt": {
     "logo": "Logo de l'entreprise Villepin IT, il s'agit des mots \"Villepin IT\" en gras et gris clair sur une forme bleu foncé, avec un petit cercle rose derrière sa partie droite.",
-    "picture": "Buste d'Héloïse de Villepin, développeuse freelance de Villepin IT.",
+    "picture": "Photo de face de Jarod Kohler, développeur back-end et étudiant.",
     "contact": "Image illustrant un écran d'ordinateur et un homme avec un mégaphone devant, dans des tons clairs et roses, créée par \"storyset\" sur le site de Freepik."
   }
 }

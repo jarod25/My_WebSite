@@ -10,8 +10,8 @@
 }
 
 .logo {
-    width: 30vw;
-    height: 10vh;
+    height: 7vh;
+    padding: 1.5vh 0;
 }
 
 .buttons {
@@ -39,21 +39,11 @@
     .buttons {
         padding-right: 7vw;
     }
-
-    .logo {
-        width: 20vw;
-    }
-
 }
 
 @media screen and (min-width: 1024px) {
     .header {
         padding: 0 3vw;
-    }
-
-    .logo {
-        height: 10vh;
-        width: 10vw;
     }
 
     .buttons {

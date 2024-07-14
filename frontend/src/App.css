@@ -4,14 +4,13 @@
   --theme-lighter-text: hsl(210 80% 18%);
   --bg-color: hsl(0 0% 93%);
   --bg-clear: hsl(0 15% 97%);
-  --main-title: hsl(332 57% 35%);
-  --plain-text: hsl(203 75% 35%);
-  --important-text: hsl(340 78% 52%);
+  --plain-text: rgb(22, 105, 156);
+  --important-text: hsl(0, 91%, 53%);
   --copyright: hsl(214 38% 40%);
   --shadow: hsl(0 0% 67%);
   --weak-shadow: hsl(0 0% 82%);
-  --link: hsl(160 79% 52%);
-  --timeline: hsl(160 90% 90%);
+  --link: hsl(183, 91%, 51%);
+  --timeline: hsla(0, 91%, 46%, 0.6);
 }
 
 /* Text */
@@ -37,12 +36,6 @@ body {
 
 a {
   color: var(--link);
-}
-
-.reverse-txt {
-  unicode-bidi:bidi-override;
-  direction:rtl;
-  color: var(--important-text);
 }
 
 /* Scrollbar */

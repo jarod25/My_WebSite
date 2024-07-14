@@ -32,9 +32,14 @@ export interface Translations {
     domain_name: string;
     callMe: string;
     phone: string;
+    copyMail: string;
+    copyPhone: string;
+    errorCopy: string;
     available: string;
     notAvailable: string;
     socialNetworks: string;
+    linkedInLink: string,
+    githubLink: string
   };
 
   alt: {

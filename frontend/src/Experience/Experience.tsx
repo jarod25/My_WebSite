@@ -18,9 +18,9 @@ export const Experience = ({ t }: IProps) => {
     backgroundColor: "inherit",
     color: "var(--theme-text)",
     border: 0,
-    padding: "1vh",
+    padding: "1vh 3vw",
     borderRadius: "7px",
-    margin: "0 2vw 6vh 2vw",
+    marginBottom: "6vh",
     "&.MuiButton-root": {
       "&:hover, &.Mui-focusVisible": {
         backgroundColor: "var(--bg-clear)",
@@ -30,7 +30,7 @@ export const Experience = ({ t }: IProps) => {
 
   const activeStyle: object = {
     color: "var(--link)",
-    backgroundColor: "var(--bg-clear)",
+    backgroundColor: "var(--theme-lighter-text)",
   };
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {

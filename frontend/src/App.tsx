@@ -10,8 +10,8 @@ import { Experience } from "./Experience/Experience";
 import { Contact } from "./Contact/Contact";
 
 export const App = () => {
-  const company: string = "Villepin IT";
-  const ownerName: string = "Héloïse de Villepin";
+  const company: string = "Jarod KOHLER";
+  const ownerName: string = "Jarod Kohler";
   const availability: boolean = true;
   const [translate, setTranslate] = useState(getTranslations("fr"));
 
