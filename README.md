@@ -93,6 +93,18 @@ ADMIN_USER=                     # Complete with your username
 ADMIN_PWD=                      # Complete with your password
 DB_NAME=kohler_db_by_eino       # The name of the database, it should not be changed
 ```
+This are for the database configuration in Docker.
+
+Then, create a new file at the root of the backend folder called `.env`. Write in the file these following lines:
+```dosini
+PORT=                           # Complete with the port you want to use (for backend server)
+DB_HOST=                        # Complete with the database host (default: localhost)
+DB_USER=                        # Complete with the database user
+DB_PWD=                         # Complete with the database password
+DB_PORT=                        # Complete with the database port (default: 3306)
+DB_NAME=kohler_db_by_eino       # The name of the database, it should not be changed
+ACCESS_TOKEN_SECRET=            # Complete with a strong token for the JWT
+```
 This data will allow you to connect the database and the back-end together.
 
 ### Docker

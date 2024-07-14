@@ -30,4 +30,8 @@ export default class ContentService {
             }
         });
     }
+
+    static async getContentByBlockId(id: number): Promise<any> {
+        return await content.findAll({where: {block_id: id}});
+    }
 }

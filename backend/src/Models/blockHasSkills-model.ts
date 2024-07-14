@@ -1,9 +1,9 @@
 import db from "../Utils/db-connect";
-import { DataTypes } from 'sequelize';
+import {DataTypes} from 'sequelize';
 import skill from "./skill-model";
 import block from "./block-model";
 
-const contentHasSkills = db.define('content_has_skills', {
+const contentHasSkills = db.define('block_has_skills', {
     block_id: {
         type: DataTypes.INTEGER,
         primaryKey: true,

@@ -1,7 +1,8 @@
-import express from "express";
-import {getCities, getCityById, createCity, updateCity, deleteCity} from "../Controllers/city-controller";
+import { Router } from "express";
+import {getCities, getCityById, createCity, updateCity, deleteCity, getCityByBlockId} from "../Controllers/city-controller";
+import authenticateToken from "../Utils/auth-middleware";
 
-const cityRouter = express.Router();
+const cityRouter = Router();
 
 cityRouter.get('/', getCities);
 /**
@@ -20,10 +21,34 @@ cityRouter.get('/', getCities);
  *              description: Bad request
  */
 
+cityRouter.get('/block/:id', getCityByBlockId);
+/**
+ * @swagger
+ * /api/cities/block/{id}:
+ *   get:
+ *      description: Get a city by block id
+ *      tags:
+ *          - Cities
+ *      parameters:
+ *          - name: id
+ *            in: path
+ *            description: ID of the block
+ *            required: true
+ *            schema:
+ *              type: integer
+ *      responses:
+ *          '200':
+ *              description: A successful response
+ *          '500':
+ *              description: An error occurred
+ *          '400':
+ *              description: Bad request
+ */
+
 cityRouter.get('/:id', getCityById);
 /**
  * @swagger
- * /api/city/{id}:
+ * /api/cities/{id}:
  *   get:
  *      description: Get a city by id
  *      tags:
@@ -44,7 +69,7 @@ cityRouter.get('/:id', getCityById);
  *              description: Bad request
  */
 
-cityRouter.post('/', createCity);
+cityRouter.post('/', authenticateToken, createCity);
 /**
  * @swagger
  * /api/city:
@@ -70,10 +95,10 @@ cityRouter.post('/', createCity);
  *              description: Bad request
  */
 
-cityRouter.put('/:id', updateCity);
+cityRouter.put('/:id', authenticateToken, updateCity);
 /**
  * @swagger
- * /api/city/{id}:
+ * /api/cities/{id}:
  *   put:
  *      description: Update a city
  *      tags:
@@ -103,10 +128,10 @@ cityRouter.put('/:id', updateCity);
  *              description: Bad request
  */
 
-cityRouter.delete('/:id', deleteCity);
+cityRouter.delete('/:id', authenticateToken, deleteCity);
 /**
  * @swagger
- * /api/city/{id}:
+ * /api/cities/{id}:
  *   delete:
  *      description: Delete a city
  *      tags:

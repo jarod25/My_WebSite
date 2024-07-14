@@ -27,4 +27,8 @@ export default class CityService {
             }
         });
     }
+
+    static async getCityByBlockId(id: number): Promise<any> {
+        return await city.findAll({where: {block_id: id}});
+    }
 }

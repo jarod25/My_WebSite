@@ -1,6 +1,5 @@
 import {default as cityService} from '../Services/city-service';
 import {Request, Response} from "express";
-import city from "../Models/city-model";
 
 export const getCities = async(req: Request, res: Response) => {
     try {
@@ -41,6 +40,15 @@ export const deleteCity = async (req: Request, res: Response): Promise<void> => 
     try {
         await cityService.deleteCity(parseInt(req.params.id));
         res.status(200).json("City deleted");
+    } catch (e) {
+        res.status(500).json(e);
+    }
+}
+
+export const getCityByBlockId = async (req: Request, res: Response): Promise<void> => {
+    try {
+        let cities = await cityService.getCityByBlockId(parseInt(req.params.id));
+        res.status(200).json(cities);
     } catch (e) {
         res.status(500).json(e);
     }

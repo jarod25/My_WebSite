@@ -27,4 +27,8 @@ export default class StatusService {
             }
         });
     }
+
+    static async getStatusByBlockId(id: number): Promise<any> {
+        return await status.findAll({where: {block_id: id}});
+    }
 }

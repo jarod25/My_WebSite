@@ -27,4 +27,8 @@ export default class InstitutionService {
             }
         });
     }
+
+    static async getInstitutionByBlockId(id: number): Promise<any> {
+        return await institution.findAll({where: {block_id: id}});
+    }
 }

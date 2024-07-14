@@ -7,8 +7,15 @@ import swaggerUi from 'swagger-ui-express';
 dotenv.config();
 require('./Utils/db-create');
 
+// Routers
+import authRouter from "./Routers/auth-router";
 import blockRouter from "./Routers/block-router";
-import authenticateToken from "./Utils/auth";
+import cityRouter from "./Routers/city-router";
+import contentRouter from "./Routers/content-router";
+import institutionRouter from "./Routers/institution-router";
+import sectionRouter from "./Routers/section-router";
+import skillRouter from "./Routers/skill-router";
+import statusRouter from "./Routers/status-router";
 
 const app: Express = express();
 const port: number = process.env.PORT ? parseInt(process.env.PORT) : 5000;
@@ -43,6 +50,7 @@ const swaggerOptions = {
             securitySchemes: {
                 Bearer: {
                     type: 'apiKey',
+                    scheme: "bearer",
                     in: 'header',
                     name: 'Authorization',
                     description: 'Bearer {token}'
@@ -56,19 +64,14 @@ const swaggerOptions = {
 const swaggerDocs: object = swaggerJsDoc(swaggerOptions);
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs))
-app.use('/api/blocks', authenticateToken, blockRouter);
-
-app.post('/api/login', async (req: Request, res: Response) => {
-    const username = req.body.username;
-    const user = { name: username };
-
-    const accessToken = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET as string, { expiresIn: '1800s' });
-    res.json({ accessToken: accessToken });
-});
-
-app.get('/', (req: Request, res: Response): void => {
-    res.send('Hello World!');
-});
+app.use('/api/auth', authRouter);
+app.use('/api/blocks', blockRouter);
+app.use('/api/cities', cityRouter);
+app.use('/api/contents', contentRouter);
+app.use('/api/institutions', institutionRouter);
+app.use('/api/sections', sectionRouter);
+app.use('/api/skills', skillRouter);
+app.use('/api/statuses', statusRouter);
 
 app.listen(port, (): void => {
     console.log(`Server start on http://localhost:${port}`);

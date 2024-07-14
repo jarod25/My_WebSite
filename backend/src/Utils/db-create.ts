@@ -8,14 +8,14 @@ import city from "../Models/city-model";
 import institution from "../Models/institution-model";
 import block from "../Models/block-model";
 import content from "../Models/content-model";
-import contentHasSkills from "../Models/contentHasSkills-model";
+import blockHasSkills from "../Models/blockHasSkills-model";
 import token from "../Models/token-model";
 
 content.belongsTo(block, {foreignKey: 'block_id'});
 block.hasMany(content, {foreignKey: 'block_id'});
 
-content.belongsToMany(skill, {through: contentHasSkills, foreignKey: 'content_id'});
-skill.belongsToMany(content, {through: contentHasSkills, foreignKey: 'skill_id'});
+block.belongsToMany(skill, {through: blockHasSkills, foreignKey: 'block_id'});
+skill.belongsToMany(block, {through: blockHasSkills, foreignKey: 'skill_id'});
 
 city.belongsTo(block, {foreignKey: 'block_id'});
 block.hasOne(city, {foreignKey: 'block_id'});
@@ -34,7 +34,7 @@ user.hasOne(token, {foreignKey: 'user_id'});
 
 db.sync({
     alter: true, // to alter tables on reload, else false
-    force: false // to drop tables and recreate them, else false
+    force: true // to drop tables and recreate them, else false
 })
     .then(
         () => {

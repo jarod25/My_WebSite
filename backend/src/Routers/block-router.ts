@@ -1,7 +1,15 @@
-import express from "express";
-import {getBlocks, getBlockById, createBlock, updateBlock, deleteBlock} from "../Controllers/block-controller";
+import {Router} from "express";
+import {
+    getBlocks,
+    getBlockById,
+    createBlock,
+    updateBlock,
+    deleteBlock,
+    getBlockBySectionId
+} from "../Controllers/block-controller";
+import authenticateToken from "../Utils/auth-middleware";
 
-const blockRouter = express.Router();
+const blockRouter = Router();
 
 blockRouter.get('/', getBlocks);
 /**
@@ -19,6 +27,8 @@ blockRouter.get('/', getBlocks);
  *          '400':
  *              description: Bad request
  */
+
+blockRouter.get('/section/:id', getBlockBySectionId);
 
 blockRouter.get('/:id', getBlockById);
 /**
@@ -44,7 +54,7 @@ blockRouter.get('/:id', getBlockById);
  *              description: Bad request
  */
 
-blockRouter.post('/', createBlock);
+blockRouter.post('/', authenticateToken, createBlock);
 /**
  * @swagger
  * /api/blocks:
@@ -72,7 +82,7 @@ blockRouter.post('/', createBlock);
  *              description: Bad request
  */
 
-blockRouter.put('/:id', updateBlock);
+blockRouter.put('/:id', authenticateToken, updateBlock);
 /**
  * @swagger
  * /api/blocks/{id}:
@@ -107,7 +117,7 @@ blockRouter.put('/:id', updateBlock);
  *              description: Bad request
  */
 
-blockRouter.delete('/:id', deleteBlock);
+blockRouter.delete('/:id', authenticateToken, deleteBlock);
 /**
  * @swagger
  * /api/blocks/{id}:

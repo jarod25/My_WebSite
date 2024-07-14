@@ -27,4 +27,8 @@ export default class BlockService {
             }
         });
     }
+
+    static async getBlockBySectionId(id: number): Promise<any> {
+        return await block.findAll({where: {section_id: id}});
+    }
 }
