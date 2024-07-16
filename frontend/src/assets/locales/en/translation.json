@@ -1,5 +1,5 @@
 {
-  "welcome": "Welcome to Villepin IT!",
+  "welcome": "Welcome to my website!",
   "lang": "Français",
   "contactButton": "Contact",
   
@@ -8,31 +8,31 @@
   "intro3": "at a time.",
 
   "profile": {
-    "fields":"My areas of expertise:",
-    "website":"Creation of showcase websites",
-    "fullStack":"Full-stack JavaScript development",
-    "database":"SQL and NoSQL database management",
-    "teaching": "Web development training",
-    "graphics":"UI/UX design",
+    "fields": "Interests:",
+    "games": "Video games",
+    "arts": "Creative hobbies",
+    "sports": "Sports",
+    "travels": "Travels",
+    "cars": "Cars",
     "about": "About me:",
-    "intro": "My name is Héloïse de Villepin and I created Villepin IT in 2022 as an independent full-stack developer. I live near Strasbourg, France, in the heart of the beautiful Alsace, and I consider a coffee latte to be essential for a good day.",
-    "passions": "Outside of programming, I am passionate about cultures, arts and personal development. At the moment, I am learning German and Spanish by myself, painting with acrylics and never miss an opportunity to discuss how to become a better human being.",
-    "values": "Having grown up in Burkina Faso, benevolence and solidarity are rooted in the values I wish to share through my work and my daily actions."
+    "intro": "My name is Jarod Kohler and I started creating this site in 2023 to showcase my development skills, as well as my personal and academic projects. I am a computer engineering student at INSA Lyon after obtaining a BUT in the same field at IUT de Belfort.",
+    "passions": "Outside of programming, I am passionate about video games, creative hobbies, sports, travel, and cars. These activities allow me to escape, stimulate my creativity, stay active, and discover new horizons.",
+    "values": "I am a curious person, always seeking new knowledge and challenges. I place great importance on integrity, teamwork, and innovation. For me, each project is an opportunity to learn and grow, both professionally and personally."
   },
 
   "experience": {
-    "title1": "Work experience",
-    "title2": "Education",
-    "title3": "Projects"
+    "title1": "Professional Experiences",
+    "title2": "Education and Training",
+    "title3": "Personal and Academic Projects"
   },
 
   "contact": {
     "title" : "Let's keep in touch!",
     "writeMe": "Send me a message at: ",
-    "mail": "heloise",
-    "domain_name": "@villepin-it.com",
+    "mail": "kohler.jarod.2004",
+    "domain_name": "@gmail.com",
     "callMe": "Call me at: ",
-    "phone": "+33 7 83 53 83 15",
+    "phone": "+33 6 59 73 51 58",
     "copyMail": "Phone number successfully copied!",
     "copyPhone": "E-mail address successfully copied!",
     "errorCopy": "Copy failed.",
@@ -44,8 +44,8 @@
   },
 
   "alt": {
-    "logo": "Logo of Villepin IT company, with \"Villepin IT\" in bold on a dark blue bubbly shape with a little pink circle behind its right.",
-    "picture": "Portrait of Héloïse de Villepin, freelance developer for Villepin IT.",
+    "logo": "Logo of Jarod Kohler, it is the first name and last name in blue and red chevrons.",
+    "picture": "Portrait of Jarod Kohler, back-end developer and student.",
     "contact": "Contact image from \"storyset\" on Freepik website."
   }
 }

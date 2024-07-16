@@ -8,22 +8,22 @@
   "intro3": "à la fois.",
 
   "profile": {
-    "fields": "Mes domaines d'expertise :",
-    "website": "Création de sites vitrine",
-    "fullStack": "Développement full-stack JavaScript",
-    "database": "Gestion de bases de données SQL et NoSQL",
-    "teaching": "Formation au développement web",
-    "graphics": "Conception UI/UX",
+    "fields": "Centres d'intérêt :",
+    "games": "Jeux vidéo",
+    "arts": "Loisirs créatifs",
+    "sports": "Sport",
+    "travels": "Voyages",
+    "cars": "Voitures",
     "about": "À propos de moi :",
-    "intro": "Je m’appelle Héloïse de Villepin et j’ai créé Villepin IT en 2022 en tant que développeuse full-stack indépendante. Je vis près de Strasbourg, au cœur de la belle Alsace, et je considère qu’un café au lait est essentiel pour passer une bonne journée.",
-    "passions": "En-dehors de la programmation, je suis passionnée par les cultures, les arts et le développement personnel. En ce moment, j’apprends l’allemand et l’espagnol en autodidacte, je peins à l’acrylique et je ne manque pas une occasion d’échanger sur comment devenir un meilleur être humain.",
-    "values": "Ayant grandi au Burkina Faso, la bienveillance et la solidarité sont ancrées dans les valeurs que je partage au travers de mon travail et de mon quotidien."
+    "intro": "Je m’appelle Jarod Kohler et j’ai commencé à créer ce site en 2023 pour présenter mes compétences en développement, ainsi que mes projet personnels et universitaire. Je suis étudiant ingénieur en informatique à l’INSA de Lyon après avoir obtenu un BUT dans le même domaine à l’IUT de Belfort.",
+    "passions": "En-dehors de la programmation, je suis passionné par les jeux vidéo, les loisirs créatifs, le sport, les voyages et les voitures. Ces activités me permettent de m'évader, de stimuler ma créativité, de rester actif et de découvrir de nouveaux horizons.",
+    "values": "Je suis quelqu'un de curieux, toujours à la recherche de nouvelles connaissances et de défis à relever. J'attache une grande importance à l'intégrité, au travail d'équipe et à l'innovation. Pour moi, chaque projet est une opportunité d'apprendre et de grandir, tant sur le plan professionnel que personnel."
   },
 
   "experience": {
-    "title1": "Expériences pro",
-    "title2": "Formation",
-    "title3": "Projets"
+    "title1": "Expériences professionnelles",
+    "title2": "Études et Formations",
+    "title3": "Projets personnels et universitaires"
   },
 
   "contact": {
@@ -44,8 +44,8 @@
   },
 
   "alt": {
-    "logo": "Logo de l'entreprise Villepin IT, il s'agit des mots \"Villepin IT\" en gras et gris clair sur une forme bleu foncé, avec un petit cercle rose derrière sa partie droite.",
+    "logo": "Logo de Jarod Kohler, il s'agit du nom et du prénom dans des chevrons de couleurs bleu et rouge.",
     "picture": "Photo de face de Jarod Kohler, développeur back-end et étudiant.",
-    "contact": "Image illustrant un écran d'ordinateur et un homme avec un mégaphone devant, dans des tons clairs et roses, créée par \"storyset\" sur le site de Freepik."
+    "contact": "Image illustrant le contact, provenant de \"storyset\" sur le site Freepik."
   }
 }

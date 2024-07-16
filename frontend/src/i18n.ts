@@ -12,11 +12,11 @@ export interface Translations {
 
   profile: {
     fields: string;
-    website: string;
-    fullStack: string;
-    database: string;
-    teaching: string;
-    graphics: string;
+    games: string;
+    arts: string;
+    sports: string;
+    travels: string;
+    cars: string;
     about: string;
     intro: string;
     passions: string;

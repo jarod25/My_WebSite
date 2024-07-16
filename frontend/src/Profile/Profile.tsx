@@ -1,7 +1,8 @@
 import React from "react";
 import "./Profile.css";
 import { Translations } from "../i18n";
-import picture from "../assets/img/my-profile.jpg";
+// import picture from "../assets/img/my-profile.jpg";
+import picture from "../assets/img/my-profile.svg";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 
 interface IProps {
@@ -20,11 +21,11 @@ export const Profile = ({ t, owner }: IProps) => {
           <Grid2>
             <h3>{t.profile.fields}</h3>
           </Grid2>
-          <Grid2 className="profile-skills">{t.profile.website}</Grid2>
-          <Grid2 className="profile-skills">{t.profile.fullStack}</Grid2>
-          <Grid2 className="profile-skills">{t.profile.database}</Grid2>
-          <Grid2 className="profile-skills">{t.profile.teaching}</Grid2>
-          <Grid2 className="profile-skills">{t.profile.graphics}</Grid2>
+          <Grid2 className="profile-skills">{t.profile.games}</Grid2>
+          <Grid2 className="profile-skills">{t.profile.arts}</Grid2>
+          <Grid2 className="profile-skills">{t.profile.sports}</Grid2>
+          <Grid2 className="profile-skills">{t.profile.travels}</Grid2>
+          <Grid2 className="profile-skills">{t.profile.cars}</Grid2>
         </Grid2>
         <Grid2 xs={12} sm={10} md={6} lg={4} className="profile-desc-height">
           <Grid2 paddingBottom={0}>
