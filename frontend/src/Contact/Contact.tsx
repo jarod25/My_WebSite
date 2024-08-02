@@ -89,13 +89,13 @@ export const Contact = ({ t, availability }: IProps) => {
             <MailIcon sx={{ fontSize: "1.2rem", margin: "0 1rem -.2rem" }} />
             {t.contact.writeMe}
             <span>
-              <a href={"mailto:"+ t.contact.mail + t.contact.domain_name} className="mail-and-phone">
+              <a href={"mailto:"+ t.contact.mail + t.contact.domainName} className="mail-and-phone">
               {t.contact.mail}
-              {t.contact.domain_name}
+              {t.contact.domainName}
               </a>
             </span>
             <CopyAllIcon sx={{ fontSize: "1.2rem", margin: "0 0.5rem -.2rem", cursor: "pointer" }}
-            onClick={() => handleClick(t.contact.mail+t.contact.domain_name)}/>
+            onClick={() => handleClick(t.contact.mail+t.contact.domainName)}/>
           </p>
           <p>
             <PhoneIcon sx={{ fontSize: "1.2rem", margin: "0 1rem -.2rem" }} />

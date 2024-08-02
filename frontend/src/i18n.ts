@@ -29,7 +29,7 @@ export interface Translations {
     title: string;
     writeMe: string;
     mail: string;
-    domain_name: string;
+    domainName: string;
     callMe: string;
     phone: string;
     copyMail: string;

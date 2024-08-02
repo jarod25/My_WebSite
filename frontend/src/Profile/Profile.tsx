@@ -37,8 +37,9 @@ export const Profile = ({ t, owner }: IProps) => {
             <p>{t.profile.values}</p>
           </Grid2>
         </Grid2>
-        <Grid2 xs={12} sm={10} md={8} lg={4} className="center-items">
+        <Grid2 xs={12} sm={10} md={8} lg={4} className="center-items picture-owner">
           <img src={picture} className="picture" alt={t.alt.picture} />
+          <h2>{owner}</h2>
         </Grid2>
       </Grid2>
     </div>

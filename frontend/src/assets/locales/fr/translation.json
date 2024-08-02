@@ -15,7 +15,7 @@
     "travels": "Voyages",
     "cars": "Voitures",
     "about": "À propos de moi :",
-    "intro": "Je m’appelle Jarod Kohler et j’ai commencé à créer ce site en 2023 pour présenter mes compétences en développement, ainsi que mes projet personnels et universitaire. Je suis étudiant ingénieur en informatique à l’INSA de Lyon après avoir obtenu un BUT dans le même domaine à l’IUT de Belfort.",
+    "intro": "Je m’appelle Jarod Kohler et j’ai commencé à créer ce site en 2023 pour présenter mes compétences en développement, ainsi que mes projets personnels et universitaires. Je suis étudiant en 3ème année de BUT informatique à l’IUT de Belfort et en alternance chez Web&Design à Montbéliard. Je devrais intégrer l’ENSISA de Mulhouse en 2024 pour un cycle d’ingénieur en informatique.",
     "passions": "En-dehors de la programmation, je suis passionné par les jeux vidéo, les loisirs créatifs, le sport, les voyages et les voitures. Ces activités me permettent de m'évader, de stimuler ma créativité, de rester actif et de découvrir de nouveaux horizons.",
     "values": "Je suis quelqu'un de curieux, toujours à la recherche de nouvelles connaissances et de défis à relever. J'attache une grande importance à l'intégrité, au travail d'équipe et à l'innovation. Pour moi, chaque projet est une opportunité d'apprendre et de grandir, tant sur le plan professionnel que personnel."
   },
@@ -30,7 +30,7 @@
     "title" : "Restons en contact !",
     "writeMe": "Écrivez-moi à : ",
     "mail": "kohler.jarod.2004",
-    "domain_name": "@gmail.com",
+    "domainName": "@gmail.com",
     "callMe": "Appelez-moi au : ",
     "phone": "+33 6 59 73 51 58",
     "copyMail": "Adresse mail copiée avec succès !",

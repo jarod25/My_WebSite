@@ -25,6 +25,7 @@ export interface IMisc {
   id: number;
   title: string;
   place: string;
+  name: string;
   link: string;
   linkDesc: string;
   date: string;
@@ -32,10 +33,40 @@ export interface IMisc {
   skills: string[];
 }
 
+export interface IComp {
+  title: string;
+  desc: string;
+}
+
+export interface IContent {
+  title: string;
+  desc: string;
+  competences: IComp[];
+}
+
+export interface IProjects {
+  id: number;
+  title: string;
+  descShort: string;
+  skills: string[];
+  content: IContent[];
+  descFull: string;
+  link: string;
+  linkDesc: string;
+}
+
+export interface IUniv {
+  idYear: number;
+  title: string;
+  desc: string;
+  projects: IProjects[];
+}
+
 export interface IExperiences {
   work: IWork[];
   education: IEdu[];
   miscellaneous: IMisc[];
+  university: IUniv[];
 }
 
 const frExp: IExperiences = french;

@@ -18,7 +18,6 @@ h1 {
   font-family: "Clear Sans Medium", sans-serif;
   font-size: calc(2.5vh + 2vmin);
   color: var(--important-text);
-  text-shadow: 0 0.05vh 0.5vh var(--theme-pink);
 }
 
 h3 {

@@ -8,6 +8,12 @@ import { Profile } from "./Profile/Profile";
 import { BackToTop } from "./BackToTop/BackToTop";
 import { Experience } from "./Experience/Experience";
 import { Contact } from "./Contact/Contact";
+import { Project } from "./Project/Project";
+import { ProjectYear } from "./ProjectYear/ProjectYear";
+import {
+    createBrowserRouter,
+    RouterProvider,
+} from "react-router-dom";
 
 export const App = () => {
   const company: string = "Jarod KOHLER";
@@ -26,6 +32,8 @@ export const App = () => {
       <Intro t={translate} />
       <Profile t={translate} owner={ownerName} />
       <Experience t={translate} />
+      <ProjectYear t={translate} yearId={0} />
+      <Project t={translate} projectId={0} />
       <Contact t={translate} availability={availability} />
       <Footer owner={ownerName} />
     </div>
