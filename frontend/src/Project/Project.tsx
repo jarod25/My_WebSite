@@ -2,52 +2,61 @@ import "./Project.css";
 import React, { useState, useEffect } from "react";
 import { getExperience, IProjects } from "../experience";
 import {Translations} from "../i18n";
+import {useParams} from "react-router-dom";
+import {Error} from "../Error/Error";
 
 interface IProps {
     t: Translations;
-    projectId: number;
 }
 
-export const Project = ({ t, projectId }: IProps) => {
+export const Project = ({ t }: IProps) => {
     const [exp, setExp] = useState<IProjects | null>(null);
+    const { yearId, projectId } = useParams<{ yearId: string; projectId: string }>();
 
     useEffect(() => {
-        const experiences =
-            t.lang === "English" ? getExperience("fr") : getExperience("en");
+        if (yearId && projectId) {
+            const yearIdNumber = parseInt(yearId, 10);
+            const projectIdNumber = parseInt(projectId, 10);
+            const experiences =
+                t.lang === "English" ? getExperience("fr") : getExperience("en");
 
-        const project = experiences.university
-            .flatMap((univ) => univ.projects)
-            .find((project) => project.id === projectId);
+            const universityYear = experiences.university.find((univ) => univ.idYear === yearIdNumber);
 
-        setExp(project || null);
-    }, [t, projectId]);
+            if (universityYear) {
+                const project = universityYear.projects.find((proj) => proj.id === projectIdNumber);
+                setExp(project || null);
+            } else {
+                setExp(null);
+            }
+        }
+    }, [t, yearId, projectId]);
 
     if (!exp) {
-        return <div>Projet introuvable</div>;
+        return <Error t={t} />;
     }
 
     return (
         <div className="project-container">
             <div className="project-header">
-                <h1>{exp.title}</h1>
-                <p>{exp.descShort}</p>
+                <h1 style={{ whiteSpace: "pre-wrap" }}>{exp.title}</h1>
+                <p style={{ whiteSpace: "pre-wrap" }}>{exp.descShort}</p>
             </div>
 
-            <div className="project-description">{exp.descFull}</div>
+            <div className="project-description" style={{ whiteSpace: "pre-wrap" }}>{exp.descFull}</div>
 
             {exp.content.map((content, i) => (
                 <div key={i} className="project-content">
-                    <div className="project-content-title">{content.title}</div>
-                    <div className="project-content-desc">{content.desc}</div>
+                    <div className="project-content-title" style={{ whiteSpace: "pre-wrap" }}>{content.title}</div>
+                    <div className="project-content-desc" style={{ whiteSpace: "pre-wrap" }}>{content.desc}</div>
 
                     <div className="project-competences">
                         {content.competences.map((competence, j) => (
                             <div key={j} className="project-competence-item">
                                 <div className="project-competence-title">
-                                    {competence.title}
+                                    <p style={{ whiteSpace: "pre-wrap" }}>{competence.title}</p>
                                 </div>
                                 <div className="project-competence-desc">
-                                    {competence.desc}
+                                    <p style={{ whiteSpace: "pre-wrap" }}>{competence.desc}</p>
                                 </div>
                             </div>
                         ))}

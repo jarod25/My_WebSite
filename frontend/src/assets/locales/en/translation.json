@@ -47,5 +47,11 @@
     "logo": "Logo of Jarod Kohler, it is the first name and last name in blue and red chevrons.",
     "picture": "Portrait of Jarod Kohler, back-end developer and student.",
     "contact": "Contact image from \"storyset\" on Freepik website."
+  },
+
+  "errorPage": {
+    "title": "404 Error",
+    "message": "The page you are looking for does not exist.",
+    "buttonText": "Back to home"
   }
 }

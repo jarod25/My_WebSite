@@ -145,7 +145,7 @@
       "place": "Belfort",
       "date": "2021 - 2022",
       "name": "IUT Nord Franche-Comté",
-      "link": "",
+      "link": "/annee/0",
       "linkDesc": "Voir tous les projets",
       "desc": "Liste des 8 projets réalisés en 1ère année de BUT Informatique. Ces projets sont appelés « SAE » qui signifie « Situation d'Apprentissage et d'Évaluation », et se sont réalisés en groupe entre 2 et 6 étudiants selon la complexité du projet.",
       "skills": [
@@ -160,7 +160,7 @@
       "place": "Belfort",
       "date": "2022 - 2023",
       "name": "IUT Nord Franche-Comté",
-      "link": "",
+      "link": "/annee/1",
       "linkDesc": "Voir tous les projets",
       "desc": "Liste des 2 projets (1 par semestre) réalisés en 2ème année de BUT Informatique. Ils se sont réalisés en groupe de 3 ou de 5 étudiants selon la complexité du projet.",
       "skills": [
@@ -174,7 +174,7 @@
       "place": "Belfort",
       "date": "2023 - 2024",
       "name": "IUT Nord Franche-Comté",
-      "link": "",
+      "link": "/annee/2",
       "linkDesc": "Voir tous les projets",
       "desc": "Liste des 2 projets (1 par semestre) réalisés en 3ème année de BUT Informatique. Ce sont principalement les projets effectués en alternance.",
       "skills": [
@@ -192,56 +192,187 @@
         {
           "id": 0,
           "title": "Jeu du jeton en Java",
-          "descShort": "Le jeu du jeton en Java, jeu de plateau qui se joue a deux.\n\nChaque joueur commence la partie avec 10 jetons, et doit les placer sur le plateau de 21 cases. Chaque pion a une valeur, le pion 1 vaut 1 point, le pion 2 en vaut 2, etc. Une fois que les 2 joueurs ont placés leurs 10 pions, il reste une case vide. Celui qui remporte la partie est le joueur qui a le moins de points autour de la case vide.",
-          "descFull": "Le jeu du jeton en Java est un jeu de plateau qui se joue à deux. Chaque joueur commence la partie avec 10 jetons, et doit les placer sur le plateau de 21 cases. Chaque pion a une valeur, le pion 1 vaut 1 point, le pion 2 en vaut 2, etc. Une fois que les 2 joueurs ont placé leurs 10 pions, il reste une case vide. Celui qui remporte la partie est le joueur qui a le moins de points autour de la case vide.",
-          "link": "",
+          "descShort": "Un jeu de plateau stratégique développé en Java, intégrant une interface JavaFX et des intelligences artificielles pour enrichir l'expérience de jeu.",
+          "descFull": "Le jeu du jeton en Java est un jeu de plateau stratégique où deux joueurs placent tour à tour des jetons de valeurs croissantes sur un plateau de 21 cases. Chaque joueur doit minimiser la somme des points autour d'une case vide restante pour gagner. Ce projet met en avant mes compétences en Java, JavaFX pour l'interface utilisateur, et la programmation d'intelligences artificielles pour améliorer le jeu. Ce projet a été réalisé en groupe de 2, et m'a permis d'approfondir mes compétences en développement d'application, en optimisation des algorithmes et en travail d'équipe.",
+          "link": "/annee/1/projet/0",
           "linkDesc": "Voir le projet",
           "skills": [
             "Java",
             "JavaFX",
-            "POO"
+            "Algorithmique",
+            "Travail en équipe"
           ],
           "content": [
             {
-              "title": "POO",
-              "desc": "Programmation orientée objet, utilisée pour la création des classes et des objets du jeu.",
+              "title": "Réaliser un développement d’application",
+              "desc": "Ce projet m'a permis de renforcer mes compétences en développement d'applications simples en Java, en particulier en utilisant JavaFX pour créer une interface graphique intuitive.",
               "competences": [
                 {
-                  "title": "Java",
-                  "desc": "Langage de programmation orienté objet, utilisé pour le développement de la logique du jeu."
-                },
-                {
-                  "title": "JavaFX",
-                  "desc": "Bibliothèque graphique de Java, utilisée pour la création de l'interface graphique du jeu."
-                },
-                {
-                  "title": "POO",
-                  "desc": "Programmation orientée objet, utilisée pour la création des classes et des objets du jeu."
+                  "title": "Développer des applications informatiques simples",
+                  "desc": "Réalisation d'un jeu en Java avec une interface graphique soignée grâce à JavaFX."
                 }
               ]
             },
             {
-              "title": "JavaFX",
-              "desc": "Bibliothèque graphique de Java, utilisée pour la création de l'interface graphique du jeu.",
+              "title": "Optimisation des applications",
+              "desc": "Le projet a également porté sur l'optimisation des performances et de l'efficacité des algorithmes utilisés.",
               "competences": [
                 {
-                  "title": "Java",
-                  "desc": "Langage de programmation orienté objet, utilisé pour le développement de la logique du jeu."
-                },
-                {
-                  "title": "JavaFX",
-                  "desc": "Bibliothèque graphique de Java, utilisée pour la création de l'interface graphique du jeu."
-                },
-                {
-                  "title": "POO",
-                  "desc": "Programmation orientée objet, utilisée pour la création des classes et des objets du jeu."
+                  "title": "Appréhender et construire des algorithmes",
+                  "desc": "Création et implémentation d'algorithmes pour les règles du jeu et les intelligences artificielles."
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Administration des systèmes informatiques",
+          "descShort": "Configurer et administrer des postes de travail et services réseau pour assurer une infrastructure informatique efficace.",
+          "descFull": "Ce projet consiste à installer et configurer des postes de travail dans un environnement réseau, assurant ainsi la connectivité et la sécurité des systèmes informatiques. Les tâches incluent la mise en place d'environnements de travail sécurisés, le déploiement de services dans une architecture réseau, et la résolution de problèmes liés à la connectivité. Ce projet m'a permis d'approfondir mes compétences en administration de systèmes, en mettant l'accent sur la gestion des postes de travail et la configuration réseau.",
+          "link": "/annee/1/projet/1",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "Administration des systèmes",
+            "Configuration réseau"
+          ],
+          "content": [
             {
-              "title": "Java",
-              "desc": "Langage de programmation orienté objet, utilisé pour le développement de la logique du jeu.",
+              "title": "Installation et configuration de postes de travail",
+              "desc": "Installation d'environnements de travail complets et configuration des postes pour une utilisation optimisée.",
+              "competences": [
+                {
+                  "title": "Installer et configurer un poste de travail",
+                  "desc": "Configuration de postes de travail pour assurer un fonctionnement optimal, incluant l'installation de logiciels et la gestion des périphériques."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idYear": 1,
+      "title": "2ème année",
+      "desc": "La deuxième année de BUT Informatique est une année de spécialisation où les étudiants approfondissent leurs compétences en développement web, en gestion de projet et en communication.",
+      "projects": [
+        {
+          "id": 0,
+          "title": "La Cour Médiévale De Monseigneur Ambert (LCMDMA)",
+          "descShort": "Ce site à pour but de gérer la convention \"La Cour Médiévale De Mon Seigneur Ambert\", une convention médiévale se déroulant au château de Montby, dans le doubs. Cette convention à été totalement imaginé et conçue par l'équipe de développeurs du site.",
+          "descFull": "La Cour Médiévale De Monseigneur Ambert est un site web de gestion de convention médiévale. Ce projet a été réalisé en groupe de 5 étudiants et a permis de mettre en pratique nos compétences en développement web, en gestion de projet et en communication. Le site permet de gérer les inscriptions des participants, les activités proposées, les stands et les animations, ainsi que les informations pratiques sur l'événement. Ce projet a été réalisé en utilisant les technologies HTML, CSS, JavaScript, VueJS et Postgresql, ainsi que la méthode SCRUM pour la gestion de projet.",
+          "link": "/annee/1/projet/0",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "Gestion de projet",
+            "SCRUM",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "VueJS",
+            "Postgresql"
+          ],
+          "content": [
+            {
+              "title": "La base de données",
+              "desc": "Pour mettre en place la base de données, j’ai commencé par réaliser un MCD avec un autre étudiant, afin d’identifier les différentes tables et associations qui la constitueraient. Pour cela, nous avons utilisé l’outil Looping qui est un logiciel de modélisation conceptuelle de données. \nD’autre part, nous avons pris la décision d'utiliser PostgreSQL en tant que système de gestion de bases de données car il offre la capacité de stocker et des tables de base de données assez facilement.\nEnsuite, nous nous sommes interrogés sur la méthode à utiliser pour les requêtes vers la base de données : SQL pur ou utilisation d'un ORM. Nous avons opté pour l’utilisation de l’ORM Sequelize. Cette décision s’est justifiée par le fait qu’il simplifie l’interaction avec la base de données, et permet une meilleure lisibilité du code.\nAprès avoir réalisé toutes ces étapes et avoir installé Sequelize dans le projet, nous avons créé les modèles Sequelize. Ces modèles servent à informer l’ORM de tous les détails relatifs à chaque table : son nom, ses attributs avec leurs types, ses associations avec d'autres tables, etc.",
               "competences": []
+            },
+            {
+              "title": "Le backend",
+              "desc": "Pour la partie backend de notre application, nous avons créé une API REST en utilisant NodeJS, un framework JavaScript réputé pour sa flexibilité et sa performance. Cette API nous permet de communiquer avec notre base de données, d'extraire les données nécessaires, de les traiter selon nos besoins et de les renvoyer au frontend.\n\nGrâce à cette API, nous sommes en mesure d'effectuer des opérations CRUD (Create, Read, Update, Delete) sur nos données. Par exemple, nous pouvons récupérer des informations spécifiques, ajouter de nouvelles données, mettre à jour des enregistrements existants ou les supprimer de la base de données.\n\nL'utilisation de NodeJS nous offre également la possibilité de gérer de manière asynchrone les requêtes entrantes, ce qui permet d'optimiser les performances et de garantir une expérience utilisateur réactive. De plus, les fonctionnalités avancées de JavaScript offertes par NodeJS facilitent le traitement des données avant de les renvoyer au frontend.",
+              "competences": []
+            },
+            {
+              "title": "Le frontend",
+              "desc": "Notre site a été entièrement développé en utilisant Vue.js, un framework JavaScript moderne et puissant pour la construction d'interfaces utilisateur. Vue.js offre une approche réactive et basée sur les composants, ce qui nous permet de créer des pages interactives et dynamiques. Grâce à sa facilité d'utilisation et à sa courbe d'apprentissage douce, Vue.js nous a permis de développer rapidement et efficacement notre frontend.\n\nAvec Vue.js, nous avons pu diviser notre interface en composants réutilisables, ce qui facilite la maintenance et les mises à jour futures. Les fonctionnalités avancées de Vue.js, telles que la gestion d'état avec Vuex, le routage avec Vue Router et les directives personnalisées, nous ont permis d'implémenter des fonctionnalités complexes tout en maintenant un code propre et structuré.\n\nDe plus, Vue.js offre une excellente intégration avec d'autres bibliothèques et outils, ce qui nous a permis d'enrichir notre site avec des fonctionnalités supplémentaires. Grâce à la flexibilité de Vue.js et à son écosystème riche, nous avons pu créer une expérience utilisateur fluide et agréable pour nos utilisateurs.",
+              "competences": []
+            },
+            {
+              "title": "Compétences développées",
+              "desc": "Lors de la réalisation d'un site en Node.js et Vue.js, avec une base de données PostgreSQL, plusieurs compétences sont développées et associées :",
+              "competences": [
+                {
+                  "title": "Compétence 1 : Réaliser un développement d'application",
+                  "desc": "Maîtriser la programmation JavaScript et les principes fondamentaux de Node.js pour créer le backend de l'application.\nUtiliser Vue.js pour développer le frontend et créer des interfaces utilisateur interactives.\nMettre en place une architecture logicielle appropriée pour assurer la modularité et la maintenabilité de l'application."
+                },
+                {
+                  "title": "Compétence 2 : Optimiser des applications informatiques",
+                  "desc": "Comprendre les principes de performance et d'optimisation pour minimiser les temps de réponse et les temps de chargement de l'application.\nUtiliser des techniques de mise en cache pour améliorer les performances, notamment pour les requêtes fréquentes à la base de données."
+                },
+                {
+                  "title": "Compétence 3 : Administrer des systèmes informatiques communiquant complexes",
+                  "desc": "Configurer et gérer les serveurs d'application Node.js pour garantir le bon fonctionnement de l'application.\nAssurer la communication entre les différents composants du système, tels que la communication entre le frontend Vue.js et le backend Node.js."
+                },
+                {
+                  "title": "Compétence 4 : Gérer des données de l'information",
+                  "desc": "Concevoir et modéliser la base de données PostgreSQL en définissant les tables, les relations et les contraintes.\nUtiliser les requêtes SQL pour interagir avec la base de données, récupérer, insérer, mettre à jour ou supprimer des données."
+                },
+                {
+                  "title": "Compétence 5 : Conduire un projet",
+                  "desc": "Planifier et organiser les différentes étapes du développement du site, en définissant les objectifs, les ressources nécessaires et les délais.\nSuivre les bonnes pratiques de gestion de projet, comme l'utilisation d'outils de gestion de versions (Git) et la documentation du code."
+                },
+                {
+                  "title": "Compétence 6 : Travailler dans une équipe informatique",
+                  "desc": "Collaborer avec d'autres développeurs pour le développement simultané du frontend et du backend.\nUtiliser des outils de collaboration tels que des systèmes de gestion de projets (comme Trello) pour faciliter la coordination et la communication au sein de l'équipe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Exploitation de données",
+          "descShort": "Analyser des données brutes pour en extraire des informations pertinentes et les présenter de manière claire et compréhensible.",
+          "descFull": "Ce projet consiste à analyser des données brutes provenant de différentes sources pour en extraire des informations pertinentes et les présenter de manière claire et compréhensible. Les tâches incluent la collecte des données, le nettoyage et la transformation des données, l'analyse statistique et la visualisation des résultats. Ce projet m'a permis d'approfondir mes compétences en analyse de données, en traitement de données et en visualisation de données.",
+          "link": "/annee/1/projet/1",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "Analyse de données",
+            "Traitement de données",
+            "Visualisation de données"
+          ],
+          "content": [
+            {
+              "title": "Collecte et nettoyage des données",
+              "desc": "Pour ce projet, nous avons collecté des données brutes provenant de différentes sources, telles que des fichiers CSV, des bases de données et des API. Ces données étaient souvent incomplètes, incohérentes ou mal formatées, ce qui nécessitait un nettoyage et une transformation préalable avant de pouvoir les analyser.\n\nNous avons utilisé des outils et des techniques de nettoyage de données, tels que la suppression des doublons, la correction des erreurs de saisie, la normalisation des données et la gestion des valeurs manquantes. Ce processus de nettoyage des données était essentiel pour garantir la qualité et la fiabilité des analyses ultérieures.",
+              "competences": []
+            },
+            {
+              "title": "Analyse statistique des données",
+              "desc": "Une fois les données nettoyées, nous avons procédé à une analyse statistique pour identifier les tendances, les corrélations et les modèles cachés dans les données. Nous avons utilisé des techniques d'analyse descriptive, d'analyse exploratoire et d'analyse prédictive pour extraire des informations pertinentes et utiles.\n\nCette analyse statistique nous a permis de répondre à des questions spécifiques, de valider des hypothèses et de prendre des décisions éclairées basées sur les données. Nous avons utilisé des outils statistiques et des logiciels d'analyse de données pour effectuer ces analyses de manière efficace et précise.",
+              "competences": []
+            },
+            {
+              "title": "Visualisation des données",
+              "desc": "Enfin, nous avons présenté les résultats de notre analyse sous forme de visualisations de données claires et informatives. Nous avons utilisé des graphiques, des tableaux de bord interactifs et des infographies pour représenter visuellement les tendances, les relations et les modèles identifiés dans les données.\n\nLa visualisation des données était essentielle pour communiquer efficacement nos résultats, faciliter la compréhension des informations complexes et prendre des décisions éclairées basées sur les données. Nous avons utilisé des outils de visualisation de données, tels que Matplotlib, Seaborn et Bokeh, pour créer des visualisations attrayantes et informatives.",
+              "competences": []
+            },
+            {
+              "title": "Compétences développées",
+              "desc": "Lors de la réalisation d'un projet d'exploitation de données, plusieurs compétences sont développées et associées :",
+              "competences": [
+                {
+                  "title": "Compétence 1 : Collecter et traiter des données",
+                  "desc": "Collecter des données brutes provenant de différentes sources, telles que des fichiers CSV, des bases de données et des API.\nNettoyer et transformer les données pour les rendre exploitables, en supprimant les doublons, en corrigeant les erreurs et en normalisant les données."
+                },
+                {
+                  "title": "Compétence 2 : Analyser des données",
+                  "desc": "Utiliser des techniques d'analyse statistique pour identifier les tendances, les corrélations et les modèles cachés dans les données.\nRépondre à des questions spécifiques, valider des hypothèses et prendre des décisions éclairées basées sur les données."
+                },
+                {
+                  "title": "Compétence 3 : Visualiser des données",
+                  "desc": "Créer des visualisations de données claires et informatives, telles que des graphiques, des tableaux de bord interactifs et des infographies.\nUtiliser des outils de visualisation de données pour représenter visuellement les tendances, les relations et les modèles identifiés dans les données."
+                },
+                {
+                  "title": "Compétence 4 : Communiquer des résultats",
+                  "desc": "Présenter les résultats de l'analyse de données de manière claire et compréhensible, en utilisant des visualisations de données attrayantes et informatives.\nFaciliter la compréhension des informations complexes et prendre des décisions éclairées basées sur les données."
+                },
+                {
+                  "title": "Compétence 5 : Travailler en équipe",
+                  "desc": "Collaborer avec d'autres membres de l'équipe pour collecter, nettoyer, analyser et visualiser les données.\nCoordonner les tâches et les responsabilités au sein de l'équipe pour assurer la réussite du projet."
+                }
+              ]
             }
           ]
         }

@@ -47,5 +47,11 @@
     "logo": "Logo de Jarod Kohler, il s'agit du nom et du prénom dans des chevrons de couleurs bleu et rouge.",
     "picture": "Photo de face de Jarod Kohler, développeur back-end et étudiant.",
     "contact": "Image illustrant le contact, provenant de \"storyset\" sur le site Freepik."
+  },
+
+  "errorPage": {
+    "title": "Erreur 404",
+    "message": "La page que vous recherchez n'existe pas.",
+    "buttonText": "Retour à l'accueil"
   }
 }

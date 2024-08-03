@@ -112,7 +112,7 @@ export const ExpContent = ({t, val}: IProps) => {
                     ))}
                 </div>
                 <div className="link-container">
-                    <a href={exp.link} target="_blank" rel="noreferrer">{exp.linkDesc}</a>
+                    <a href={exp.link} rel="noreferrer">{exp.linkDesc}</a>
                 </div>
             </div>
         );

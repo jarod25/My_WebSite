@@ -47,6 +47,12 @@ export interface Translations {
     picture: string;
     contact: string;
   };
+
+  errorPage: {
+    title: string;
+    message: string;
+    buttonText: string;
+  };
 }
 
 const fr: Translations = french;
