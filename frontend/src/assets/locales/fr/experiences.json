@@ -323,8 +323,8 @@
         {
           "id": 1,
           "title": "Exploitation de données",
-          "descShort": "Analyser des données brutes pour en extraire des informations pertinentes et les présenter de manière claire et compréhensible.",
-          "descFull": "Ce projet consiste à analyser des données brutes provenant de différentes sources pour en extraire des informations pertinentes et les présenter de manière claire et compréhensible. Les tâches incluent la collecte des données, le nettoyage et la transformation des données, l'analyse statistique et la visualisation des résultats. Ce projet m'a permis d'approfondir mes compétences en analyse de données, en traitement de données et en visualisation de données.",
+          "descShort": "Analyse et visualisation de données pour extraire des informations clés et améliorer la prise de décision.",
+          "descFull": "Ce projet avait pour objectif d'analyser des données provenant de différentes sources afin d'en extraire des insights significatifs. Nous avons utilisé des techniques de collecte, nettoyage, et transformation des données avant de procéder à une analyse statistique. Les résultats ont ensuite été présentés sous forme de visualisations claires et informatives. Ce projet m'a permis d'approfondir mes compétences en analyse de données, en traitement des données, et en visualisation des résultats.",
           "link": "/annee/1/projet/1",
           "linkDesc": "Voir le projet",
           "skills": [
@@ -335,42 +335,212 @@
           "content": [
             {
               "title": "Collecte et nettoyage des données",
-              "desc": "Pour ce projet, nous avons collecté des données brutes provenant de différentes sources, telles que des fichiers CSV, des bases de données et des API. Ces données étaient souvent incomplètes, incohérentes ou mal formatées, ce qui nécessitait un nettoyage et une transformation préalable avant de pouvoir les analyser.\n\nNous avons utilisé des outils et des techniques de nettoyage de données, tels que la suppression des doublons, la correction des erreurs de saisie, la normalisation des données et la gestion des valeurs manquantes. Ce processus de nettoyage des données était essentiel pour garantir la qualité et la fiabilité des analyses ultérieures.",
-              "competences": []
+              "desc": "Nous avons recueilli des données brutes à partir de diverses sources telles que des fichiers CSV et des API. Le processus de nettoyage comprenait la suppression des doublons, la correction des erreurs et la gestion des valeurs manquantes. Ces étapes étaient essentielles pour garantir la qualité des analyses futures.",
+              "competences": [
+                {
+                  "title": "Préparation des données",
+                  "desc": "Mise en place d'une stratégie de collecte et de nettoyage des données pour assurer leur qualité et leur fiabilité."
+                }
+              ]
             },
             {
               "title": "Analyse statistique des données",
-              "desc": "Une fois les données nettoyées, nous avons procédé à une analyse statistique pour identifier les tendances, les corrélations et les modèles cachés dans les données. Nous avons utilisé des techniques d'analyse descriptive, d'analyse exploratoire et d'analyse prédictive pour extraire des informations pertinentes et utiles.\n\nCette analyse statistique nous a permis de répondre à des questions spécifiques, de valider des hypothèses et de prendre des décisions éclairées basées sur les données. Nous avons utilisé des outils statistiques et des logiciels d'analyse de données pour effectuer ces analyses de manière efficace et précise.",
-              "competences": []
+              "desc": "Nous avons effectué une analyse statistique approfondie pour découvrir des tendances et des modèles cachés. Cette analyse nous a aidés à valider des hypothèses et à extraire des informations précieuses pour une prise de décision éclairée.",
+              "competences": [
+                {
+                  "title": "Analyse des données",
+                  "desc": "Utilisation de techniques statistiques pour extraire des informations utiles et valider des hypothèses."
+                }
+              ]
             },
             {
               "title": "Visualisation des données",
-              "desc": "Enfin, nous avons présenté les résultats de notre analyse sous forme de visualisations de données claires et informatives. Nous avons utilisé des graphiques, des tableaux de bord interactifs et des infographies pour représenter visuellement les tendances, les relations et les modèles identifiés dans les données.\n\nLa visualisation des données était essentielle pour communiquer efficacement nos résultats, faciliter la compréhension des informations complexes et prendre des décisions éclairées basées sur les données. Nous avons utilisé des outils de visualisation de données, tels que Matplotlib, Seaborn et Bokeh, pour créer des visualisations attrayantes et informatives.",
-              "competences": []
+              "desc": "Les résultats ont été présentés sous forme de visualisations, utilisant des outils tels que Matplotlib et Seaborn pour créer des graphiques attrayants et informatifs. Ces visualisations ont facilité la communication des résultats et aidé à la prise de décisions basées sur les données.",
+              "competences": [
+                {
+                  "title": "Création de visualisations",
+                  "desc": "Réalisation de visualisations de données percutantes pour une communication efficace des résultats."
+                }
+              ]
             },
             {
               "title": "Compétences développées",
-              "desc": "Lors de la réalisation d'un projet d'exploitation de données, plusieurs compétences sont développées et associées :",
+              "desc": "Ce projet a permis le développement des compétences suivantes :",
               "competences": [
                 {
-                  "title": "Compétence 1 : Collecter et traiter des données",
-                  "desc": "Collecter des données brutes provenant de différentes sources, telles que des fichiers CSV, des bases de données et des API.\nNettoyer et transformer les données pour les rendre exploitables, en supprimant les doublons, en corrigeant les erreurs et en normalisant les données."
+                  "title": "Analyse de données avancée",
+                  "desc": "Maîtrise des techniques d'analyse et d'exploration des données pour tirer des conclusions pertinentes."
                 },
                 {
-                  "title": "Compétence 2 : Analyser des données",
-                  "desc": "Utiliser des techniques d'analyse statistique pour identifier les tendances, les corrélations et les modèles cachés dans les données.\nRépondre à des questions spécifiques, valider des hypothèses et prendre des décisions éclairées basées sur les données."
+                  "title": "Communication des résultats",
+                  "desc": "Capacité à présenter des données complexes de manière claire et compréhensible à travers des visualisations."
                 },
                 {
-                  "title": "Compétence 3 : Visualiser des données",
-                  "desc": "Créer des visualisations de données claires et informatives, telles que des graphiques, des tableaux de bord interactifs et des infographies.\nUtiliser des outils de visualisation de données pour représenter visuellement les tendances, les relations et les modèles identifiés dans les données."
+                  "title": "Collaboration en équipe",
+                  "desc": "Travail en collaboration avec une équipe pour analyser, interpréter, et présenter les données de manière cohérente."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idYear": 2,
+      "title": "3ème année",
+      "desc": "J'ai réalisé la 3ème année de mon BUT Informatique en alternance, ce qui m'a permis de mettre en pratique mes compétences en développement web et en gestion de projet dans un contexte professionnel. J'ai travaillé sur différents projets, notamment sur un site de e-commerce pour une entreprise qui loue du matériel pour des événements et un site vitrine pour la promotion d'une application de communication.",
+      "projects": [
+        {
+          "id": 0,
+          "title": "Site de e-commerce — Chips-Events",
+          "descShort": "Développement d'un site e-commerce spécialisé dans la location de matériel pour événements.",
+          "descFull": "Projet de création d'une plateforme e-commerce pour la location de matériel événementiel, intégrant des modèles de données complexes et des systèmes de paiement sécurisés.",
+          "link": "/annee/2/projet/0",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "PHP",
+            "Symfony",
+            "Doctrine",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "MySQL",
+            "SCRUM"
+          ],
+          "content": [
+            {
+              "title": "Gestion des données",
+              "desc": "Création de modèles de données complexes avec Symfony et gestion de leur stockage et récupération via Doctrine, l'ORM de Symfony.",
+              "competences": [
+                {
+                  "title": "Modélisation de données complexes",
+                  "desc": "Utilisation de Symfony pour créer des modèles de données adaptés aux besoins spécifiques de la gestion d'événements."
                 },
                 {
-                  "title": "Compétence 4 : Communiquer des résultats",
-                  "desc": "Présenter les résultats de l'analyse de données de manière claire et compréhensible, en utilisant des visualisations de données attrayantes et informatives.\nFaciliter la compréhension des informations complexes et prendre des décisions éclairées basées sur les données."
+                  "title": "Intégration de données externes",
+                  "desc": "Connexion à des sources de données externes pour enrichir les fonctionnalités du site et optimiser l'expérience utilisateur."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Site vitrine — ComInTime",
+          "descShort": "Création d'un site vitrine pour promouvoir une application de communication.",
+          "descFull": "Développement d'un site vitrine comportant des fonctionnalités interactives pour promouvoir une application de communication, intégrant la gestion de projet et l'architecture informatique.",
+          "link": "/annee/2/projet/1",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "Symfony",
+            "Doctrine",
+            "SEO"
+          ],
+          "content": [
+            {
+              "title": "Conception d'architecture logicielle",
+              "desc": "Mise en œuvre de l'architecture logicielle en conformité avec l'infrastructure IT de l'organisation et intégration via des API.",
+              "competences": [
+                {
+                  "title": "Architecture logicielle et intégration",
+                  "desc": "Conception et déploiement de solutions architecturales intégrées à l'infrastructure existante, utilisant des services web et des API."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Application — ComInTime",
+          "descShort": "Amélioration d'une application de communication par l'ajout de nouvelles fonctionnalités.",
+          "descFull": "Développement de nouvelles fonctionnalités pour une application de communication, incluant messagerie instantanée et gestion des utilisateurs.",
+          "link": "/annee/2/projet/2",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "PHP",
+            "Symfony",
+            "Doctrine",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "SCRUM",
+            "API"
+          ],
+          "content": [
+            {
+              "title": "Gestion de données complexes",
+              "desc": "Utilisation de Symfony et Doctrine pour gérer des données utilisateurs et des interactions en temps réel.",
+              "competences": [
+                {
+                  "title": "Capturer et stocker des données complexes",
+                  "desc": "Conception de modèles de données et intégration avec des bases de données pour stocker des informations d'utilisateur et de communication."
                 },
                 {
-                  "title": "Compétence 5 : Travailler en équipe",
-                  "desc": "Collaborer avec d'autres membres de l'équipe pour collecter, nettoyer, analyser et visualiser les données.\nCoordonner les tâches et les responsabilités au sein de l'équipe pour assurer la réussite du projet."
+                  "title": "Extraction et manipulation de données",
+                  "desc": "Utilisation de Symfony pour filtrer et manipuler les données en vue de leur utilisation dans l'application de messagerie."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Application — CNCE",
+          "descShort": "Extension du site CNCE avec de nouvelles fonctionnalités administratives.",
+          "descFull": "Projet d'extension du site CNCE pour inclure des formulaires dynamiques et une API sécurisée pour l'administration des enquêtes publiques.",
+          "link": "/annee/2/projet/3",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "PHP",
+            "Symfony",
+            "Doctrine",
+            "API REST",
+            "Sécurité Web",
+            "MySQL",
+            "JavaScript"
+          ],
+          "content": [
+            {
+              "title": "Conception et développement d'API sécurisées",
+              "desc": "Développement d'une API pour la gestion des enquêtes, en assurant la sécurité et la conformité des données.",
+              "competences": [
+                {
+                  "title": "Conception d'API sécurisées",
+                  "desc": "Développement et intégration d'API sécurisées pour l'administration des enquêtes, garantissant la protection des données."
+                },
+                {
+                  "title": "Adaptation du système d'information",
+                  "desc": "Modification et extension des composants Symfony pour répondre aux besoins changeants en matière de gestion d'enquêtes publiques."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Application — Preambules",
+          "descShort": "Mise à jour et extension du site Preambules avec de nouvelles intégrations.",
+          "descFull": "Intégration des fonctionnalités développées pour la CNCE dans le site Preambules, améliorant l'interaction des utilisateurs par des interfaces avancées.",
+          "link": "/annee/2/projet/4",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "PHP",
+            "Symfony",
+            "Doctrine",
+            "API REST"
+          ],
+          "content": [
+            {
+              "title": "Intégration de l'API et développement frontend",
+              "desc": "Implémentation des API développées précédemment et création d'interfaces utilisateur pour améliorer l'interaction et l'engagement des visiteurs.",
+              "competences": [
+                {
+                  "title": "Intégration API et développement avancé",
+                  "desc": "Utilisation de Symfony pour intégrer des services web et créer des interfaces utilisateur dynamiques et réactives."
                 }
               ]
             }

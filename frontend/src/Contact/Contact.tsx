@@ -9,8 +9,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
 import CopyAllIcon from "@mui/icons-material/CopyAll";
-import WorkIcon from "@mui/icons-material/Work";
-import WorkOffIcon from "@mui/icons-material/WorkOff";
+// import WorkIcon from "@mui/icons-material/Work";
+// import WorkOffIcon from "@mui/icons-material/WorkOff";
 
 interface IProps {
   t: Translations;
@@ -34,22 +34,22 @@ export const Contact = ({ t, availability }: IProps) => {
     setOpenSnackBar(false);
   };
 
-  const availableForWork = () => {
-    if (availability)
-      return (
-        <p>
-          <WorkIcon sx={{ fontSize: "1.2rem", margin: "0 1rem -.2rem" }} />
-          {t.contact.available}
-        </p>
-      );
-    else
-      return (
-        <p>
-          <WorkOffIcon sx={{ fontSize: "1.2rem", margin: "0 1rem -.2rem" }} />
-          {t.contact.notAvailable}
-        </p>
-      );
-  };
+  // const availableForWork = () => {
+  //   if (availability)
+  //     return (
+  //       <p>
+  //         <WorkIcon sx={{ fontSize: "1.2rem", margin: "0 1rem -.2rem" }} />
+  //         {t.contact.available}
+  //       </p>
+  //     );
+  //   else
+  //     return (
+  //       <p>
+  //         <WorkOffIcon sx={{ fontSize: "1.2rem", margin: "0 1rem -.2rem" }} />
+  //         {t.contact.notAvailable}
+  //       </p>
+  //     );
+  // };
 
   const copyText = async (data: string) => {
     try {

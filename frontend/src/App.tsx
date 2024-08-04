@@ -10,6 +10,7 @@ import {Experience} from "./Experience/Experience";
 import {Contact} from "./Contact/Contact";
 import {Project} from "./Project/Project";
 import {ProjectYear} from "./ProjectYear/ProjectYear";
+import {Error} from "./Error/Error";
 import {
     createBrowserRouter,
     RouterProvider,
@@ -46,6 +47,10 @@ export const App = () => {
         {
             path: "/annee/:yearId/projet/:projectId",
             element: <Project t={translate} />,
+        },
+        {
+            path: "*",
+            element: <Error t={translate} />
         }
     ]);
 
