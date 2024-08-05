@@ -1,8 +1,8 @@
 import React from "react";
 import "./Profile.css";
 import { Translations } from "../i18n";
-// import picture from "../assets/img/my-profile.jpg";
-import picture from "../assets/img/my-profile.svg";
+import picture from "../assets/img/my-profile.png";
+// import picture from "../assets/img/my-profile.svg";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 
 interface IProps {

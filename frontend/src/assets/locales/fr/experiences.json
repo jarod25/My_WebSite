@@ -322,7 +322,7 @@
         },
         {
           "id": 1,
-          "title": "Exploitation de données",
+          "title": "Exploitation et visualisation de données",
           "descShort": "Analyse et visualisation de données pour extraire des informations clés et améliorer la prise de décision.",
           "descFull": "Ce projet avait pour objectif d'analyser des données provenant de différentes sources afin d'en extraire des insights significatifs. Nous avons utilisé des techniques de collecte, nettoyage, et transformation des données avant de procéder à une analyse statistique. Les résultats ont ensuite été présentés sous forme de visualisations claires et informatives. Ce projet m'a permis d'approfondir mes compétences en analyse de données, en traitement des données, et en visualisation des résultats.",
           "link": "/annee/1/projet/1",
@@ -368,16 +368,16 @@
               "desc": "Ce projet a permis le développement des compétences suivantes :",
               "competences": [
                 {
-                  "title": "Analyse de données avancée",
-                  "desc": "Maîtrise des techniques d'analyse et d'exploration des données pour tirer des conclusions pertinentes."
+                  "title": "Optimiser une base de données, interagir avec une application et mettre en œuvre la sécurité",
+                  "desc": "Utilisation de requêtes API pour extraire des données et les intégrer dans une base de données.\nOptimisation des performances de la base de données pour garantir une interaction rapide et efficace avec l'application.\nMise en œuvre de mesures de sécurité pour protéger les données sensibles et garantir la confidentialité des informations."
                 },
                 {
-                  "title": "Communication des résultats",
-                  "desc": "Capacité à présenter des données complexes de manière claire et compréhensible à travers des visualisations."
+                  "title": "Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs",
+                  "desc": "Identification des besoins métiers et des objectifs des professeurs pour orienter la collecte et l'analyse des données.\nSuivi des indicateurs de performance clés pour évaluer l'efficacité des analyses et des visualisations.\nAdaptation des méthodes et des outils en fonction des retours des professeurs."
                 },
                 {
-                  "title": "Collaboration en équipe",
-                  "desc": "Travail en collaboration avec une équipe pour analyser, interpréter, et présenter les données de manière cohérente."
+                  "title": "Collaborer au sein d’une équipe informatique",
+                  "desc": "Répartition des tâches entre les membres de l'équipe pour optimiser l'efficacité et la productivité.\nCommunication régulière et transparente pour assurer une coordination efficace et une compréhension mutuelle des objectifs.\nPartage des connaissances et des compétences pour renforcer la cohésion de l'équipe et favoriser l'apprentissage mutuel."
                 }
               ]
             }
@@ -400,25 +400,32 @@
           "skills": [
             "PHP",
             "Symfony",
+
             "Doctrine",
             "HTML",
             "CSS",
             "JavaScript",
             "MySQL",
-            "SCRUM"
+            "SCRUM",
+            "Odoo",
+            "PayPlug"
           ],
           "content": [
             {
-              "title": "Gestion des données",
-              "desc": "Création de modèles de données complexes avec Symfony et gestion de leur stockage et récupération via Doctrine, l'ORM de Symfony.",
+              "title": "Compétences développées",
+              "desc": "Grâce à ce projet, j'ai pu acquérir de nombreuses compétences en développement web et en gestion de données. Voici quelques-unes que j'ai développées :",
               "competences": [
                 {
                   "title": "Modélisation de données complexes",
-                  "desc": "Utilisation de Symfony pour créer des modèles de données adaptés aux besoins spécifiques de la gestion d'événements."
+                  "desc": "Utilisation de Symfony pour créer des modèles de données adaptés aux besoins spécifiques du client.\nIntégration de bases de données MySQL pour stocker et gérer les informations relatives aux produits et aux commandes.\nMise en place de relations complexes entre les différentes entités pour garantir une cohérence et une intégrité des données."
                 },
                 {
                   "title": "Intégration de données externes",
-                  "desc": "Connexion à des sources de données externes pour enrichir les fonctionnalités du site et optimiser l'expérience utilisateur."
+                  "desc": "Connexion à des sources de données externes telles que des API pour enrichir les informations disponibles sur le site.\nUtilisation de l'ERP d'Odoo pour gérer les stocks et les commandes en temps réel.\nIntégration de PayPlug pour permettre des paiements sécurisés et fiables."
+                },
+                {
+                  "title": "Développement backend avancé",
+                    "desc": "Utilisation de Symfony et Doctrine pour créer des fonctionnalités avancées telles que la gestion des commandes, des paniers et des utilisateurs.\nMise en place de systèmes de paiement sécurisés et fiables pour garantir une expérience utilisateur optimale.\nOptimisation des performances du site pour garantir une navigation fluide et rapide."
                 }
               ]
             }
@@ -490,7 +497,7 @@
         {
           "id": 3,
           "title": "Application — CNCE",
-          "descShort": "Extension du site CNCE avec de nouvelles fonctionnalités administratives.",
+          "descShort": "Mise à jour et extension du site CNCE avec de nouvelles fonctionnalités administratives.",
           "descFull": "Projet d'extension du site CNCE pour inclure des formulaires dynamiques et une API sécurisée pour l'administration des enquêtes publiques.",
           "link": "/annee/2/projet/3",
           "linkDesc": "Voir le projet",

@@ -9,10 +9,10 @@
     min-height: 60vh;
     width: 100%;
     top:0;
-    /* background-image: linear-gradient(
-        to right, 
-        rgba(255,0,0,0) 0%, 
-        var(--bg-color) 75%); */
+     /*background-image: linear-gradient(*/
+     /*   to right, */
+     /*   rgba(255,0,0,0) 0%, */
+     /*   var(--bg-color) 75%); */
 }
 
 .intro-text {
