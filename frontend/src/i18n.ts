@@ -32,6 +32,8 @@ export interface Translations {
     domainName: string;
     callMe: string;
     phone: string;
+    downloadResume: string;
+    resume: string;
     copyMail: string;
     copyPhone: string;
     errorCopy: string;

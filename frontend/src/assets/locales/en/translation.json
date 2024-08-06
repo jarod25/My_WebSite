@@ -33,6 +33,8 @@
     "domainName": "@gmail.com",
     "callMe": "Call me at: ",
     "phone": "+33 6 59 73 51 58",
+    "downloadResume": "Download my resume: ",
+    "resume": "click here",
     "copyMail": "Phone number successfully copied!",
     "copyPhone": "E-mail address successfully copied!",
     "errorCopy": "Copy failed.",

@@ -9,6 +9,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
 import CopyAllIcon from "@mui/icons-material/CopyAll";
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 // import WorkIcon from "@mui/icons-material/Work";
 // import WorkOffIcon from "@mui/icons-material/WorkOff";
 
@@ -67,6 +68,28 @@ export const Contact = ({ t, availability }: IProps) => {
     }
   };
 
+  
+  const dlDocument = async () => {
+    const url = `${process.env.PUBLIC_URL}/cv.pdf`;
+    fetch(url)
+        .then(response => response.blob())
+        .then(blob => {
+          const url = window.URL.createObjectURL(new Blob([blob]));
+          const link = document.createElement('a');
+          link.href = url;
+          link.setAttribute('download', 'CV Jarod KOHLER.pdf'); // Nom du fichier téléchargé
+          document.body.appendChild(link);
+          link.click();
+          // Vérifiez que le parent existe avant de le supprimer
+          if (link.parentNode) {
+            link.parentNode.removeChild(link);
+          }
+          // Révoquer l'URL de l'objet après l'utilisation pour libérer la mémoire
+          window.URL.revokeObjectURL(url);
+        })
+        .catch(error => console.error('Erreur lors du téléchargement du fichier:', error));
+  };
+
   return (
     <div className="page contact" id="contactScroll">
       <div className="title-banner center-items">
@@ -78,12 +101,12 @@ export const Contact = ({ t, availability }: IProps) => {
         margin={0}
         className="contact-infos center-items"
       >
-        <Grid2 xs={12} md={10} lg={6}>
+        <Grid2 xs={12} sm={10} md={8} lg={6}>
           <div className="center-items">
-            <img src={ImgContact} alt={t.alt.contact} />
+            <img src={ImgContact} alt={t.alt.contact} className="image-contact"/>
           </div>
         </Grid2>
-        <Grid2 xs={12} lg={4}>
+        <Grid2 className="contact-font" xs={12} sm={10} md={8} lg={6}>
           {/* {availableForWork()} */}
           <p>
             <MailIcon sx={{ fontSize: "1.2rem", margin: "0 1rem -.2rem" }} />
@@ -107,6 +130,15 @@ export const Contact = ({ t, availability }: IProps) => {
             </span>
             <CopyAllIcon sx={{ fontSize: "1.2rem", margin: "0 0.5rem -.2rem", cursor: "pointer"}} 
             onClick={() => handleClick(t.contact.phone)}/>
+          </p>
+          <p>
+            <FileDownloadIcon sx={{ fontSize: "1.2rem", margin: "0 1rem -.2rem" }} />
+            {t.contact.downloadResume}
+            <span>
+              <button onClick={dlDocument} className="mail-and-phone" style={{margin:"-1vh 0", padding: "1.2%", border:"none"}}>
+              {t.contact.resume}
+              </button>
+            </span>
           </p>
           <Grid2 xs={12} lg={12} className="center-items social-networks">
             <h3>{t.contact.socialNetworks}</h3>
