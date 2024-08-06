@@ -22,6 +22,7 @@ export const Contact = ({ t, availability }: IProps) => {
   const [openSnackBar, setOpenSnackBar] = useState(false);
   const [snackResult, setSnackResult] = useState({AlertColor: "success", message:""})!;
 
+ 
   const handleClick = (data: string) => {
     copyText(data);
     setOpenSnackBar(true);
@@ -143,13 +144,13 @@ export const Contact = ({ t, availability }: IProps) => {
           <Grid2 xs={12} lg={12} className="center-items social-networks">
             <h3>{t.contact.socialNetworks}</h3>
           </Grid2>
-          <Grid2 xs={12} lg={12} className="center-items">
+          <Grid2 xs={2} lg={12} className="center-items" >
             <IconButton
               aria-label="LinkedIn"
               size="large"
               href={t.contact.linkedInLink}
               target="_blank"
-              sx={{ color: "var(--theme-text)" }}
+              sx={{ color: "var(--theme-text)", transform: "scale(1.5)", width: 40, height: 40, margin:"1vh 1vw" }}
             >
               <LinkedInIcon />
             </IconButton>
@@ -158,7 +159,7 @@ export const Contact = ({ t, availability }: IProps) => {
               size="large"
               href={t.contact.githubLink}
               target="_blank"
-              sx={{ color: "var(--theme-text)" }}
+              sx={{color: "var(--theme-text)", transform: "scale(1.5)", width: 40, height: 40, margin:"1vh 1vw" }}
             >
               <GitHubIcon />
             </IconButton>
