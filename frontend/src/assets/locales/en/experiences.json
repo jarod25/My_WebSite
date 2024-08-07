@@ -6,7 +6,7 @@
       "date": "2018",
       "place": "Sévenans",
       "company": "LERMPS",
-      "desc": "1-week observation internship in a research laboratory on materials, processes and surfaces. ",
+      "desc": "1-week observation internship in a research laboratory on materials, processes and surfaces.",
       "skills": [
         "3D printing (laser)",
         "Laser cutting",
@@ -37,7 +37,7 @@
       "date": "2022",
       "place": "Exincourt",
       "company": "Burger King",
-      "desc": "I learned to work in a team, manage stress and be versatile. ",
+      "desc": "I learned to work in a team, manage stress and be versatile.",
       "skills": [
         "Team work",
         "Stress management",
@@ -89,7 +89,7 @@
       "id": 0,
       "diploma": "General Baccalaureate — Mathematics and Engineering Sciences",
       "place": "Montbéliard",
-      "name": "Germaine Tillion comprehensive high school",
+      "name": "Germaine Tillion high school",
       "date": "2021",
       "desc": "General baccalaureate obtained with mention of Enough-good. Mathematics and Engineering Sciences, with Physics-Chemistry stopped at the end of 12th grade.",
       "skills": [
@@ -147,7 +147,7 @@
       "name": "IUT Nord Franche-Comté",
       "link": "/year/0",
       "linkDesc": "See all projects",
-      "desc": "List of 8 projects carried out in the 1st year of BUT Informatique. ",
+      "desc": "List of the projects carried out in the 1st year of BUT Informatique. These projects are called “SAE” which means “Learning and Assessment Situation”, and were carried out in groups of 2 to 6 students depending on the complexity of the project.",
       "skills": [
         "E-commerce websites",
         "Games",
@@ -176,75 +176,571 @@
       "name": "IUT Nord Franche-Comté",
       "link": "/year/2",
       "linkDesc": "See all projects",
-      "desc": "List of 2 projects (1 per semester) carried out in the 3rd year of BUT Informatique. ",
+      "desc": "List of 2 projects (1 per semester) carried out in the 3rd year of BUT Informatique. These are mainly projects carried out in alternance.",
       "skills": [
         "Apprenticeship",
         "Websites (e-commerce, showcase, events)"
       ]
     }
-  ]
-,
+  ],
   "university": [
     {
       "idYear": 0,
-      "title": "1ère année",
-      "desc": "La première année de BUT Informatique est une année d'initiation aux bases de l'informatique. Les étudiants apprennent les bases de la programmation, de la gestion de projet et de la communication.",
+      "title": "1st year",
+      "desc": "The first year of BUT Informatique is an introduction to the basics of computer science. Students learn the basics of programming, project management and communication.",
       "projects": [
         {
           "id": 0,
-          "title": "Jeu du jeton en Java",
-          "descShort": "Le jeu du jeton en Java, jeu de plateau qui se joue a deux.\n\nChaque joueur commence la partie avec 10 jetons, et doit les placer sur le plateau de 21 cases. Chaque pion a une valeur, le pion 1 vaut 1 point, le pion 2 en vaut 2, etc. Une fois que les 2 joueurs ont placés leurs 10 pions, il reste une case vide. Celui qui remporte la partie est le joueur qui a le moins de points autour de la case vide.",
+          "title": "Token game in Java",
+          "descShort": "A strategic board game developed in Java, integrating a JavaFX interface and artificial intelligence to enrich the gaming experience.",
+          "descFull": "The token game in Java is a strategic board game where two players take turns placing tokens of increasing values ​​on a board of 21 squares. Each player must minimize the sum of points around an empty remaining square to win. This project highlights my skills in Java, JavaFX for the user interface, and artificial intelligence programming to improve the game. This project was carried out in groups of 2, and allowed me to deepen my skills in application development, algorithm optimization and teamwork.",
+          "link": "/year/0/project/0",
+          "linkDesc": "See the project",
           "skills": [
             "Java",
             "JavaFX",
-            "POO"
+            "Algorithmic",
+            "Team work"
           ],
           "content": [
             {
-              "title": "POO",
-              "desc": "Programmation orientée objet, utilisée pour la création des classes et des objets du jeu.",
+              "title": "Carry out application development",
+              "desc": "This project allowed me to strengthen my skills in developing simple applications in Java, particularly using JavaFX to create an intuitive GUI.",
               "competences": [
                 {
-                  "title": "Java",
-                  "desc": "Langage de programmation orienté objet, utilisé pour le développement de la logique du jeu."
-                },
-                {
-                  "title": "JavaFX",
-                  "desc": "Bibliothèque graphique de Java, utilisée pour la création de l'interface graphique du jeu."
-                },
-                {
-                  "title": "POO",
-                  "desc": "Programmation orientée objet, utilisée pour la création des classes et des objets du jeu."
+                  "title": "Develop simple computer applications",
+                  "desc": "Creation of a game in Java with a neat graphical interface using JavaFX."
                 }
               ]
             },
             {
-              "title": "JavaFX",
-              "desc": "Bibliothèque graphique de Java, utilisée pour la création de l'interface graphique du jeu.",
+              "title": "Application Optimization",
+              "desc": "The project also focused on optimizing the performance and efficiency of the algorithms used.",
               "competences": [
                 {
-                  "title": "Java",
-                  "desc": "Langage de programmation orienté objet, utilisé pour le développement de la logique du jeu."
-                },
+                  "title": "Understanding and building algorithms",
+                  "desc": "Creation and implementation of algorithms for game rules and artificial intelligence."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "IT systems administration",
+          "descShort": "Configure and administer workstations and network services to ensure an efficient IT infrastructure.",
+          "descFull": "This project involves installing and configuring workstations in a network environment, thus ensuring connectivity and security of computer systems. Tasks include the establishment of secure working environments, the deployment of services in a network architecture, and the resolution of connectivity issues. This project allowed me to deepen my system administration skills, with a focus on workstation management and network configuration. We were a group of 3 students.",
+          "link": "/year/0/project/1",
+          "linkDesc": "See the project",
+          "skills": [
+            "Systems Administration",
+            "Network configuration"
+          ],
+          "content": [
+            {
+              "title": "Workstation management",
+              "desc": "Installation and configuration of workstations to ensure a secure and efficient working environment.",
+              "competences": [
                 {
-                  "title": "JavaFX",
-                  "desc": "Bibliothèque graphique de Java, utilisée pour la création de l'interface graphique du jeu."
-                },
-                {
-                  "title": "POO",
-                  "desc": "Programmation orientée objet, utilisée pour la création des classes et des objets du jeu."
+                  "title": "Install and configure workstations",
+                  "desc": "Setting up workstations with personalized configurations to meet user needs."
                 }
               ]
             },
             {
-              "title": "Java",
-              "desc": "Langage de programmation orienté objet, utilisé pour le développement de la logique du jeu.",
+              "title": "Network configuration",
+              "desc": "Implementation of a network architecture to ensure connectivity and security of IT systems.",
+              "competences": [
+                {
+                  "title": "Configure network services",
+                  "desc": "Deployment of network services such as DHCP, DNS, and firewalls to ensure system connectivity and security."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Carpooling site",
+          "descShort": "Carpooling site in Python with Flask, as well as MySQL for the database.",
+          "descFull": "The project consisted of creating a carpooling site in Python with Flask, as well as MySQL for the database. The site allowed users to propose trips with Departure or Arrival in Belfort and to search for carpooling to share travel expenses. This project allowed me to put my skills in web development and database queries into practice. I worked in a group of 3 students.",
+          "link": "/year/0/project/2",
+          "linkDesc": "See the project",
+          "skills": [
+            "Python",
+            "Flask",
+            "MySQL",
+            "Web development"
+          ],
+          "content": [
+            {
+              "title": "Web development",
+              "desc": "Creation of a complete website in Python with Flask, using HTML templates and MySQL database queries.",
+              "competences": [
+                {
+                  "title": "Develop a website",
+                  "desc": "Creation of a functional carpooling site with search, registration and trip publishing functionalities."
+                }
+              ]
+            },
+            {
+              "title": "Database queries",
+              "desc": "Using MySQL to store and manage trip, user and carpool information.",
+              "competences": [
+                {
+                  "title": "Interact with a database",
+                  "desc": "Created SQL queries to insert, update, delete and retrieve data from the database."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Kamisado game in Java",
+          "descShort": "The Kamisado game in Java, a strategic board game where each player must bring their pawn to the opposing line.",
+          "descFull": "Players move their pawn according to the color of the square it is on, trying to block the opponent. This project allowed me to put into practice my skills in Java, JavaFX for the graphical interface, and algorithmic for game logic. I worked in a group of 6 to realize this project.",
+          "link": "/year/0/project/3",
+          "linkDesc": "See the project",
+          "skills": [
+            "Java",
+            "JavaFX",
+            "Algorithmic",
+            "Team work"
+          ],
+          "content": [
+            {
+              "title": "Application development",
+              "desc": "Creation of a board game in Java with a graphical interface in JavaFX for an optimal user experience.",
+              "competences": [
+                {
+                  "title": "Develop applications in Java",
+                  "desc": "Created a complete board game in Java with move, block and win features."
+                }
+              ]
+            },
+            {
+              "title": "Algorithmic",
+              "desc": "Implementation of the pawn movement algorithm according to the rules of the game, for a fluid and strategic gaming experience.",
+              "competences": [
+                {
+                  "title": "Building algorithms",
+                  "desc": "Creation of a pawn movement algorithm based on the game rules for a realistic gaming experience."
+                }
+              ]
+            },
+            {
+              "title": "Team work",
+              "desc": "Collaboration with other students to carry out the project, distributing tasks and ensuring effective communication.",
+              "competences": [
+                {
+                  "title": "Team working",
+                  "desc": "Distribution of tasks between team members for efficient completion of the project."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "E-commerce site in Python",
+          "descShort": "E-commerce site for a ski sale in Python with Flask, as well as MySQL for the database.",
+          "descFull": "The project consisted of creating an e-commerce site for a ski sale in Python with Flask, as well as MySQL for the database. The site allowed users to view products, add them to their cart, place orders and manage their account. This project allowed me to put my web development and database management skills into practice. There was also a whole project management and site deployment on Pythonanywhere. I worked in a group of 3 students.",
+          "link": "/year/0/project/4",
+          "linkDesc": "See the project",
+          "skills": [
+            "Python",
+            "Flask",
+            "MySQL",
+            "Web development",
+            "Project management"
+          ],
+          "content": [
+            {
+              "title": "Web development",
+              "desc": "Creation of a complete e-commerce site in Python with Flask, using HTML templates and MySQL database queries.",
+              "competences": [
+                {
+                  "title": "Develop an e-commerce site",
+                  "desc": "Creation of a functional online sales site with consultation, ordering and account management functionalities."
+                }
+              ]
+            },
+            {
+              "title": "Data base management",
+              "desc": "Using MySQL to store and manage product, user and order information.",
+              "competences": [
+                {
+                  "title": "Interact with a database",
+                  "desc": "Created SQL queries to insert, update, delete and retrieve data from the database."
+                }
+              ]
+            },
+            {
+              "title": "Project management",
+              "desc": "Task planning, distribution of roles, project monitoring.",
+              "competences": [
+                {
+                  "title": "Manage an IT project",
+                  "desc": "Organization and monitoring of the different stages of the project to guarantee its completion within the set deadlines."
+                }
+              ]
+            },
+            {
+              "title": "Site deployment",
+              "desc": "Deployment of the site on Pythonanywhere to make it accessible online.",
               "competences": []
             }
+          ]
+        }
+      ]
+    },
+    {
+      "idYear": 1,
+      "title": "2nd year",
+      "desc": "The second year of BUT Informatique is a specialization year where students deepen their skills in web development, project management and communication. The year ends with a 3-month in-company internship.",
+      "projects": [
+        {
+          "id": 0,
+          "title": "La Cour Médiévale De Mon Seigneur Ambert",
+          "descShort": "This site aims to manage the convention \"La Cour Médiévale De Mon Seigneur Ambert\", a medieval convention taking place at Montby Castle, in Doubs. This convention was entirely conceived and designed by the site’s team of developers.",
+          "descFull": "This project was carried out in a group of 5 students and allowed us to practice our skills in web development, project management and communication. The site allows to manage registrations of participants, activities proposed, stands and animations, as well as practical information about the event. This application was created using HTML, CSS, JavaScript, VueJS and Postgresql technologies as well as the agile SCRUM methodology for project management.",
+          "link": "/year/1/project/0",
+          "linkDesc": "See the project",
+          "skills": [
+            "Project management",
+            "SCRUM",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "VueJS",
+            "Postgresql"
           ],
-          "descFull": "Le jeu du jeton en Java est un jeu de plateau qui se joue à deux. Chaque joueur commence la partie avec 10 jetons, et doit les placer sur le plateau de 21 cases. Chaque pion a une valeur, le pion 1 vaut 1 point, le pion 2 en vaut 2, etc. Une fois que les 2 joueurs ont placé leurs 10 pions, il reste une case vide. Celui qui remporte la partie est le joueur qui a le moins de points autour de la case vide.",
-          "link": "",
-          "linkDesc": "Voir le projet"
+          "content": [
+            {
+              "title": "The database",
+              "desc": "To set up the database, I started by carrying out a MCD with another student in order to identify the different tables and associations that would constitute it. For this, we used the Looping tool which is a conceptual data modeling software. \nOn the other hand, we made the decision to use PostgreSQL as a database management system because it offers the ability to store and database tables quite easily.\nThen, we asked about the method to use for queries to the database: pure SQL or using an ORM. We opted for the use of the ORM Sequelize. This decision was justified by the fact that it simplifies interaction with the database, and allows for better code readability.\nAfter completing all these steps and installing Sequelize in the project, we created the Sequelize templates. These templates are used to inform the ORM of all details related to each table: its name, its attributes with their types, its associations with other tables, etc.",
+              "competences": []
+            },
+            {
+              "title": "The backend",
+              "desc": "For the backend part of our application, we created a REST API using NodeJS, a JavaScript framework known for its flexibility and performance. This API allows us to communicate with our database, extract the necessary data, process it as we need and send it back to the frontend.\nThanks to this API, we are able to perform CRUD (Create, Read, Update, Delete) operations on our data. For example, we may retrieve specific information, add new data, update existing records or delete them from the database.\nUsing NodeJS also gives us the ability to asynchronously manage incoming requests, which helps optimize performance and ensure a responsive user experience. In addition, the advanced JavaScript features offered by NodeJS make it easier to process data before sending it back to the frontend.",
+              "competences": []
+            },
+            {
+              "title": "The frontend",
+              "desc": "Our site was developed entirely using Vue.js, a modern and powerful JavaScript framework for building user interfaces.  Vue.js offers a responsive and component-based approach, which allows us to create interactive and dynamic pages. Thanks to its ease of use, Vue.js has allowed us to develop our frontend quickly and efficiently.\nWith Vue.js, we were able to split our interface into reusable components, which makes maintenance and future updates easier. Vue.js advanced features, such as state management with Vuex, routing with Vue Router and custom directives, allowed us to implement complex features while maintaining clean and structured code.\nIn addition, Vue.js offers excellent integration with other libraries and tools, which has allowed us to enrich our site with additional functionality. Thanks to the flexibility of Vue.js, we were able to create a smooth and pleasant user experience.",
+              "competences": []
+            },
+            {
+              "title": "Skills developed",
+              "desc": "When creating a site in Node.js and Vue.js, with a PostgreSQL database, several skills are developed and associated:",
+              "competences": [
+                {
+                  "title": "Skill 1: Carry out application development",
+                  "desc": "\t• Master JavaScript programming and Node.js fundamentals to create the application backend\n\t• Use Vue.js to develop the frontend and create interactive user interfaces\n\t• Implement appropriate software architecture to ensure application modularity and maintainability"
+                },
+                {
+                  "title": "Skill 2: Optimize computer applications",
+                  "desc": "\t• Understand performance and optimization principles to minimize application response times and load times\n\t• Use caching techniques to improve performance, including frequent database queries"
+                },
+                {
+                  "title": "Skill 3: Administer complex communicating IT systems",
+                  "desc": "\t• Configure and manage Node.js application servers to ensure the application runs smoothly\n\t• Ensure communication between the different components of the system, such as communication between the frontend Vue.js and the backend Node.js"
+                },
+                {
+                  "title": "Skill 4: Manage information data",
+                  "desc": "\t• Design and model the PostgreSQL database by defining tables, relationships and constraints\n\t• Use SQL queries to interact with the database, retrieve, insert, update or delete data"
+                },
+                {
+                  "title": "Skill 5: Lead a project",
+                  "desc": "\t• Plan and organize the different stages of site development, defining objectives, necessary resources and deadlines\n\t• Follow good project management practices such as use of version control tools (Git) and code documentation"
+                },
+                {
+                  "title": "Skill 6: Working in an IT team",
+                  "desc": "\t• Collaborate with other developers for simultaneous frontend and backend development\n\t• Use collaboration tools such as project management systems (like Trello) to facilitate coordination and communication within the team"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Data exploitation and visualization",
+          "descShort": "As part of a group project involving three people, we analyzed and visualized data from various sources to extract crucial insights, thereby strengthening decision-making.",
+          "descFull": "This project aimed to analyze data from different sources in order to extract meaningful insights intended to improve decision-making. To complete this, we used data collection, cleansing and transformation techniques before conducting statistical analysis. We then presented the results in clear and informative visualizations. This project has allowed me to deepen my skills in data analysis, data processing and results visualization.",
+          "link": "/year/1/project/1",
+          "linkDesc": "See the project",
+          "skills": [
+            "Data analysis",
+            "Data processing",
+            "Data visualization"
+          ],
+          "content": [
+            {
+              "title": "Data collection and cleaning",
+              "desc": "We collected raw data from various sources such as CSV files and APIs.  The cleaning process included removing duplicates, correcting errors and managing missing values. These steps were essential to ensure the quality of future analyses.",
+              "competences": [
+                {
+                  "title": "Data preparation",
+                  "desc": "Before continuing my analysis, I implemented a data collection and cleaning strategy to ensure its quality and reliability."
+                }
+              ]
+            },
+            {
+              "title": "Statistical analysis of data",
+              "desc": "We performed in-depth statistical analysis to uncover hidden trends and patterns. This analysis has helped us to validate assumptions and extract valuable information for informed decision-making.",
+              "competences": []
+            },
+            {
+              "title": "Data visualization",
+              "desc": "The results were presented as visualizations, using tools such as Matplotlib and Seaborn to create attractive and informative graphs. These visualizations have facilitated the communication of results and helped in data-driven decision making.",
+              "competences": []
+            },
+            {
+              "title": "Skills developed",
+              "desc": "This project allowed the development of the following skills:",
+              "competences": [
+                {
+                  "title": "Optimize a database, interact with an application and implement security",
+                  "desc": "\t• Using API queries to extract data and integrate it into a database\n\t• Database performance optimization to ensure fast and efficient interaction with the application\n\t• Implementation of security measures to protect sensitive data and ensure confidentiality of information"
+                },
+                {
+                  "title": "Apply a project monitoring approach based on the business needs of clients and users",
+                  "desc": "\t• Identification of business needs and teacher objectives to guide data collection and analysis\n\t• Tracking key performance indicators to assess the effectiveness of analytics and visualizations\n\t• Adaptation of methods and tools based on feedback from teachers"
+                },
+                {
+                  "title": "Collaborate within an IT team",
+                  "desc": "\t• Distribution of tasks among team members to optimize efficiency and productivity\n\t• Regular and transparent communication to ensure effective coordination and mutual understanding of objectives\n\t• Sharing knowledge and skills to strengthen team cohesion and foster mutual learning"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Internship — Web Developer",
+          "descShort": "3-month internship in a company to put my web development skills into practice.",
+          "descFull": "I completed a 3-month internship at Web&Design, a web development agency specializing in the creation of showcase sites and e-commerce sites. I have worked on various projects, including a site selling products and accessories for commercial vehicles. I was able to put into practice my skills in HTML, CSS, JavaScript, PHP, Symfony and MySQL to develop advanced features and optimize the site’s performance. I also participated in project management using the SCRUM method to organize teamwork and track the progress of the project.",
+          "link": "/year/1/project/2",
+          "linkDesc": "See the project",
+          "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "Symfony",
+            "MySQL",
+            "Project management",
+            "SCRUM"
+          ],
+          "content": [
+            {
+              "title": "Skills developed",
+              "desc": "This internship allowed me to put my web development and project management skills into practice. Some of the skills I have developed are:",
+              "competences": [
+                {
+                  "title": "Backend development",
+                  "desc": "\t• Using Symfony and Doctrine to create advanced features such as product, order and user management\n\t• Site performance optimization to ensure smooth and fast navigation\n\t• Creation of the administrator space to manage the site’s content and users"
+                },
+                {
+                  "title": "Agile project management",
+                  "desc": "\t• Use of the SCRUM method to organize work in sprints and monitor the progress of the project\n\t• Working closely with the team to define goals, priorities and tasks\n\t• Adapt to changes and customer feedback to ensure satisfaction and quality of the final product"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idYear": 2,
+      "title": "3rd year",
+      "desc": "I completed the 3rd year of my IT BUT on a work-study basis, which allowed me to put my skills in web development and project management into practice in a professional context. I have worked on various projects, including an e-commerce site for a company that rents equipment for events, a showcase site for the promotion of a communication application and various other applications.",
+      "projects": [
+        {
+          "id": 0,
+          "title": "E-commerce site — Chips-Events",
+          "descShort": "Development of an e-commerce site specializing in the rental of equipment for events.",
+          "descFull": "Project to create an e-commerce platform for event equipment rental, integrating complex data models and secure payment systems.",
+          "link": "/year/2/project/0",
+          "linkDesc": "See the project",
+          "skills": [
+            "PHP",
+            "Symfony",
+            "Doctrine",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "MySQL",
+            "SCRUM",
+            "Odoo",
+            "PayPlug"
+          ],
+          "content": [
+            {
+              "title": "Skills developed",
+              "desc": "Thanks to this project, I was able to acquire many skills in web development and data management. Here are some of the ones I developed:",
+              "competences": [
+                {
+                  "title": "Complex data modeling",
+                  "desc": "\t• Use of Symfony to create data models tailored to specific client needs\n\t• Integration of MySQL databases to store and manage product and order information\n\t• Complex relationships between the different entities to ensure consistency and integrity of data."
+                },
+                {
+                  "title": "Integration of external data",
+                  "desc": "\t• Connection to external data sources such as APIs to enrich the information available on the site\n\t• Use of Odoo ERP to manage inventory and orders in real time\n\t• Integration of PayPlug to enable secure and reliable payments"
+                },
+                {
+                  "title": "Backend and frontend development",
+                  "desc": "\t• Using Symfony and Doctrine to create advanced features such as order, cart and user management\n\t• Site performance optimization to ensure smooth and fast navigation\n\t• Development of interactive and responsive frontend components in Javascript to improve the user experience"
+                },
+                {
+                  "title": "Agile project management",
+                  "desc": "\t• Use of the SCRUM method to organize work in sprints and monitor the progress of the project\n\t• Collaboration étroite avec l'équipe pour définir les objectifs, les priorités et les tâches à réaliser\n\t• Adaptation aux changements et aux retours des clients pour garantir la satisfaction et la qualité du produit final"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Showcase site — ComInTime",
+          "descShort": "Creation of a showcase site to promote a communication application.",
+          "descFull": "Development of a showcase site to promote the ComInTime application, including functionalities for managing the displayed content, blog, making contact, presentation of the application as well as a link redirecting to the application.",
+          "link": "/year/2/project/1",
+          "linkDesc": "See the project",
+          "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "Symfony",
+            "CMS",
+            "Doctrine",
+            "SEO"
+          ],
+          "content": [
+            {
+              "title": "Skills developed",
+              "desc": "This project allowed me to develop my skills in web development and content management. Here are some of the ones I developed:",
+              "competences": [
+                {
+                  "title": "Creation of showcase websites",
+                  "desc": "\t• Used Symfony to create a complete showcase website, including content management, blog and contact functionality\n\t• Integration of CMS to facilitate the management of content and site pages\n\t• Site optimization for natural search engine optimization (SEO) to improve its visibility on search engines"
+                },
+                {
+                  "title": "Frontend and backend development",
+                  "desc": "\t• Creation of interactive and responsive frontend components in Javascript with Stimulus to improve user experience\n\t• Use of Symfony and Doctrine to manage site data and user interactions\n\t• Development of advanced features such as blog post and form management"
+                },
+                {
+                  "title": "Collaboration and communication",
+                  "desc": "\t• Teamwork to define project objectives, tasks and deadlines\n\t• Regular communication with team members to monitor project progress and resolve potential issues\n\t• Taking into account customer feedback (the company’s communication department) to improve the site and meet their needs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Application — ComInTime",
+          "descShort": "Improvement of a communication application by adding new features.",
+          "descFull": "Development of new features for a communication application, including an email notification system, a system for importing old social media publications that have not been published via the app, and a preview of links in the content of the posts.",
+          "link": "/year/2/project/2",
+          "linkDesc": "See the project",
+          "skills": [
+            "PHP",
+            "Symfony",
+            "Doctrine",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "SCRUM",
+            "API"
+          ],
+          "content": [
+            {
+              "title": "Skills developed",
+              "desc": "This project allowed me to strengthen my skills in web application development and data management. Here are some of the ones I developed:",
+              "competences": [
+                {
+                  "title": "Development of new features",
+                  "desc": "\t• Using Symfony to add new features to the existing application\n\t• Creation of email notification systems to inform users about new publications\n\t• Implementation of an import system for old social media posts to enrich the content of the application"
+                },
+                {
+                  "title": "Performance Optimization",
+                  "desc": "\t• Improved application speed and responsiveness by optimizing queries and data processing\n\t• Use advanced cache techniques to reduce load times and improve user experience\n\t• Development of lightweight and efficient features to ensure smooth application usage"
+                },
+                {
+                  "title": "Agile project management",
+                  "desc": "\t• Use of the SCRUM method to organize work in sprints and monitor the progress of the project\n\t• Working closely with the team to define goals, priorities and tasks\n\t• Adaptation to changes and customer feedback (corporate communication pole) to ensure satisfaction and quality of the final product."
+                },
+                {
+                  "title": "Integration of external services",
+                  "desc": "\t• Connection to LinkedIn and Meta APIs to import data and enrich application content\n\t• Use of third party services to improve application functionality and provide a complete user experience\n\t• Integration of email notification systems to inform users about new releases and updates."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Application — CNCE",
+          "descShort": "Update and improvement of the CNCE site with new administrative features.",
+          "descFull": "Transition of the CNCE application from Symfony 4 to Symfony 6, addition of administrative functionalities for the management of public surveys, including dynamic forms and a secure API for data administration.",
+          "link": "/year/2/project/3",
+          "linkDesc": "See the project",
+          "skills": [
+            "PHP",
+            "Symfony",
+            "Doctrine",
+            "REST API",
+            "Web Security",
+            "MySQL",
+            "JavaScript"
+          ],
+          "content": [
+            {
+              "title": "Migrating to Symfony 6",
+              "desc": "Updated the CNCE application from Symfony 4 to Symfony 6 to benefit from the latest features and improvements of the most recent version.",
+              "competences": []
+            },
+            {
+              "title": "Development of administrative functionalities",
+              "desc": "Added administrative features for managing public surveys, including dynamic forms and a secure API for data administration.",
+              "competences": [
+                {
+                  "title": "Development of administrative functionalities",
+                  "desc": "Creation of dynamic forms for data entry and management, and implementation of a secure API for the administration of public surveys."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Application — Preambules",
+          "descShort": "Update and extension of the Preambules site with new integrations.",
+          "descFull": "Improvement of the Preambules site with new features, including updates to the members area for registered users, and integration with third-party services to enrich site data.",
+          "link": "/year/2/project/4",
+          "linkDesc": "See the project",
+          "skills": [
+            "PHP",
+            "Symfony",
+            "Doctrine",
+            "REST API"
+          ],
+          "content": [
+            {
+              "title": "Member area update",
+              "desc": "Improved members area for registered users, including bug fixes, interface improvements and additional features.",
+              "competences": []
+            },
+            {
+              "title": "Integration with third-party services",
+              "desc": "Integration of the CNCE API via a command to enrich the site data, and implementation of new functionalities based on this data.",
+              "competences": []
+            }
+          ]
         }
       ]
     }

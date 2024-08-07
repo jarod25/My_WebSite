@@ -147,7 +147,7 @@
       "name": "IUT Nord Franche-Comté",
       "link": "/annee/0",
       "linkDesc": "Voir tous les projets",
-      "desc": "Liste des 8 projets réalisés en 1ère année de BUT Informatique. Ces projets sont appelés « SAE » qui signifie « Situation d'Apprentissage et d'Évaluation », et se sont réalisés en groupe entre 2 et 6 étudiants selon la complexité du projet.",
+      "desc": "Liste des projets réalisés en 1ère année de BUT Informatique. Ces projets sont appelés « SAE » qui signifie « Situation d'Apprentissage et d'Évaluation », et se sont réalisés en groupe entre 2 et 6 étudiants selon la complexité du projet.",
       "skills": [
         "Sites Web de e-commerce",
         "Jeux",
@@ -229,7 +229,7 @@
           "id": 1,
           "title": "Administration des systèmes informatiques",
           "descShort": "Configurer et administrer des postes de travail et services réseau pour assurer une infrastructure informatique efficace.",
-          "descFull": "Ce projet consiste à installer et configurer des postes de travail dans un environnement réseau, assurant ainsi la connectivité et la sécurité des systèmes informatiques. Les tâches incluent la mise en place d'environnements de travail sécurisés, le déploiement de services dans une architecture réseau, et la résolution de problèmes liés à la connectivité. Ce projet m'a permis d'approfondir mes compétences en administration de systèmes, en mettant l'accent sur la gestion des postes de travail et la configuration réseau.",
+          "descFull": "Ce projet consiste à installer et configurer des postes de travail dans un environnement réseau, assurant ainsi la connectivité et la sécurité des systèmes informatiques. Les tâches incluent la mise en place d'environnements de travail sécurisés, le déploiement de services dans une architecture réseau, et la résolution de problèmes liés à la connectivité. Ce projet m'a permis d'approfondir mes compétences en administration de systèmes, en mettant l'accent sur la gestion des postes de travail et la configuration réseau. Nous étions un groupe de 3 étudiants.",
           "link": "/annee/0/projet/1",
           "linkDesc": "Voir le projet",
           "skills": [
@@ -238,14 +238,158 @@
           ],
           "content": [
             {
-              "title": "Installation et configuration de postes de travail",
-              "desc": "Installation d'environnements de travail complets et configuration des postes pour une utilisation optimisée.",
+              "title": "Gestion des postes de travail",
+              "desc": "Installation et configuration de postes de travail pour garantir un environnement de travail sécurisé et efficace.",
               "competences": [
                 {
-                  "title": "Installer et configurer un poste de travail",
-                  "desc": "Configuration de postes de travail pour assurer un fonctionnement optimal, incluant l'installation de logiciels et la gestion des périphériques."
+                  "title": "Installer et configurer des postes de travail",
+                  "desc": "Mise en place de postes de travail avec des configurations personnalisées pour répondre aux besoins des utilisateurs."
                 }
               ]
+            },
+            {
+              "title": "Configuration réseau",
+              "desc": "Mise en place d'une architecture réseau pour assurer la connectivité et la sécurité des systèmes informatiques.",
+              "competences": [
+                {
+                  "title": "Configurer des services réseau",
+                  "desc": "Déploiement de services réseau tels que DHCP, DNS, et pare-feu pour garantir la connectivité et la sécurité des systèmes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Site de covoiurage",
+          "descShort": "Site de covoiturage en Python avec Flask, ainsi que MySQL pour la base de données.",
+          "descFull": "Le projet consistait à réaliser un site de covoiturage en Python avec Flask, ainsi que MySQL pour la base de données. Le site permettait aux utilisateurs de proposer des trajets avec Départ ou Arrivée à Belfort et de rechercher des covoitureurs pour partager les frais de déplacement. Ce projet m'a permis de mettre en pratique mes compétences en développement Web et en requêtes sur base de données. J'ai travaillé en groupe de 3 étudiants.",
+          "link": "/annee/0/projet/2",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "Python",
+            "Flask",
+            "MySQL",
+            "Développement Web"
+          ],
+          "content": [
+            {
+              "title": "Développement Web",
+              "desc": "Réalisation d'un site Web complet en Python avec Flask, en utilisant des templates HTML et des requêtes sur base de données MySQL.",
+              "competences": [
+                {
+                  "title": "Développer un site Web",
+                  "desc": "Création d'un site de covoiturage fonctionnel avec des fonctionnalités de recherche, d'inscription et de publication de trajets."
+                }
+              ]
+            },
+            {
+              "title": "Requêtes sur base de données",
+              "desc": "Utilisation de MySQL pour stocker et gérer les informations relatives aux trajets, aux utilisateurs et aux covoitureurs.",
+              "competences": [
+                {
+                  "title": "Interagir avec une base de données",
+                  "desc": "Création de requêtes SQL pour insérer, mettre à jour, supprimer et récupérer des données de la base de données."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Jeu du Kamisado en Java",
+          "descShort": "Le jeu du Kamisado en Java, jeu de plateau stratégique où chaque joueur doit amener son pion à la ligne adverse.",
+          "descFull": "Les joueurs déplacent leur pion en fonction de la couleur de la case sur laquelle il se trouve, en essayant de bloquer l'adversaire. Ce projet m'a permis de mettre en pratique mes compétences en Java, en JavaFX pour l'interface graphique, et en algorithmique pour la logique du jeu. J'ai travaillé en groupe de 6 pour la réalisation de ce projet.",
+          "link": "/annee/0/projet/3",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "Java",
+            "JavaFX",
+            "Algorithmique",
+            "Travail en équipe"
+          ],
+          "content": [
+            {
+              "title": "Développement d'applications",
+              "desc": "Réalisation d'un jeu de plateau en Java avec une interface graphique en JavaFX pour une expérience utilisateur optimale.",
+              "competences": [
+                {
+                  "title": "Développer des applications en Java",
+                  "desc": "Création d'un jeu de plateau complet en Java avec des fonctionnalités de déplacement, de blocage et de victoire."
+                }
+              ]
+            },
+            {
+              "title": "Algorithmique",
+              "desc": "Mise en place de l'algorithme de déplacement des pions en fonction des règles du jeu, pour une expérience de jeu fluide et stratégique.",
+              "competences": [
+                {
+                  "title": "Construire des algorithmes",
+                  "desc": "Création d'un algorithme de déplacement des pions basé sur les règles du jeu pour une expérience de jeu réaliste."
+                }
+              ]
+            },
+            {
+              "title": "Travail en équipe",
+              "desc": "Collaboration avec d'autres étudiants pour la réalisation du projet, en répartissant les tâches et en assurant une communication efficace.",
+              "competences": [
+                {
+                  "title": "Travailler en équipe",
+                  "desc": "Répartition des tâches entre les membres de l'équipe pour une réalisation efficace du projet."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Site de e-commerce en Python",
+          "descShort": "Site de e-commerce pour une vente de ski en Python avec Flask, ainsi que MySQL pour la base de données.",
+          "descFull": "Le projet consistait à réaliser un site de e-commerce pour une vente de ski en Python avec Flask, ainsi que MySQL pour la base de données. Le site permettait aux utilisateurs de consulter les produits, de les ajouter au panier, de passer commande et de gérer leur compte. Ce projet m'a permis de mettre en pratique mes compétences en développement Web et en gestion de base de données. Il y avait également tout une partie gestion de projet et déploiement du site sur Pythonanywhere. J'ai travaillé en groupe de 3 étudiants.",
+          "link": "/annee/0/projet/4",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "Python",
+            "Flask",
+            "MySQL",
+            "Développement Web",
+            "Gestion de projet"
+          ],
+          "content": [
+            {
+              "title": "Développement Web",
+              "desc": "Réalisation d'un site de e-commerce complet en Python avec Flask, en utilisant des templates HTML et des requêtes sur base de données MySQL.",
+              "competences": [
+                {
+                  "title": "Développer un site de e-commerce",
+                  "desc": "Création d'un site de vente en ligne fonctionnel avec des fonctionnalités de consultation, de commande et de gestion de compte."
+                }
+              ]
+            },
+            {
+              "title": "Gestion de base de données",
+              "desc": "Utilisation de MySQL pour stocker et gérer les informations relatives aux produits, aux utilisateurs et aux commandes.",
+              "competences": [
+                {
+                  "title": "Interagir avec une base de données",
+                  "desc": "Création de requêtes SQL pour insérer, mettre à jour, supprimer et récupérer des données de la base de données."
+                }
+              ]
+            },
+            {
+              "title": "Gestion de projet",
+              "desc": "Planification des tâches, répartition des rôles, suivi du projet.",
+              "competences": [
+                {
+                  "title": "Gérer un projet informatique",
+                  "desc": "Organisation et suivi des différentes étapes du projet pour garantir sa réalisation dans les délais impartis."
+                }
+              ]
+            },
+            {
+              "title": "Déploiement du site",
+              "desc": "Déploiement du site sur Pythonanywhere pour le rendre accessible en ligne.",
+              "competences": []
             }
           ]
         }
@@ -397,11 +541,11 @@
               "competences": [
                 {
                   "title": "Développement backend",
-                  "desc": "\t• Utilisation de Symfony et Doctrine pour créer des fonctionnalités avancées telles que la gestion des produits, des commandes et des utilisateurs\n\t• Optimisation des performances du site pour garantir une navigation fluide et rapide\n\t• Création de l'espace administrateur pour gérer les contenus et les utilisateurs du site."
+                  "desc": "\t• Utilisation de Symfony et Doctrine pour créer des fonctionnalités avancées telles que la gestion des produits, des commandes et des utilisateurs\n\t• Optimisation des performances du site pour garantir une navigation fluide et rapide\n\t• Création de l'espace administrateur pour gérer les contenus et les utilisateurs du site"
                 },
                 {
                   "title": "Gestion de projet agile",
-                  "desc": "\t• Utilisation de la méthode SCRUM pour organiser le travail en sprints et suivre l'avancement du projet\n\t• Collaboration étroite avec l'équipe pour définir les objectifs, les priorités et les tâches à réaliser\n\t• Adaptation aux changements et aux retours des clients pour garantir la satisfaction et la qualité du produit final."
+                  "desc": "\t• Utilisation de la méthode SCRUM pour organiser le travail en sprints et suivre l'avancement du projet\n\t• Collaboration étroite avec l'équipe pour définir les objectifs, les priorités et les tâches à réaliser\n\t• Adaptation aux changements et aux retours des clients pour garantir la satisfaction et la qualité du produit final"
                 }
               ]
             }
@@ -412,7 +556,7 @@
     {
       "idYear": 2,
       "title": "3ème année",
-      "desc": "J'ai réalisé la 3ème année de mon BUT Informatique en alternance, ce qui m'a permis de mettre en pratique mes compétences en développement Web et en gestion de projet dans un contexte professionnel. J'ai travaillé sur différents projets, notamment sur un site de e-commerce pour une entreprise qui loue du matériel pour des événements et un site vitrine pour la promotion d'une application de communication.",
+      "desc": "J'ai réalisé la 3ème année de mon BUT Informatique en alternance, ce qui m'a permis de mettre en pratique mes compétences en développement Web et en gestion de projet dans un contexte professionnel. J'ai travaillé sur différents projets, notamment sur un site de e-commerce pour une entreprise qui loue du matériel pour des événements, un site vitrine pour la promotion d'une application de communication et diverses autres applications.",
       "projects": [
         {
           "id": 0,
@@ -440,19 +584,19 @@
               "competences": [
                 {
                   "title": "Modélisation de données complexes",
-                  "desc": "\t• Utilisation de Symfony pour créer des modèles de données adaptés aux besoins spécifiques du client\n\t• Intégration de bases de données MySQL pour stocker et gérer les informations relatives aux produits et aux commandes\n\t• Mise en place de relations complexes entre les différentes entités pour garantir une cohérence et une intégrité des données."
+                  "desc": "\t• Utilisation de Symfony pour créer des modèles de données adaptés aux besoins spécifiques du client\n\t• Intégration de bases de données MySQL pour stocker et gérer les informations relatives aux produits et aux commandes\n\t• Mise en place de relations complexes entre les différentes entités pour garantir une cohérence et une intégrité des données"
                 },
                 {
                   "title": "Intégration de données externes",
-                  "desc": "\t• Connexion à des sources de données externes telles que des API pour enrichir les informations disponibles sur le site\n\t• Utilisation de l'ERP d'Odoo pour gérer les stocks et les commandes en temps réel\n\t• Intégration de PayPlug pour permettre des paiements sécurisés et fiables."
+                  "desc": "\t• Connexion à des sources de données externes telles que des API pour enrichir les informations disponibles sur le site\n\t• Utilisation de l'ERP d'Odoo pour gérer les stocks et les commandes en temps réel\n\t• Intégration de PayPlug pour permettre des paiements sécurisés et fiables"
                 },
                 {
                   "title": "Développement backend et frontend",
-                  "desc": "\t• Utilisation de Symfony et Doctrine pour créer des fonctionnalités avancées telles que la gestion des commandes, des paniers et des utilisateurs\n\t• Optimisation des performances du site pour garantir une navigation fluide et rapide\n\t• Développement de composants frontend interactifs et réactifs en Javascript pour améliorer l'expérience utilisateur."
+                  "desc": "\t• Utilisation de Symfony et Doctrine pour créer des fonctionnalités avancées telles que la gestion des commandes, des paniers et des utilisateurs\n\t• Optimisation des performances du site pour garantir une navigation fluide et rapide\n\t• Développement de composants frontend interactifs et réactifs en Javascript pour améliorer l'expérience utilisateur"
                 },
                 {
                   "title": "Gestion de projet agile",
-                  "desc": "\t• Utilisation de la méthode SCRUM pour organiser le travail en sprints et suivre l'avancement du projet\n\t• Collaboration étroite avec l'équipe pour définir les objectifs, les priorités et les tâches à réaliser\n\t• Adaptation aux changements et aux retours des clients pour garantir la satisfaction et la qualité du produit final."
+                  "desc": "\t• Utilisation de la méthode SCRUM pour organiser le travail en sprints et suivre l'avancement du projet\n\t• Collaboration étroite avec l'équipe pour définir les objectifs, les priorités et les tâches à réaliser\n\t• Adaptation aux changements et aux retours des clients pour garantir la satisfaction et la qualité du produit final"
                 }
               ]
             }
@@ -482,15 +626,15 @@
               "competences": [
                 {
                   "title": "Création de sites Web vitrines",
-                  "desc": "\t• Utilisation de Symfony pour créer un site Web vitrine complet, incluant des fonctionnalités de gestion de contenu, de blog et de contact\n\t• Intégration de CMS pour faciliter la gestion du contenu et des pages du site\n\t• Optimisation du site pour le référencement naturel (SEO) afin d'améliorer sa visibilité sur les moteurs de recherche."
+                  "desc": "\t• Utilisation de Symfony pour créer un site Web vitrine complet, incluant des fonctionnalités de gestion de contenu, de blog et de contact\n\t• Intégration de CMS pour faciliter la gestion du contenu et des pages du site\n\t• Optimisation du site pour le référencement naturel (SEO) afin d'améliorer sa visibilité sur les moteurs de recherche"
                 },
                 {
                   "title": "Développement frontend et backend",
-                  "desc": "\t• Création de composants frontend interactifs et réactifs en Javascript avec Stimulus pour améliorer l'expérience utilisateur\n\t• Utilisation de Symfony et Doctrine pour gérer les données du site et les interactions avec les utilisateurs\n\t• Développement de fonctionnalités avancées telles que la gestion des articles de blog et des différents formulaires."
+                  "desc": "\t• Création de composants frontend interactifs et réactifs en Javascript avec Stimulus pour améliorer l'expérience utilisateur\n\t• Utilisation de Symfony et Doctrine pour gérer les données du site et les interactions avec les utilisateurs\n\t• Développement de fonctionnalités avancées telles que la gestion des articles de blog et des différents formulaires"
                 },
                 {
                   "title": "Collaboration et communication",
-                  "desc": "\t• Travail en équipe pour définir les objectifs, les tâches et les délais du projet\n\t• Communication régulière avec les membres de l'équipe pour suivre l'avancement du projet et résoudre les problèmes éventuels\n\t• Prise en compte des retours des clients (le pôle communication de l'entreprise) pour améliorer le site et répondre à leurs besoins."
+                  "desc": "\t• Travail en équipe pour définir les objectifs, les tâches et les délais du projet\n\t• Communication régulière avec les membres de l'équipe pour suivre l'avancement du projet et résoudre les problèmes éventuels\n\t• Prise en compte des retours des clients (le pôle communication de l'entreprise) pour améliorer le site et répondre à leurs besoins"
                 }
               ]
             }
@@ -520,11 +664,11 @@
               "competences": [
                 {
                   "title": "Développement de nouvelles fonctionnalités",
-                  "desc": "\t• Utilisation de Symfony pour ajouter de nouvelles fonctionnalités à l'application existante\n\t• Création de systèmes de notifications par mail pour informer les utilisateurs des nouvelles publications\n\t• Mise en place d'un système d'import des anciennes publications des réseaux sociaux pour enrichir le contenu de l'application."
+                  "desc": "\t• Utilisation de Symfony pour ajouter de nouvelles fonctionnalités à l'application existante\n\t• Création de systèmes de notifications par mail pour informer les utilisateurs des nouvelles publications\n\t• Mise en place d'un système d'import des anciennes publications des réseaux sociaux pour enrichir le contenu de l'application"
                 },
                 {
                   "title": "Optimisation des performances",
-                  "desc": "\t• Amélioration de la vitesse et de la réactivité de l'application en optimisant les requêtes et les traitements de données\n\t• Utilisation de techniques avancées de cache pour réduire les temps de chargement et améliorer l'expérience utilisateur\n\t• Développement de fonctionnalités légères et efficaces pour garantir une utilisation fluide de l'application."
+                  "desc": "\t• Amélioration de la vitesse et de la réactivité de l'application en optimisant les requêtes et les traitements de données\n\t• Utilisation de techniques avancées de cache pour réduire les temps de chargement et améliorer l'expérience utilisateur\n\t• Développement de fonctionnalités légères et efficaces pour garantir une utilisation fluide de l'application"
                 },
                 {
                   "title": "Gestion de projet agile",
