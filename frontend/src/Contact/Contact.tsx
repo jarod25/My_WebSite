@@ -92,7 +92,7 @@ export const Contact = ({ t, availability }: IProps) => {
   };
 
   return (
-    <div className="page contact" id="contactScroll">
+    <div className="page contact" id="contact">
       <div className="title-banner center-items">
         <h1>{t.contact.title}</h1>
       </div>
