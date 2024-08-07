@@ -9,6 +9,7 @@ export interface Translations {
   intro1: string;
   intro2: string;
   intro3: string;
+  intro4: string;
 
   profile: {
     fields: string;
@@ -40,6 +41,7 @@ export interface Translations {
     socialNetworks: string;
     linkedInLink: string,
     githubLink: string
+    cv: string;
   };
 
   alt: {

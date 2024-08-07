@@ -2,209 +2,188 @@
   "work": [
     {
       "id": 0,
-      "title": "Internship - Web developer",
-      "date": "2016",
-      "place": "Montreal, Canada",
-      "company": "JITBase",
-      "desc": "This internship lasted 3 months. I had to redesign and develop a showcase site, to design a social network on the web app and to start its implementation.",
+      "title": "9th grade observation course",
+      "date": "2018",
+      "place": "Sévenans",
+      "company": "LERMPS",
+      "desc": "1-week observation internship in a research laboratory on materials, processes and surfaces. ",
       "skills": [
-        "ReactJS",
-        "HTML",
-        "CSS",
-        "UI design"
+        "3D printing (laser)",
+        "Laser cutting",
+        "Thermal spray",
+        "Additive manufacturing",
+        "Powder atomization",
+        "Sandblasting"
       ]
     },
     {
       "id": 1,
-      "title": "Internship - Mobile developer",
-      "date": "2016",
-      "place": "Paris, France",
-      "company": "Quatre Épingles",
-      "desc": "This internship lasted 2 months. My mission was mainly to install a multilingual system on the mobile application and to organize the data to be translated. I also conducted functional tests.",
+      "title": "Volunteering — Bakery workshop",
+      "date": "2019",
+      "place": "Montbéliard",
+      "company": "Festival des Mômes",
+      "desc": "4-day volunteering for the Festival des Mômes bakery workshop.",
       "skills": [
-        "AngularJS",
-        "HTML",
-        "CSS",
-        "UI design"
+        "Welcoming children",
+        "Preparation of ingredients",
+        "Shaping the brioches",
+        "Cooking",
+        "Cleaning"
       ]
     },
     {
       "id": 2,
-      "title": "Internship - OPEX assistant",
-      "date": "2018",
-      "place": "Paris, France",
-      "company": "Epitech",
-      "desc": "This internship lasted 5 months, I was part of Operational Excellence and its IT support. I was mainly responding to tickets from school employees and creating automation scripts.",
+      "title": "Summer job — Fast food employee",
+      "date": "2022",
+      "place": "Exincourt",
+      "company": "Burger King",
+      "desc": "I learned to work in a team, manage stress and be versatile. ",
       "skills": [
-        "Zendesk",
-        "Ruby",
-        "Communication",
-        "SCRUM"
+        "Team work",
+        "Stress management",
+        "Versatility",
+        "Customer relations",
+        "Listen",
+        "Fast service"
       ]
     },
     {
       "id": 3,
-      "title": "Internship - Product Owner",
-      "date": "2019",
-      "place": "Paris, France",
-      "company": "Bluecoders",
-      "desc": "The internship lasted 1 month. I discovered the product owner and salesman missions, I performed several functional tests on new features and participated in the evolution of the web app.",
+      "title": "Internship — Web Developer",
+      "date": "2023",
+      "place": "Montbéliard",
+      "company": "Web&Design",
+      "desc": "I worked on an introductory Symfony project, then on a client project selling products and accessories for utility vehicles.",
       "skills": [
-        "UI/UX",
-        "Quality assurance",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Symfony",
+        "MySQL",
+        "Project management",
         "SCRUM"
       ]
     },
     {
       "id": 4,
-      "title": "Permanent contract - Educational module manager",
-      "date": "2019-2022",
-      "place": "Strasbourg, France",
-      "company": "Epitech",
-      "desc": "I was responsible for the Coding Club as well as the Epitech Diversity department within the school's national management. My main mission was to set up activities to reduce the digital divide.",
+      "title": "Apprenticeship — Web Developer",
+      "date": "2023 - 2024",
+      "place": "Montbéliard",
+      "company": "Web&Design",
+      "desc": "I worked on different projects, notably on an e-commerce site for a company that rents equipment for events and a showcase site for the promotion of a communication application.",
       "skills": [
-        "Project management",
-        "Pedagogy",
-        "SCRUM",
-        "Communication",
-        "UI/UX",
-        "Community management",
-        "Corporate relations",
-        "SalesForces"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Freelance — Web development trainer",
-      "date": "since 2022",
-      "place": "Remote",
-      "company": "FORMAWAVE",
-      "desc": "As a freelancer, I provide courses and practical work on web development for FORMAWAVE's client training organisations.",
-      "skills": [
-        "Pedagogy",
+        "HTML",
+        "CSS",
         "JavaScript",
-        "Angular",
-        "Java",
-        "Spring Boot",
-        "Hibernate",
-        "JPA",
+        "PHP",
+        "Symfony",
         "MySQL",
-        "PHP"
+        "Project management",
+        "SCRUM"
       ]
     }
   ],
   "education": [
     {
       "id": 0,
-      "diploma": "Skills upgrade classe for applied arts (MANAA)",
-      "place": "Montreuil, France",
-      "name": "CIFACOM",
-      "date": "2014-2015",
-      "desc": "Class preparing for the Graphic Design and Visual Communication course in the same school.",
+      "diploma": "General Baccalaureate — Mathematics and Engineering Sciences",
+      "place": "Montbéliard",
+      "name": "Germaine Tillion comprehensive high school",
+      "date": "2021",
+      "desc": "General baccalaureate obtained with mention of Enough-good. Mathematics and Engineering Sciences, with Physics-Chemistry stopped at the end of 12th grade.",
       "skills": [
-        "Adobe suite",
-        "UI",
-        "Photography",
-        "Advertising"
+        "Mathematics",
+        "Physical",
+        "Chemistry",
+        "Engineering Sciences",
+        "English"
       ]
     },
     {
       "id": 1,
-      "diploma": "Bachelor — IT Expert",
-      "place": "Paris, France",
-      "name": "Epitech",
-      "date": "2015-2020",
-      "desc": "Education is mainly focused on project-based teaching. During the third year, the final project begins.",
+      "diploma": "DUT — Computer science",
+      "place": "Belfort",
+      "name": "IUT Nord Franche-Comté",
+      "date": "2023",
+      "desc": "University degree in computer technology. I learned the basics of programming, project management and communication.",
       "skills": [
-        "C",
-        "C++",
-        "C#",
-        "Java",
-        "Kotlin",
-        "SQL",
-        "Project management"
+        "Algorithmic",
+        "Programming",
+        "Database",
+        "Networks",
+        "Project management",
+        "Communication",
+        "English"
       ]
     },
     {
       "id": 2,
-      "diploma": "Video game development",
-      "place": "Daegu, South Korea",
-      "name": "Keimyung University",
-      "date": "2018-2019",
-      "desc": "University exchange for 1 year. Integrated in the video game development department, I was able to discover Korean culture, 3D modeling and to learn how to use Unity.",
+      "diploma": "BUT — Computer science",
+      "place": "Belfort",
+      "name": "IUT Nord Franche-Comté",
+      "date": "2024",
+      "desc": "University Bachelor of Technology in computer science (continuation of the DUT).\nDeclaring with a dual training at Web&Design to deepen my skills in Web development and project management.",
       "skills": [
-        "C#",
-        "JavaScript",
-        "Unity",
-        "Maya 3D",
-        "Entrepreneurship",
-        "Law",
-        "Project management"
-      ]
-    },
-    {
-      "id": 3,
-      "diploma": "Master —  Expert in IT",
-      "place": "Paris, France",
-      "name": "Epitech",
-      "date": "2018-2020",
-      "desc": "The period includes the study year abroad. The final project of my group of 10 students, Contra Legem, is an artificial intelligence that summarizes contracts.",
-      "skills": [
-        "JavaScript",
-        "NoSQL",
+        "Web development",
         "Project management",
-        "Pedagogy",
-        "SCRUM"
+        "SCRUM",
+        "Symfony",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "English"
       ]
     }
   ],
   "miscellaneous": [
     {
       "id": 0,
-      "title": "",
+      "title": "1st year university projects",
       "place": "Belfort",
       "date": "2021 - 2022",
-      "name": "",
-      "link": "",
-      "linkDesc": "",
-      "desc": "",
+      "name": "IUT Nord Franche-Comté",
+      "link": "/year/0",
+      "linkDesc": "See all projects",
+      "desc": "List of 8 projects carried out in the 1st year of BUT Informatique. ",
       "skills": [
-        "",
-        "",
-        ""
+        "E-commerce websites",
+        "Games",
+        "Installing virtual machines"
       ]
     },
     {
       "id": 1,
-      "title": "",
+      "title": "2nd year university projects",
       "place": "Belfort",
       "date": "2022 - 2023",
-      "name": "",
-      "link": "",
-      "linkDesc": "",
-      "desc": "",
+      "name": "IUT Nord Franche-Comté",
+      "link": "/year/1",
+      "linkDesc": "See all projects",
+      "desc": "List of 2 projects (1 per semester) carried out in the 2nd year of BUT Informatique. ",
       "skills": [
-        "",
-        "",
-        ""
+        "Events website",
+        "Data mining"
       ]
     },
     {
       "id": 2,
-      "title": "",
+      "title": "3rd year university projects",
       "place": "Belfort",
       "date": "2023 - 2024",
-      "name": "",
-      "link": "",
-      "linkDesc": "",
-      "desc": "",
+      "name": "IUT Nord Franche-Comté",
+      "link": "/year/2",
+      "linkDesc": "See all projects",
+      "desc": "List of 2 projects (1 per semester) carried out in the 3rd year of BUT Informatique. ",
       "skills": [
-        "",
-        "",
-        ""
+        "Apprenticeship",
+        "Websites (e-commerce, showcase, events)"
       ]
     }
-  ],
+  ]
+,
   "university": [
     {
       "idYear": 0,

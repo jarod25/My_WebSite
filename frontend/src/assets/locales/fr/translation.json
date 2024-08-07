@@ -3,9 +3,10 @@
   "lang": "English",
   "contactButton": "Contact",
 
-  "intro1": "Mon but : créer des web apps robustes et efficaces, une ",
-  "intro2": "route API ",
-  "intro3": "à la fois.",
+  "intro1": "Étudiant en  ",
+  "intro2": "informatique, ",
+  "intro3": "je cherche à me spécialiser en ",
+  "intro4": "développement logiciel.",
 
   "profile": {
     "fields": "Centres d'intérêt :",
@@ -15,9 +16,9 @@
     "travels": "Voyages",
     "cars": "Voitures",
     "about": "À propos de moi :",
-    "intro": "Je m’appelle Jarod Kohler et j’ai commencé à créer ce site en 2023 pour présenter mes compétences en développement, ainsi que mes projets personnels et universitaires. Je suis étudiant en 3ème année de BUT informatique à l’IUT de Belfort et en alternance chez Web&Design à Montbéliard. Je devrais intégrer l’ENSISA de Mulhouse en 2024 pour un cycle d’ingénieur en informatique.",
-    "passions": "En-dehors de la programmation, je suis passionné par les jeux vidéo, les loisirs créatifs, le sport, les voyages et les voitures. Ces activités me permettent de m'évader, de stimuler ma créativité, de rester actif et de découvrir de nouveaux horizons.",
-    "values": "Je suis quelqu'un de curieux, toujours à la recherche de nouvelles connaissances et de défis à relever. J'attache une grande importance à l'intégrité, au travail d'équipe et à l'innovation. Pour moi, chaque projet est une opportunité d'apprendre et de grandir, tant sur le plan professionnel que personnel."
+    "intro": "Je m’appelle Jarod Kohler et je suis étudiant en dernière année de BUT (Bachelor Universitaire de Technologies) informatique à l’IUT de Belfort. De nature curieuse, je suis toujours à la recherche de nouvelles connaissances et de défis à relever. C'est pourquoi j'ai choisi d'effectuer ma dernière année en alternance chez Web & Design à Montbéliard.",
+    "values": "Chaque projet sur lequel j'ai travaillé a été pour moi une opportunité d'apprendre et de grandir, tant sur le plan professionnel que personnel. De plus, j'attache une grande importance à l'intégrité, au travail d'équipe et à l'innovation. À la rentrée de septembre 2024, je devrais intégrer l’ENSISA de Mulhouse une école d'ingénieurs spécialisée dans le développement logiciel.",
+    "passions": "En-dehors de la programmation, je suis passionné par les jeux vidéo, les loisirs créatifs, le sport, les voyages et les voitures. Ces activités me permettent de m'évader, de stimuler ma créativité, de rester actif et de découvrir de nouveaux horizons."
   },
 
   "experience": {
@@ -40,7 +41,7 @@
     "notAvailable": "Je ne suis pas encore disponible pour un nouveau projet.",
     "socialNetworks": "Mes réseaux sociaux",
     "linkedInLink": "https://www.linkedin.com/in/jarod-kohler-b55060250",
-    "githubLink": "https://github.com/jarod25"
+    "githubLink": "https://github.com/jarod25",
   },
 
   "alt": {

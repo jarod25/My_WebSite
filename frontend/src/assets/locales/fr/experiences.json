@@ -37,7 +37,7 @@
       "date": "2022",
       "place": "Exincourt",
       "company": "Burger King",
-      "desc": "Job d'été de 2 mois en tant qu'employé de restauration rapide. J'ai appris à travailler en équipe, à gérer le stress et à être polyvalent. J'ai également appris à gérer les clients et à être à l'écoute de leurs besoins.",
+      "desc": "J'ai appris à travailler en équipe, à gérer le stress et à être polyvalent. J'ai également appris à gérer les clients et à être à l'écoute de leurs besoins.",
       "skills": [
         "Travail en équipe",
         "Gestion du stress",
@@ -49,11 +49,11 @@
     },
     {
       "id": 3,
-      "title": "Stage — Développeur web",
+      "title": "Stage — Développeur Web",
       "date": "2023",
       "place": "Montbéliard",
       "company": "Web&Design",
-      "desc": "Stage de 3 mois en tant que développeur web. J'ai travaillé sur un projet d'initiation à Symfony, puis sur un projet client de vente de produit et d'accessoires pour véhicules utilitaires.",
+      "desc": "J'ai travaillé sur un projet d'initiation à Symfony, puis sur un projet client de vente de produit et d'accessoires pour véhicules utilitaires.",
       "skills": [
         "HTML",
         "CSS",
@@ -67,11 +67,11 @@
     },
     {
       "id": 4,
-      "title": "Alternance — Développeur web",
+      "title": "Alternance — Développeur Web",
       "date": "2023 - 2024",
       "place": "Montbéliard",
       "company": "Web&Design",
-      "desc": "Alternance de 1 an en tant que développeur web. J'ai travaillé sur différents projets, notamment sur un site de e-commerce pour une entreprise qui loue du matériel pour des événements et un site vitrine pour la promotion d'une application de communication.",
+      "desc": "J'ai travaillé sur différents projets, notamment sur un site de e-commerce pour une entreprise qui loue du matériel pour des événements et un site vitrine pour la promotion d'une application de communication.",
       "skills": [
         "HTML",
         "CSS",
@@ -123,9 +123,9 @@
       "place": "Belfort",
       "name": "IUT Nord Franche-Comté",
       "date": "2024",
-      "desc": "Bachelor universitaire de technologie en informatique (suite du DUT). En cours avec une formation en alternance pour approfondir mes compétences en développement web et en gestion de projet.",
+      "desc": "Bachelor Universitaire de Technologie en informatique (suite du DUT).\nDiplôme en cours avec une formation en alternance chez Web&Design pour approfondir mes compétences en développement Web et en gestion de projet.",
       "skills": [
-        "Développement web",
+        "Développement Web",
         "Gestion de projet",
         "SCRUM",
         "Symfony",
@@ -149,7 +149,7 @@
       "linkDesc": "Voir tous les projets",
       "desc": "Liste des 8 projets réalisés en 1ère année de BUT Informatique. Ces projets sont appelés « SAE » qui signifie « Situation d'Apprentissage et d'Évaluation », et se sont réalisés en groupe entre 2 et 6 étudiants selon la complexité du projet.",
       "skills": [
-        "Sites web de e-commerce",
+        "Sites Web de e-commerce",
         "Jeux",
         "Installation de machines virtuelles"
       ]
@@ -164,7 +164,7 @@
       "linkDesc": "Voir tous les projets",
       "desc": "Liste des 2 projets (1 par semestre) réalisés en 2ème année de BUT Informatique. Ils se sont réalisés en groupe de 3 ou de 5 étudiants selon la complexité du projet.",
       "skills": [
-        "Site web d'événements",
+        "Site Web d'événements",
         "Exploitation de données"
       ]
     },
@@ -179,7 +179,7 @@
       "desc": "Liste des 2 projets (1 par semestre) réalisés en 3ème année de BUT Informatique. Ce sont principalement les projets effectués en alternance.",
       "skills": [
         "Alternance",
-        "Sites web (e-commerce, vitrine, événementiel)"
+        "Sites Web (e-commerce, vitrine, événementiel)"
       ]
     }
   ],
@@ -194,7 +194,7 @@
           "title": "Jeu du jeton en Java",
           "descShort": "Un jeu de plateau stratégique développé en Java, intégrant une interface JavaFX et des intelligences artificielles pour enrichir l'expérience de jeu.",
           "descFull": "Le jeu du jeton en Java est un jeu de plateau stratégique où deux joueurs placent tour à tour des jetons de valeurs croissantes sur un plateau de 21 cases. Chaque joueur doit minimiser la somme des points autour d'une case vide restante pour gagner. Ce projet met en avant mes compétences en Java, JavaFX pour l'interface utilisateur, et la programmation d'intelligences artificielles pour améliorer le jeu. Ce projet a été réalisé en groupe de 2, et m'a permis d'approfondir mes compétences en développement d'application, en optimisation des algorithmes et en travail d'équipe.",
-          "link": "/annee/1/projet/0",
+          "link": "/annee/0/projet/0",
           "linkDesc": "Voir le projet",
           "skills": [
             "Java",
@@ -230,7 +230,7 @@
           "title": "Administration des systèmes informatiques",
           "descShort": "Configurer et administrer des postes de travail et services réseau pour assurer une infrastructure informatique efficace.",
           "descFull": "Ce projet consiste à installer et configurer des postes de travail dans un environnement réseau, assurant ainsi la connectivité et la sécurité des systèmes informatiques. Les tâches incluent la mise en place d'environnements de travail sécurisés, le déploiement de services dans une architecture réseau, et la résolution de problèmes liés à la connectivité. Ce projet m'a permis d'approfondir mes compétences en administration de systèmes, en mettant l'accent sur la gestion des postes de travail et la configuration réseau.",
-          "link": "/annee/1/projet/1",
+          "link": "/annee/0/projet/1",
           "linkDesc": "Voir le projet",
           "skills": [
             "Administration des systèmes",
@@ -254,13 +254,13 @@
     {
       "idYear": 1,
       "title": "2ème année",
-      "desc": "La deuxième année de BUT Informatique est une année de spécialisation où les étudiants approfondissent leurs compétences en développement web, en gestion de projet et en communication.",
+      "desc": "La deuxième année de BUT Informatique est une année de spécialisation où les étudiants approfondissent leurs compétences en développement Web, en gestion de projet et en communication. L'année se termine par un stage en entreprise de 3 mois.",
       "projects": [
         {
           "id": 0,
-          "title": "La Cour Médiévale De Monseigneur Ambert (LCMDMA)",
-          "descShort": "Ce site à pour but de gérer la convention \"La Cour Médiévale De Mon Seigneur Ambert\", une convention médiévale se déroulant au château de Montby, dans le doubs. Cette convention à été totalement imaginé et conçue par l'équipe de développeurs du site.",
-          "descFull": "La Cour Médiévale De Monseigneur Ambert est un site web de gestion de convention médiévale. Ce projet a été réalisé en groupe de 5 étudiants et a permis de mettre en pratique nos compétences en développement web, en gestion de projet et en communication. Le site permet de gérer les inscriptions des participants, les activités proposées, les stands et les animations, ainsi que les informations pratiques sur l'événement. Ce projet a été réalisé en utilisant les technologies HTML, CSS, JavaScript, VueJS et Postgresql, ainsi que la méthode SCRUM pour la gestion de projet.",
+          "title": "La Cour Médiévale De Monseigneur Ambert",
+          "descShort": "Ce site a pour but de gérer la convention \"La Cour Médiévale De Mon Seigneur Ambert\", une convention médiévale se déroulant au château de Montby, dans le Doubs. Cette convention a été totalement imaginée et conçue par l'équipe de développeurs du site.",
+          "descFull": "Ce projet a été réalisé en groupe de 5 étudiants et nous a permis de mettre en pratique nos compétences en développement Web, en gestion de projet et en communication. Le site permet de gérer les inscriptions des participants, les activités proposées, les stands et les animations, ainsi que les informations pratiques sur l'événement. Cette application a été réalisée en utilisant les technologies HTML, CSS, JavaScript, VueJS et Postgresql ainsi que la méthodologie agile SCRUM pour la gestion de projet.",
           "link": "/annee/1/projet/0",
           "linkDesc": "Voir le projet",
           "skills": [
@@ -275,17 +275,17 @@
           "content": [
             {
               "title": "La base de données",
-              "desc": "Pour mettre en place la base de données, j’ai commencé par réaliser un MCD avec un autre étudiant, afin d’identifier les différentes tables et associations qui la constitueraient. Pour cela, nous avons utilisé l’outil Looping qui est un logiciel de modélisation conceptuelle de données. \nD’autre part, nous avons pris la décision d'utiliser PostgreSQL en tant que système de gestion de bases de données car il offre la capacité de stocker et des tables de base de données assez facilement.\nEnsuite, nous nous sommes interrogés sur la méthode à utiliser pour les requêtes vers la base de données : SQL pur ou utilisation d'un ORM. Nous avons opté pour l’utilisation de l’ORM Sequelize. Cette décision s’est justifiée par le fait qu’il simplifie l’interaction avec la base de données, et permet une meilleure lisibilité du code.\nAprès avoir réalisé toutes ces étapes et avoir installé Sequelize dans le projet, nous avons créé les modèles Sequelize. Ces modèles servent à informer l’ORM de tous les détails relatifs à chaque table : son nom, ses attributs avec leurs types, ses associations avec d'autres tables, etc.",
+              "desc": "Pour mettre en place la base de données, j’ai commencé par réaliser un MCD avec un autre étudiant afin d’identifier les différentes tables et associations qui la constitueraient. Pour cela, nous avons utilisé l’outil Looping qui est un logiciel de modélisation conceptuelle de données. \nD’autre part, nous avons pris la décision d'utiliser PostgreSQL en tant que système de gestion de bases de données car il offre la capacité de stocker et des tables de base de données assez facilement.\nEnsuite, nous nous sommes interrogés sur la méthode à utiliser pour les requêtes vers la base de données : SQL pur ou utilisation d'un ORM. Nous avons opté pour l’utilisation de l’ORM Sequelize. Cette décision s’est justifiée par le fait qu’il simplifie l’interaction avec la base de données, et permet une meilleure lisibilité du code.\nAprès avoir réalisé toutes ces étapes et avoir installé Sequelize dans le projet, nous avons créé les modèles Sequelize. Ces modèles servent à informer l’ORM de tous les détails relatifs à chaque table : son nom, ses attributs avec leurs types, ses associations avec d'autres tables, etc.",
               "competences": []
             },
             {
               "title": "Le backend",
-              "desc": "Pour la partie backend de notre application, nous avons créé une API REST en utilisant NodeJS, un framework JavaScript réputé pour sa flexibilité et sa performance. Cette API nous permet de communiquer avec notre base de données, d'extraire les données nécessaires, de les traiter selon nos besoins et de les renvoyer au frontend.\n\nGrâce à cette API, nous sommes en mesure d'effectuer des opérations CRUD (Create, Read, Update, Delete) sur nos données. Par exemple, nous pouvons récupérer des informations spécifiques, ajouter de nouvelles données, mettre à jour des enregistrements existants ou les supprimer de la base de données.\n\nL'utilisation de NodeJS nous offre également la possibilité de gérer de manière asynchrone les requêtes entrantes, ce qui permet d'optimiser les performances et de garantir une expérience utilisateur réactive. De plus, les fonctionnalités avancées de JavaScript offertes par NodeJS facilitent le traitement des données avant de les renvoyer au frontend.",
+              "desc": "Pour la partie backend de notre application, nous avons créé une API REST en utilisant NodeJS, un framework JavaScript réputé pour sa flexibilité et sa performance. Cette API nous permet de communiquer avec notre base de données, d'extraire les données nécessaires, de les traiter selon nos besoins et de les renvoyer au frontend.\nGrâce à cette API, nous sommes en mesure d'effectuer des opérations CRUD (Create, Read, Update, Delete) sur nos données. Par exemple, nous pouvons récupérer des informations spécifiques, ajouter de nouvelles données, mettre à jour des enregistrements existants ou les supprimer de la base de données.\nL'utilisation de NodeJS nous offre également la possibilité de gérer de manière asynchrone les requêtes entrantes, ce qui permet d'optimiser les performances et de garantir une expérience utilisateur réactive. De plus, les fonctionnalités avancées de JavaScript offertes par NodeJS facilitent le traitement des données avant de les renvoyer au frontend.",
               "competences": []
             },
             {
               "title": "Le frontend",
-              "desc": "Notre site a été entièrement développé en utilisant Vue.js, un framework JavaScript moderne et puissant pour la construction d'interfaces utilisateur. Vue.js offre une approche réactive et basée sur les composants, ce qui nous permet de créer des pages interactives et dynamiques. Grâce à sa facilité d'utilisation et à sa courbe d'apprentissage douce, Vue.js nous a permis de développer rapidement et efficacement notre frontend.\n\nAvec Vue.js, nous avons pu diviser notre interface en composants réutilisables, ce qui facilite la maintenance et les mises à jour futures. Les fonctionnalités avancées de Vue.js, telles que la gestion d'état avec Vuex, le routage avec Vue Router et les directives personnalisées, nous ont permis d'implémenter des fonctionnalités complexes tout en maintenant un code propre et structuré.\n\nDe plus, Vue.js offre une excellente intégration avec d'autres bibliothèques et outils, ce qui nous a permis d'enrichir notre site avec des fonctionnalités supplémentaires. Grâce à la flexibilité de Vue.js et à son écosystème riche, nous avons pu créer une expérience utilisateur fluide et agréable pour nos utilisateurs.",
+              "desc": "Notre site a été entièrement développé en utilisant Vue.js, un framework JavaScript moderne et puissant pour la construction d'interfaces utilisateur. Vue.js offre une approche réactive et basée sur les composants, ce qui nous permet de créer des pages interactives et dynamiques. Grâce à sa facilité d'utilisation, Vue.js nous a permis de développer rapidement et efficacement notre frontend.\nAvec Vue.js, nous avons pu diviser notre interface en composants réutilisables, ce qui facilite la maintenance et les mises à jour futures. Les fonctionnalités avancées de Vue.js, telles que la gestion d'état avec Vuex, le routage avec Vue Router et les directives personnalisées, nous ont permis d'implémenter des fonctionnalités complexes tout en maintenant un code propre et structuré.\nDe plus, Vue.js offre une excellente intégration avec d'autres bibliothèques et outils, ce qui nous a permis d'enrichir notre site avec des fonctionnalités supplémentaires. Grâce à la flexibilité de Vue.js, nous avons pu créer une expérience utilisateur fluide et agréable.",
               "competences": []
             },
             {
@@ -294,27 +294,27 @@
               "competences": [
                 {
                   "title": "Compétence 1 : Réaliser un développement d'application",
-                  "desc": "Maîtriser la programmation JavaScript et les principes fondamentaux de Node.js pour créer le backend de l'application.\nUtiliser Vue.js pour développer le frontend et créer des interfaces utilisateur interactives.\nMettre en place une architecture logicielle appropriée pour assurer la modularité et la maintenabilité de l'application."
+                  "desc": "\t• Maîtriser la programmation JavaScript et les principes fondamentaux de Node.js pour créer le backend de l'application\n\t• Utiliser Vue.js pour développer le frontend et créer des interfaces utilisateur interactives\n\t• Mettre en place une architecture logicielle appropriée pour assurer la modularité et la maintenabilité de l'application"
                 },
                 {
                   "title": "Compétence 2 : Optimiser des applications informatiques",
-                  "desc": "Comprendre les principes de performance et d'optimisation pour minimiser les temps de réponse et les temps de chargement de l'application.\nUtiliser des techniques de mise en cache pour améliorer les performances, notamment pour les requêtes fréquentes à la base de données."
+                  "desc": "\t• Comprendre les principes de performance et d'optimisation pour minimiser les temps de réponse et les temps de chargement de l'application\n\t• Utiliser des techniques de mise en cache pour améliorer les performances, notamment pour les requêtes fréquentes à la base de données"
                 },
                 {
                   "title": "Compétence 3 : Administrer des systèmes informatiques communiquant complexes",
-                  "desc": "Configurer et gérer les serveurs d'application Node.js pour garantir le bon fonctionnement de l'application.\nAssurer la communication entre les différents composants du système, tels que la communication entre le frontend Vue.js et le backend Node.js."
+                  "desc": "\t• Configurer et gérer les serveurs d'application Node.js pour garantir le bon fonctionnement de l'application\n\t• Assurer la communication entre les différents composants du système, tels que la communication entre le frontend Vue.js et le backend Node.js"
                 },
                 {
                   "title": "Compétence 4 : Gérer des données de l'information",
-                  "desc": "Concevoir et modéliser la base de données PostgreSQL en définissant les tables, les relations et les contraintes.\nUtiliser les requêtes SQL pour interagir avec la base de données, récupérer, insérer, mettre à jour ou supprimer des données."
+                  "desc": "\t• Concevoir et modéliser la base de données PostgreSQL en définissant les tables, les relations et les contraintes\n\t• Utiliser les requêtes SQL pour interagir avec la base de données, récupérer, insérer, mettre à jour ou supprimer des données"
                 },
                 {
                   "title": "Compétence 5 : Conduire un projet",
-                  "desc": "Planifier et organiser les différentes étapes du développement du site, en définissant les objectifs, les ressources nécessaires et les délais.\nSuivre les bonnes pratiques de gestion de projet, comme l'utilisation d'outils de gestion de versions (Git) et la documentation du code."
+                  "desc": "\t• Planifier et organiser les différentes étapes du développement du site, en définissant les objectifs, les ressources nécessaires et les délais\n\t• Suivre les bonnes pratiques de gestion de projet, comme l'utilisation d'outils de gestion de versions (Git) et la documentation du code"
                 },
                 {
                   "title": "Compétence 6 : Travailler dans une équipe informatique",
-                  "desc": "Collaborer avec d'autres développeurs pour le développement simultané du frontend et du backend.\nUtiliser des outils de collaboration tels que des systèmes de gestion de projets (comme Trello) pour faciliter la coordination et la communication au sein de l'équipe"
+                  "desc": "\t• Collaborer avec d'autres développeurs pour le développement simultané du frontend et du backend\n\t• Utiliser des outils de collaboration tels que des systèmes de gestion de projets (comme Trello) pour faciliter la coordination et la communication au sein de l'équipe"
                 }
               ]
             }
@@ -323,8 +323,8 @@
         {
           "id": 1,
           "title": "Exploitation et visualisation de données",
-          "descShort": "Analyse et visualisation de données pour extraire des informations clés et améliorer la prise de décision.",
-          "descFull": "Ce projet avait pour objectif d'analyser des données provenant de différentes sources afin d'en extraire des insights significatifs. Nous avons utilisé des techniques de collecte, nettoyage, et transformation des données avant de procéder à une analyse statistique. Les résultats ont ensuite été présentés sous forme de visualisations claires et informatives. Ce projet m'a permis d'approfondir mes compétences en analyse de données, en traitement des données, et en visualisation des résultats.",
+          "descShort": "Dans le cadre d'un projet de groupe impliquant trois personnes, nous avons analysé et visualisé des données de sources diverses pour en extraire des insights cruciaux, renforçant ainsi la prise de décision..",
+          "descFull": "Ce projet avait pour objectif d'analyser des données provenant de différentes sources afin d'en extraire des insights significatifs destinés à améliorer la prise de décision. Pour le mener à bien, nous avons utilisé des techniques de collecte, nettoyage et transformation des données avant de procéder à une analyse statistique. Nous avons ensuite présenté les résultats sous forme de visualisations claires et informatives. Ce projet m'a permis d'approfondir mes compétences en analyse de données, en traitement des données, et en visualisation des résultats.",
           "link": "/annee/1/projet/1",
           "linkDesc": "Voir le projet",
           "skills": [
@@ -339,29 +339,19 @@
               "competences": [
                 {
                   "title": "Préparation des données",
-                  "desc": "Mise en place d'une stratégie de collecte et de nettoyage des données pour assurer leur qualité et leur fiabilité."
+                  "desc": "Avant de poursuivre mon analyse, j'ai mis en place d'une stratégie de collecte et de nettoyage des données pour assurer leur qualité et leur fiabilité"
                 }
               ]
             },
             {
               "title": "Analyse statistique des données",
               "desc": "Nous avons effectué une analyse statistique approfondie pour découvrir des tendances et des modèles cachés. Cette analyse nous a aidés à valider des hypothèses et à extraire des informations précieuses pour une prise de décision éclairée.",
-              "competences": [
-                {
-                  "title": "Analyse des données",
-                  "desc": "Utilisation de techniques statistiques pour extraire des informations utiles et valider des hypothèses."
-                }
-              ]
+              "competences": []
             },
             {
               "title": "Visualisation des données",
               "desc": "Les résultats ont été présentés sous forme de visualisations, utilisant des outils tels que Matplotlib et Seaborn pour créer des graphiques attrayants et informatifs. Ces visualisations ont facilité la communication des résultats et aidé à la prise de décisions basées sur les données.",
-              "competences": [
-                {
-                  "title": "Création de visualisations",
-                  "desc": "Réalisation de visualisations de données percutantes pour une communication efficace des résultats."
-                }
-              ]
+              "competences": []
             },
             {
               "title": "Compétences développées",
@@ -369,15 +359,49 @@
               "competences": [
                 {
                   "title": "Optimiser une base de données, interagir avec une application et mettre en œuvre la sécurité",
-                  "desc": "Utilisation de requêtes API pour extraire des données et les intégrer dans une base de données.\nOptimisation des performances de la base de données pour garantir une interaction rapide et efficace avec l'application.\nMise en œuvre de mesures de sécurité pour protéger les données sensibles et garantir la confidentialité des informations."
+                  "desc": "\t• Utilisation de requêtes API pour extraire des données et les intégrer dans une base de données\n\t• Optimisation des performances de la base de données pour garantir une interaction rapide et efficace avec l'application\n\t• Mise en œuvre de mesures de sécurité pour protéger les données sensibles et garantir la confidentialité des informations"
                 },
                 {
                   "title": "Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs",
-                  "desc": "Identification des besoins métiers et des objectifs des professeurs pour orienter la collecte et l'analyse des données.\nSuivi des indicateurs de performance clés pour évaluer l'efficacité des analyses et des visualisations.\nAdaptation des méthodes et des outils en fonction des retours des professeurs."
+                  "desc": "\t• Identification des besoins métiers et des objectifs des professeurs pour orienter la collecte et l'analyse des données\n\t• Suivi des indicateurs de performance clés pour évaluer l'efficacité des analyses et des visualisations\n\t• Adaptation des méthodes et des outils en fonction des retours des professeurs"
                 },
                 {
                   "title": "Collaborer au sein d’une équipe informatique",
-                  "desc": "Répartition des tâches entre les membres de l'équipe pour optimiser l'efficacité et la productivité.\nCommunication régulière et transparente pour assurer une coordination efficace et une compréhension mutuelle des objectifs.\nPartage des connaissances et des compétences pour renforcer la cohésion de l'équipe et favoriser l'apprentissage mutuel."
+                  "desc": "\t• Répartition des tâches entre les membres de l'équipe pour optimiser l'efficacité et la productivité\n\t• Communication régulière et transparente pour assurer une coordination efficace et une compréhension mutuelle des objectifs\n\t• Partage des connaissances et des compétences pour renforcer la cohésion de l'équipe et favoriser l'apprentissage mutuel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Stage — Développeur Web",
+          "descShort": "Stage de 3 mois en entreprise pour mettre en pratique mes compétences en développement Web.",
+          "descFull": "J'ai réalisé un stage de 3 mois en entreprise chez Web&Design, une agence de développement Web spécialisée dans la création de sites vitrines et de sites e-commerce. J'ai travaillé sur différents projets, notamment sur un site de vente de produits et d'accessoires pour véhicules utilitaires. J'ai pu mettre en pratique mes compétences en HTML, CSS, JavaScript, PHP, Symfony et MySQL pour développer des fonctionnalités avancées et optimiser les performances du site. J'ai également participé à la gestion de projet en utilisant la méthode SCRUM pour organiser le travail en équipe et suivre l'avancement du projet.",
+          "link": "/annee/1/projet/2",
+          "linkDesc": "Voir le projet",
+          "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "Symfony",
+            "MySQL",
+            "Gestion de projet",
+            "SCRUM"
+          ],
+          "content": [
+            {
+              "title": "Compétences développées",
+              "desc": "Ce stage m'a permis de mettre en pratique mes compétences en développement Web et en gestion de projet. Voici quelques-unes des compétences que j'ai développées :",
+              "competences": [
+                {
+                  "title": "Développement backend",
+                  "desc": "\t• Utilisation de Symfony et Doctrine pour créer des fonctionnalités avancées telles que la gestion des produits, des commandes et des utilisateurs\n\t• Optimisation des performances du site pour garantir une navigation fluide et rapide\n\t• Création de l'espace administrateur pour gérer les contenus et les utilisateurs du site."
+                },
+                {
+                  "title": "Gestion de projet agile",
+                  "desc": "\t• Utilisation de la méthode SCRUM pour organiser le travail en sprints et suivre l'avancement du projet\n\t• Collaboration étroite avec l'équipe pour définir les objectifs, les priorités et les tâches à réaliser\n\t• Adaptation aux changements et aux retours des clients pour garantir la satisfaction et la qualité du produit final."
                 }
               ]
             }
@@ -388,7 +412,7 @@
     {
       "idYear": 2,
       "title": "3ème année",
-      "desc": "J'ai réalisé la 3ème année de mon BUT Informatique en alternance, ce qui m'a permis de mettre en pratique mes compétences en développement web et en gestion de projet dans un contexte professionnel. J'ai travaillé sur différents projets, notamment sur un site de e-commerce pour une entreprise qui loue du matériel pour des événements et un site vitrine pour la promotion d'une application de communication.",
+      "desc": "J'ai réalisé la 3ème année de mon BUT Informatique en alternance, ce qui m'a permis de mettre en pratique mes compétences en développement Web et en gestion de projet dans un contexte professionnel. J'ai travaillé sur différents projets, notamment sur un site de e-commerce pour une entreprise qui loue du matériel pour des événements et un site vitrine pour la promotion d'une application de communication.",
       "projects": [
         {
           "id": 0,
@@ -400,7 +424,6 @@
           "skills": [
             "PHP",
             "Symfony",
-
             "Doctrine",
             "HTML",
             "CSS",
@@ -413,19 +436,23 @@
           "content": [
             {
               "title": "Compétences développées",
-              "desc": "Grâce à ce projet, j'ai pu acquérir de nombreuses compétences en développement web et en gestion de données. Voici quelques-unes que j'ai développées :",
+              "desc": "Grâce à ce projet, j'ai pu acquérir de nombreuses compétences en développement Web et en gestion de données. Voici quelques-unes que j'ai développées :",
               "competences": [
                 {
                   "title": "Modélisation de données complexes",
-                  "desc": "Utilisation de Symfony pour créer des modèles de données adaptés aux besoins spécifiques du client.\nIntégration de bases de données MySQL pour stocker et gérer les informations relatives aux produits et aux commandes.\nMise en place de relations complexes entre les différentes entités pour garantir une cohérence et une intégrité des données."
+                  "desc": "\t• Utilisation de Symfony pour créer des modèles de données adaptés aux besoins spécifiques du client\n\t• Intégration de bases de données MySQL pour stocker et gérer les informations relatives aux produits et aux commandes\n\t• Mise en place de relations complexes entre les différentes entités pour garantir une cohérence et une intégrité des données."
                 },
                 {
                   "title": "Intégration de données externes",
-                  "desc": "Connexion à des sources de données externes telles que des API pour enrichir les informations disponibles sur le site.\nUtilisation de l'ERP d'Odoo pour gérer les stocks et les commandes en temps réel.\nIntégration de PayPlug pour permettre des paiements sécurisés et fiables."
+                  "desc": "\t• Connexion à des sources de données externes telles que des API pour enrichir les informations disponibles sur le site\n\t• Utilisation de l'ERP d'Odoo pour gérer les stocks et les commandes en temps réel\n\t• Intégration de PayPlug pour permettre des paiements sécurisés et fiables."
                 },
                 {
-                  "title": "Développement backend avancé",
-                    "desc": "Utilisation de Symfony et Doctrine pour créer des fonctionnalités avancées telles que la gestion des commandes, des paniers et des utilisateurs.\nMise en place de systèmes de paiement sécurisés et fiables pour garantir une expérience utilisateur optimale.\nOptimisation des performances du site pour garantir une navigation fluide et rapide."
+                  "title": "Développement backend et frontend",
+                  "desc": "\t• Utilisation de Symfony et Doctrine pour créer des fonctionnalités avancées telles que la gestion des commandes, des paniers et des utilisateurs\n\t• Optimisation des performances du site pour garantir une navigation fluide et rapide\n\t• Développement de composants frontend interactifs et réactifs en Javascript pour améliorer l'expérience utilisateur."
+                },
+                {
+                  "title": "Gestion de projet agile",
+                  "desc": "\t• Utilisation de la méthode SCRUM pour organiser le travail en sprints et suivre l'avancement du projet\n\t• Collaboration étroite avec l'équipe pour définir les objectifs, les priorités et les tâches à réaliser\n\t• Adaptation aux changements et aux retours des clients pour garantir la satisfaction et la qualité du produit final."
                 }
               ]
             }
@@ -435,7 +462,7 @@
           "id": 1,
           "title": "Site vitrine — ComInTime",
           "descShort": "Création d'un site vitrine pour promouvoir une application de communication.",
-          "descFull": "Développement d'un site vitrine comportant des fonctionnalités interactives pour promouvoir une application de communication, intégrant la gestion de projet et l'architecture informatique.",
+          "descFull": "Développement d'un site vitrine pour promouvoir l'application ComInTime, incluant des fonctionnalités de gestion du contenu affiché, de blog, de prise de contact, de présentation de l'application ainsi qu'un lien redirigeant vers l'application.",
           "link": "/annee/2/projet/1",
           "linkDesc": "Voir le projet",
           "skills": [
@@ -444,17 +471,26 @@
             "JavaScript",
             "PHP",
             "Symfony",
+            "CMS",
             "Doctrine",
             "SEO"
           ],
           "content": [
             {
-              "title": "Conception d'architecture logicielle",
-              "desc": "Mise en œuvre de l'architecture logicielle en conformité avec l'infrastructure IT de l'organisation et intégration via des API.",
+              "title": "Compétences développées",
+              "desc": "Ce projet m'a permis de développer mes compétences en développement Web et en gestion de contenu. Voici quelques-unes des compétences que j'ai acquises :",
               "competences": [
                 {
-                  "title": "Architecture logicielle et intégration",
-                  "desc": "Conception et déploiement de solutions architecturales intégrées à l'infrastructure existante, utilisant des services web et des API."
+                  "title": "Création de sites Web vitrines",
+                  "desc": "\t• Utilisation de Symfony pour créer un site Web vitrine complet, incluant des fonctionnalités de gestion de contenu, de blog et de contact\n\t• Intégration de CMS pour faciliter la gestion du contenu et des pages du site\n\t• Optimisation du site pour le référencement naturel (SEO) afin d'améliorer sa visibilité sur les moteurs de recherche."
+                },
+                {
+                  "title": "Développement frontend et backend",
+                  "desc": "\t• Création de composants frontend interactifs et réactifs en Javascript avec Stimulus pour améliorer l'expérience utilisateur\n\t• Utilisation de Symfony et Doctrine pour gérer les données du site et les interactions avec les utilisateurs\n\t• Développement de fonctionnalités avancées telles que la gestion des articles de blog et des différents formulaires."
+                },
+                {
+                  "title": "Collaboration et communication",
+                  "desc": "\t• Travail en équipe pour définir les objectifs, les tâches et les délais du projet\n\t• Communication régulière avec les membres de l'équipe pour suivre l'avancement du projet et résoudre les problèmes éventuels\n\t• Prise en compte des retours des clients (le pôle communication de l'entreprise) pour améliorer le site et répondre à leurs besoins."
                 }
               ]
             }
@@ -464,7 +500,7 @@
           "id": 2,
           "title": "Application — ComInTime",
           "descShort": "Amélioration d'une application de communication par l'ajout de nouvelles fonctionnalités.",
-          "descFull": "Développement de nouvelles fonctionnalités pour une application de communication, incluant messagerie instantanée et gestion des utilisateurs.",
+          "descFull": "Développement de nouvelles fonctionnalités pour une application de communication, incluant un système de notifications par mail, un système d'import des anciennes publications des réseaux sociaux qui n'ont pas été publiés via l'app, et une prévisualisation des liens dans le contenu des posts.",
           "link": "/annee/2/projet/2",
           "linkDesc": "Voir le projet",
           "skills": [
@@ -479,16 +515,24 @@
           ],
           "content": [
             {
-              "title": "Gestion de données complexes",
-              "desc": "Utilisation de Symfony et Doctrine pour gérer des données utilisateurs et des interactions en temps réel.",
+              "title": "Compétences développées",
+              "desc": "Ce projet m'a permis de renforcer mes compétences en développement d'applications Web et en gestion de données. Voici quelques-unes des compétences que j'ai développées :",
               "competences": [
                 {
-                  "title": "Capturer et stocker des données complexes",
-                  "desc": "Conception de modèles de données et intégration avec des bases de données pour stocker des informations d'utilisateur et de communication."
+                  "title": "Développement de nouvelles fonctionnalités",
+                  "desc": "\t• Utilisation de Symfony pour ajouter de nouvelles fonctionnalités à l'application existante\n\t• Création de systèmes de notifications par mail pour informer les utilisateurs des nouvelles publications\n\t• Mise en place d'un système d'import des anciennes publications des réseaux sociaux pour enrichir le contenu de l'application."
                 },
                 {
-                  "title": "Extraction et manipulation de données",
-                  "desc": "Utilisation de Symfony pour filtrer et manipuler les données en vue de leur utilisation dans l'application de messagerie."
+                  "title": "Optimisation des performances",
+                  "desc": "\t• Amélioration de la vitesse et de la réactivité de l'application en optimisant les requêtes et les traitements de données\n\t• Utilisation de techniques avancées de cache pour réduire les temps de chargement et améliorer l'expérience utilisateur\n\t• Développement de fonctionnalités légères et efficaces pour garantir une utilisation fluide de l'application."
+                },
+                {
+                  "title": "Gestion de projet agile",
+                  "desc": "\t• Utilisation de la méthode SCRUM pour organiser le travail en sprints et suivre l'avancement du projet\n\t• Collaboration étroite avec l'équipe pour définir les objectifs, les priorités et les tâches à réaliser\n\t• Adaptation aux changements et aux retours des clients (pôle communication de l'entreprise) pour garantir la satisfaction et la qualité du produit final."
+                },
+                {
+                  "title": "Intégration de services externes",
+                  "desc": "\t• Connexion aux API de LinkedIn et Meta pour importer des données et enrichir le contenu de l'application\n\t• Utilisation de services tiers pour améliorer les fonctionnalités de l'application et offrir une expérience utilisateur complète\n\t• Intégration de systèmes de notifications par mail pour informer les utilisateurs des nouvelles publications et des mises à jour."
                 }
               ]
             }
@@ -497,8 +541,8 @@
         {
           "id": 3,
           "title": "Application — CNCE",
-          "descShort": "Mise à jour et extension du site CNCE avec de nouvelles fonctionnalités administratives.",
-          "descFull": "Projet d'extension du site CNCE pour inclure des formulaires dynamiques et une API sécurisée pour l'administration des enquêtes publiques.",
+          "descShort": "Mise à jour et amélioration du site CNCE avec de nouvelles fonctionnalités administratives.",
+          "descFull": "Passage de l'application CNCE de Symfony 4 à Symfony 6, ajout de fonctionnalités administratives pour la gestion des enquêtes publiques, incluant des formulaires dynamiques et une API sécurisée pour l'administration des données.",
           "link": "/annee/2/projet/3",
           "linkDesc": "Voir le projet",
           "skills": [
@@ -512,16 +556,17 @@
           ],
           "content": [
             {
-              "title": "Conception et développement d'API sécurisées",
-              "desc": "Développement d'une API pour la gestion des enquêtes, en assurant la sécurité et la conformité des données.",
+              "title": "Migration vers Symfony 6",
+              "desc": "Mise à jour de l'application CNCE de Symfony 4 à Symfony 6 pour bénéficier des dernières fonctionnalités et améliorations de la version la plus récente.",
+              "competences": []
+            },
+            {
+              "title": "Développement de fonctionnalités administratives",
+              "desc": "Ajout de fonctionnalités administratives pour la gestion des enquêtes publiques, incluant des formulaires dynamiques et une API sécurisée pour l'administration des données.",
               "competences": [
                 {
-                  "title": "Conception d'API sécurisées",
-                  "desc": "Développement et intégration d'API sécurisées pour l'administration des enquêtes, garantissant la protection des données."
-                },
-                {
-                  "title": "Adaptation du système d'information",
-                  "desc": "Modification et extension des composants Symfony pour répondre aux besoins changeants en matière de gestion d'enquêtes publiques."
+                  "title": "Développement de fonctionnalités administratives",
+                  "desc": "Création de formulaires dynamiques pour la saisie et la gestion des données, et mise en place d'une API sécurisée pour l'administration des enquêtes publiques."
                 }
               ]
             }
@@ -531,7 +576,7 @@
           "id": 4,
           "title": "Application — Preambules",
           "descShort": "Mise à jour et extension du site Preambules avec de nouvelles intégrations.",
-          "descFull": "Intégration des fonctionnalités développées pour la CNCE dans le site Preambules, améliorant l'interaction des utilisateurs par des interfaces avancées.",
+          "descFull": "Amélioration du site Preambules avec de nouvelles fonctionnalités, incluant des mises à jour de l'espace membre pour les utilisateurs enregistrés, et une intégration avec des services tiers pour enrichir les données du site.",
           "link": "/annee/2/projet/4",
           "linkDesc": "Voir le projet",
           "skills": [
@@ -542,14 +587,14 @@
           ],
           "content": [
             {
-              "title": "Intégration de l'API et développement frontend",
-              "desc": "Implémentation des API développées précédemment et création d'interfaces utilisateur pour améliorer l'interaction et l'engagement des visiteurs.",
-              "competences": [
-                {
-                  "title": "Intégration API et développement avancé",
-                  "desc": "Utilisation de Symfony pour intégrer des services web et créer des interfaces utilisateur dynamiques et réactives."
-                }
-              ]
+              "title": "Mise à jour de l'espace membre",
+              "desc": "Amélioration de l'espace membre pour les utilisateurs enregistrés, incluant des résolutions de bugs, des améliorations de l'interface et des fonctionnalités supplémentaires.",
+              "competences": []
+            },
+            {
+              "title": "Intégration avec des services tiers",
+              "desc": "Intégration de l'API de la CNCE via une commande pour enrichir les données du site, et mise en place de nouvelles fonctionnalités basées sur ces données.",
+              "competences": []
             }
           ]
         }

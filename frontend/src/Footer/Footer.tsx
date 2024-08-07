@@ -2,19 +2,19 @@ import React from "react";
 import "./Footer.css";
 
 interface IProps {
-  owner: string;
+    owner: string;
 }
 
-export const Footer = ({ owner }: IProps) => {
-  const startingYear: string = "©2022-";
-  const currentDate: Date = new Date();
+export const Footer = ({owner}: IProps) => {
+    const startingYear: string = "2023-";
+    const currentDate: Date = new Date();
 
-  return (
-    <div className="footer">
-      <p className="copyright">
-        {startingYear}
-        {currentDate.getFullYear()} {owner}
-      </p>
-    </div>
-  );
+    return (
+        <div className="footer">
+            <p className="copyright">
+                &copy;{startingYear}
+                {currentDate.getFullYear()} {owner}
+            </p>
+        </div>
+    );
 };

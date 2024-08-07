@@ -33,8 +33,8 @@ export const Profile = ({ t, owner }: IProps) => {
           </Grid2>
           <Grid2 paddingTop={0.5} className="profile-desc">
             <p>{t.profile.intro}</p>
-            <p>{t.profile.passions}</p>
             <p>{t.profile.values}</p>
+            <p>{t.profile.passions}</p>
           </Grid2>
         </Grid2>
         <Grid2 xs={12} sm={10} md={8} lg={4} className="center-items picture-owner">

@@ -49,6 +49,14 @@ export const App = () => {
             element: <Project t={translate} />,
         },
         {
+            path: "/year/:yearId",
+            element: <ProjectYear t={translate} />,
+        },
+        {
+            path: "/year/:yearId/project/:projectId",
+            element: <Project t={translate} />,
+        },
+        {
             path: "*",
             element: <Error t={translate} />
         }

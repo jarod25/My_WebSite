@@ -2,56 +2,57 @@
   "welcome": "Welcome to my website!",
   "lang": "Français",
   "contactButton": "Contact",
-  
-  "intro1": "My goal: to create robust and effective web apps, a ",
-  "intro2": "route API ",
-  "intro3": "at a time.",
+
+  "intro1": "Student in  ",
+  "intro2": "IT, ",
+  "intro3": "I'm looking to specialize in ",
+  "intro4": "software development.",
 
   "profile": {
-    "fields": "Interests:",
+    "fields": "Interests :",
     "games": "Video games",
     "arts": "Creative hobbies",
-    "sports": "Sports",
-    "travels": "Travels",
+    "sports": "Sport",
+    "travels": "Travel",
     "cars": "Cars",
     "about": "About me:",
-    "intro": "My name is Jarod Kohler and I started creating this site in 2023 to showcase my development skills, as well as my personal and academic projects. I am a computer engineering student at INSA Lyon after obtaining a BUT in the same field at IUT de Belfort.",
-    "passions": "Outside of programming, I am passionate about video games, creative hobbies, sports, travel, and cars. These activities allow me to escape, stimulate my creativity, stay active, and discover new horizons.",
-    "values": "I am a curious person, always seeking new knowledge and challenges. I place great importance on integrity, teamwork, and innovation. For me, each project is an opportunity to learn and grow, both professionally and personally."
+    "intro": "My name is Jarod Kohler and I'm a student in my last year of the BUT (Bachelor of Technology) program at the IUT in Belfort. Curious by nature, I'm always on the lookout for new knowledge and challenges. That's why I've chosen to do my final year of work-study at Web & Design in Montbéliard.",
+    "values": "Every project I've worked on has been an opportunity to learn and grow, both professionally and personally. I also value integrity, teamwork and innovation. In September 2024, I'll be joining ENSISA in Mulhouse, an engineering school specializing in software development.",
+    "passions": "Aside from programming, I'm passionate about video games, creative hobbies, sports, travel and cars. These activities allow me to escape, stimulate my creativity, stay active and discover new horizons."
   },
 
   "experience": {
-    "title1": "Professional Experiences",
-    "title2": "Education and Training",
-    "title3": "Personal and Academic Projects"
+    "title1": "Professional experience",
+    "title2": "Studies and Training",
+    "title3": "Personal and academic projects"
   },
 
   "contact": {
-    "title" : "Let's keep in touch!",
-    "writeMe": "Send me a message at: ",
+    "title": "Keep in touch!",
+    "writeMe": "Write to me at : ",
     "mail": "kohler.jarod.2004",
     "domainName": "@gmail.com",
-    "callMe": "Call me at: ",
+    "callMe": "Call me at : ",
     "phone": "+33 6 59 73 51 58",
-    "copyMail": "Phone number successfully copied!",
-    "copyPhone": "E-mail address successfully copied!",
+    "copyMail": "Successfully copied e-mail address!",
+    "copyPhone": "Phone number successfully copied!",
     "errorCopy": "Copy failed.",
-    "available": "I am available to discuss about your project!",
-    "notAvailable": "I am not available right now for a new opportunity.",
+    "available": "I'm available to work on your project!",
+    "notAvailable": "I'm not yet available for a new project.",
     "socialNetworks": "My social networks",
     "linkedInLink": "https://www.linkedin.com/in/jarod-kohler-b55060250",
-    "githubLink": "https://github.com/jarod25"
+    "githubLink": "https://github.com/jarod25",
   },
 
   "alt": {
-    "logo": "Logo of Jarod Kohler, it is the first name and last name in blue and red chevrons.",
-    "picture": "Portrait of Jarod Kohler, back-end developer and student.",
-    "contact": "Contact image from \"storyset\" on Freepik website."
+    "logo": "Jarod Kohler logo: first and last name in blue and red chevrons.",
+    "picture": "Front photo of Jarod Kohler, back-end developer and student.",
+    "contact": "Image illustrating the contact, from \"storyset\\\" on the Freepik website."
   },
 
   "errorPage": {
-    "title": "404 Error",
-    "message": "The page you are looking for does not exist.",
+    "title": "Error 404",
+    "message": "The page you're looking for doesn't exist.",
     "buttonText": "Back to home"
   }
 }
