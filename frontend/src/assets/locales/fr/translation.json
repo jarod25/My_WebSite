@@ -34,6 +34,8 @@
     "domainName": "@gmail.com",
     "callMe": "Appelez-moi au : ",
     "phone": "+33 6 59 73 51 58",
+    "downloadResume": "Téléchargez mon CV : ",
+    "resume": "cliquez ici",
     "copyMail": "Adresse mail copiée avec succès !",
     "copyPhone": "Numéro de téléphone copié avec succès !",
     "errorCopy": "Échec de la copie.",

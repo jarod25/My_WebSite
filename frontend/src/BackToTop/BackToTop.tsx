@@ -1,4 +1,3 @@
-import React from "react";
 import "./BackToTop.css";
 import ArrowCircleUpRoundedIcon from "@mui/icons-material/ArrowCircleUpRounded";
 import { useEffect, useState } from "react";
