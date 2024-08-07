@@ -34,15 +34,10 @@
     "domainName": "@gmail.com",
     "callMe": "Call me at : ",
     "phone": "+33 6 59 73 51 58",
-<<<<<<< HEAD
-    "copyMail": "Successfully copied e-mail address!",
-    "copyPhone": "Phone number successfully copied!",
-=======
     "downloadResume": "Download my resume: ",
     "resume": "click here",
     "copyMail": "Phone number successfully copied!",
     "copyPhone": "E-mail address successfully copied!",
->>>>>>> d46de9b0c3c9eeb685d55e78116f892e2ebc7ccb
     "errorCopy": "Copy failed.",
     "available": "I'm available to work on your project!",
     "notAvailable": "I'm not yet available for a new project.",
