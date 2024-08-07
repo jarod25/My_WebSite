@@ -43,7 +43,6 @@ export interface Translations {
     socialNetworks: string;
     linkedInLink: string,
     githubLink: string
-    cv: string;
   };
 
   alt: {

@@ -29,6 +29,14 @@ background-color: inherit;
     font-size: .85rem;
 }
 
+.margin-links {
+    margin-top: 3vh;
+}
+
+.margin-button {
+    margin-left: 2vh;
+}
+
 copy-text {
     cursor: pointer;
 }
