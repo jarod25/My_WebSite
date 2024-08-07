@@ -26,16 +26,8 @@ export const Header = ({ company, t, changeLanguage }: IProps) => {
     }
   };
 
-  const goToContact = (
-    e: React.MouseEvent<HTMLButtonElement>,
-    closeDrawer?: () => void
-  ) => {
-    const contactSection = document.getElementById("contactScroll")!;
-
-    e.preventDefault();
-    if (e.currentTarget.name === "contact" && closeDrawer) closeDrawer();
-
-    window.scrollTo(0, contactSection.offsetTop);
+  const goToContact = () => {
+    window.location.href = "http://localhost:3000/#contact";
   };
 
   return (
