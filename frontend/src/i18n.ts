@@ -56,6 +56,8 @@ export interface Translations {
     message: string;
     buttonText: string;
   };
+
+  backLink: string;
 }
 
 const fr: Translations = french;

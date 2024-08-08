@@ -23,7 +23,6 @@ export const Error = ({t}: IProps) => {
                             {t.errorPage.buttonText}
                         </Button>
                     </Group>
-                    {/*<a href="/">{t.errorPage.buttonText}</a>*/}
                 </div>
             </div>
         </Container>

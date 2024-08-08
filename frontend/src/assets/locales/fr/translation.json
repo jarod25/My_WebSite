@@ -56,5 +56,7 @@
     "title": "Erreur 404",
     "message": "La page que vous recherchez n'existe pas.",
     "buttonText": "Retour à l'accueil"
-  }
+  },
+
+  "backLink": "Retour à la page précédente"
 }

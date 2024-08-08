@@ -36,35 +36,39 @@ export const Experience = ({ t }: IProps) => {
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setValue(e.currentTarget.name);
+    window.location.href = `#${e.currentTarget.id}`;
   };
 
   return (
     <div className="page experience">
       <div className="reverse-gradient">
-        <Grid2 container margin={0} spacing={0} className="center-items">
+        <Grid2 container margin={0} spacing={0} className="center-items" id={"work"}>
           <Grid2 xs={12} sm={2} className="center-items">
             <ButtonTab
               name="work"
               onClick={handleClick}
               style={value === "work" ? activeStyle : undefined}
+              id={"work"}
             >
               {t.experience.title1}
             </ButtonTab>
           </Grid2>
-          <Grid2 xs={12} sm={2} className="center-items">
+          <Grid2 xs={12} sm={2} className="center-items" id={"edu"}>
             <ButtonTab
               name="edu"
               onClick={handleClick}
               style={value === "edu" ? activeStyle : undefined}
+              id={"edu"}
             >
               {t.experience.title2}
             </ButtonTab>
           </Grid2>
-          <Grid2 xs={12} sm={2} className="center-items">
+          <Grid2 xs={12} sm={2} className="center-items" id={"projects"}>
             <ButtonTab
               name="misc"
               onClick={handleClick}
               style={value === "misc" ? activeStyle : undefined}
+              id={"projects"}
             >
               {t.experience.title3}
             </ButtonTab>

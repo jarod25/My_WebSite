@@ -42,7 +42,7 @@ export const App = () => {
         },
         {
             path: "/annee/:yearId",
-            element: <ProjectYear t={translate} />,
+            element: <ProjectYear t={translate}/>,
         },
         {
             path: "/annee/:yearId/projet/:projectId",
@@ -54,7 +54,7 @@ export const App = () => {
         },
         {
             path: "/year/:yearId/project/:projectId",
-            element: <Project t={translate} />,
+            element: <Project t={translate}  />,
         },
         {
             path: "*",
@@ -66,7 +66,7 @@ export const App = () => {
         <MantineProvider>
             <div>
                 <BackToTop/>
-                <Header company={company} t={translate} changeLanguage={changeLanguage}/>
+                <Header company={company} t={translate} changeLanguage={changeLanguage} />
                 <RouterProvider router={router}/>
                 <Footer owner={ownerName}/>
             </div>

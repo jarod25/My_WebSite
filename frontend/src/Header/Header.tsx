@@ -27,7 +27,7 @@ export const Header = ({ company, t, changeLanguage }: IProps) => {
   };
 
   const goToContact = () => {
-    window.location.href = "http://localhost:3000/#contact";
+    window.location.href = "/#contact";
   };
 
   return (
