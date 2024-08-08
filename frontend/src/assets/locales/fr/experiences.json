@@ -162,10 +162,11 @@
       "name": "IUT Nord Franche-Comté",
       "link": "/annee/1",
       "linkDesc": "Voir tous les projets",
-      "desc": "Liste des 2 projets (1 par semestre) réalisés en 2ème année de BUT Informatique. Ils se sont réalisés en groupe de 3 ou de 5 étudiants selon la complexité du projet.",
+      "desc": "Liste des projets réalisés en 2ème année de BUT Informatique. Ils se sont réalisés en groupe de 3 ou de 5 étudiants selon la complexité du projet.",
       "skills": [
         "Site Web d'événements",
-        "Exploitation de données"
+        "Exploitation de données",
+        "Stage"
       ]
     },
     {

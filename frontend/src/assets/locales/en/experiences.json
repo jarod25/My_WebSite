@@ -162,10 +162,11 @@
       "name": "IUT Nord Franche-Comté",
       "link": "/year/1",
       "linkDesc": "See all projects",
-      "desc": "List of 2 projects (1 per semester) carried out in the 2nd year of BUT Informatique. ",
+      "desc": "List of the projects carried out in the 2nd year of BUT Informatique. ",
       "skills": [
         "Events website",
-        "Data mining"
+        "Data mining",
+        "Internship"
       ]
     },
     {
@@ -176,7 +177,7 @@
       "name": "IUT Nord Franche-Comté",
       "link": "/year/2",
       "linkDesc": "See all projects",
-      "desc": "List of 2 projects (1 per semester) carried out in the 3rd year of BUT Informatique. These are mainly projects carried out in alternance.",
+      "desc": "List of the projects carried out in the 3rd year of BUT Informatique. These are mainly projects carried out in alternance.",
       "skills": [
         "Apprenticeship",
         "Websites (e-commerce, showcase, events)"

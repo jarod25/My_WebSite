@@ -107,14 +107,14 @@ export const ProjectYear = ({t}: IProps) => {
         ));
 
     const backToProjects = () => {
-        window.location.href = "/#projects";
+        window.history.back();
     };
 
     return (
         <div className="page">
             <div className="margin-top"></div>
             <Button onClick={backToProjects}>
-                {t.backLink}
+                <span>&#8592; {t.backLink}</span>
             </Button>
             <div className="title-header">
                 <Grid2 className="center-items" margin={0}>
