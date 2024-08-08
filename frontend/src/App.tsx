@@ -22,7 +22,8 @@ export const App = () => {
     const company: string = "Jarod KOHLER";
     const ownerName: string = "Jarod Kohler";
     const availability: boolean = true;
-    const [translate, setTranslate] = useState(getTranslations("fr"));
+    let localCode: string = navigator.language;
+    const [translate, setTranslate] = useState(getTranslations(localCode! || "fr"));
 
     const changeLanguage = (code: string) => {
         setTranslate(getTranslations(code));
