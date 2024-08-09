@@ -1,77 +1,94 @@
+// src/App.tsx
 import "./App.css";
-import React, {useState} from "react";
-import {Header} from "./Header/Header";
-import {Footer} from "./Footer/Footer";
-import getTranslations from "./i18n";
-import {Intro} from "./Intro/Intro";
-import {Profile} from "./Profile/Profile";
-import {BackToTop} from "./BackToTop/BackToTop";
-import {Experience} from "./Experience/Experience";
-import {Contact} from "./Contact/Contact";
-import {Project} from "./Project/Project";
-import {ProjectYear} from "./ProjectYear/ProjectYear";
-import {Error} from "./Error/Error";
-import {
-    createBrowserRouter,
-    RouterProvider,
-} from "react-router-dom";
+import React from "react";
+import { Header } from "./Header/Header";
+import { Footer } from "./Footer/Footer";
+import { Intro } from "./Intro/Intro";
+import { Profile } from "./Profile/Profile";
+import { BackToTop } from "./BackToTop/BackToTop";
+import { Experience } from "./Experience/Experience";
+import { Contact } from "./Contact/Contact";
+import { Project } from "./Project/Project";
+import { ProjectYear } from "./ProjectYear/ProjectYear";
+import { Error } from "./Error/Error";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import '@mantine/core/styles.css';
-import {MantineProvider} from "@mantine/core";
+import { MantineProvider } from "@mantine/core";
+import { LanguageProvider, LanguageContext } from './LanguageContext';
 
 export const App = () => {
     const company: string = "Jarod KOHLER";
     const ownerName: string = "Jarod Kohler";
     const availability: boolean = true;
-    let localCode: string = navigator.language;
-    const [translate, setTranslate] = useState(getTranslations(localCode! || "fr"));
-
-    const changeLanguage = (code: string) => {
-        setTranslate(getTranslations(code));
-    };
 
     const router = createBrowserRouter([
         {
             path: "/",
             element: (
-                <>
-                    <Intro t={translate} />
-                    <Profile t={translate} owner={ownerName} />
-                    <Experience t={translate} />
-                    <Contact t={translate} availability={availability} />
-                </>
+                <LanguageContext.Consumer>
+                    {({ translate }) => (
+                        <>
+                            <Intro t={translate} />
+                            <Profile t={translate} owner={ownerName} />
+                            <Experience t={translate} />
+                            <Contact t={translate} availability={availability} />
+                        </>
+                    )}
+                </LanguageContext.Consumer>
             ),
         },
         {
             path: "/annee/:yearId",
-            element: <ProjectYear t={translate}/>,
+            element: (
+                <LanguageContext.Consumer>
+                    {({ translate }) => <ProjectYear t={translate} />}
+                </LanguageContext.Consumer>
+            ),
         },
         {
             path: "/annee/:yearId/projet/:projectId",
-            element: <Project t={translate} />,
+            element: (
+                <LanguageContext.Consumer>
+                    {({ translate }) => <Project t={translate} />}
+                </LanguageContext.Consumer>
+            ),
         },
         {
             path: "/year/:yearId",
-            element: <ProjectYear t={translate} />,
+            element: (
+                <LanguageContext.Consumer>
+                    {({ translate }) => <ProjectYear t={translate} />}
+                </LanguageContext.Consumer>
+            ),
         },
         {
             path: "/year/:yearId/project/:projectId",
-            element: <Project t={translate}  />,
+            element: (
+                <LanguageContext.Consumer>
+                    {({ translate }) => <Project t={translate} />}
+                </LanguageContext.Consumer>
+            ),
         },
         {
             path: "*",
-            element: <Error t={translate} />
-        }
+            element: (
+                <LanguageContext.Consumer>
+                    {({ translate }) => <Error t={translate} />}
+                </LanguageContext.Consumer>
+            ),
+        },
     ]);
 
     return (
-        <MantineProvider>
-            <div>
-                <BackToTop/>
-                <Header company={company} t={translate} changeLanguage={changeLanguage} />
-                <RouterProvider router={router}/>
-                <Footer owner={ownerName}/>
-            </div>
-        </MantineProvider>
-
+        <LanguageProvider>
+            <MantineProvider>
+                <div>
+                    <BackToTop />
+                    <Header company={company} />
+                    <RouterProvider router={router} />
+                    <Footer owner={ownerName} />
+                </div>
+            </MantineProvider>
+        </LanguageProvider>
     );
 };
