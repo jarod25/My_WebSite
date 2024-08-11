@@ -16,8 +16,13 @@ export const Experience = ({t}: IProps) => {
     useEffect(() => {
         if (window.location.href.includes("#misc")) {
             setValue("misc");
+            scrollToAnchor("misc")
         } else if (window.location.href.includes("#edu")) {
             setValue("edu");
+            scrollToAnchor("edu")
+        } else if (window.location.href.includes("#work")) {
+            setValue("work");
+            scrollToAnchor("work")
         } else {
             setValue("work");
         }
@@ -31,6 +36,10 @@ export const Experience = ({t}: IProps) => {
         padding: "1vh 3vw",
         borderRadius: "7px",
         marginBottom: "6vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        minHeight: "7vh",
         "&.MuiButton-root": {
             "&:hover, &.Mui-focusVisible": {
                 backgroundColor: "var(--bg-clear)",
@@ -47,13 +56,25 @@ export const Experience = ({t}: IProps) => {
         e.preventDefault();
         setValue(e.currentTarget.name);
         window.location.href = `#${e.currentTarget.id}`;
+
+        scrollToAnchor(e.currentTarget.id);
     };
+
+    const scrollToAnchor = (val: any) => {
+        const anchor = document.getElementById(val);
+        if (anchor) {
+            const yOffset = window.innerHeight * 0.1;
+            const y = anchor.getBoundingClientRect().top + window.pageYOffset - yOffset;
+
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    }
 
     return (
         <div className="page experience">
             <div className="reverse-gradient">
-                <Grid2 container margin={0} spacing={0} className="center-items" id={"work"}>
-                    <Grid2 xs={12} sm={2} className="center-items">
+                <Grid2 container margin={0} spacing={0} className="center-items">
+                    <Grid2 xs={12} sm={2} className="center-items" id={"work"}>
                         <ButtonTab
                             name="work"
                             onClick={handleClick}

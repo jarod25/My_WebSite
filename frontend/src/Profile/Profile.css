@@ -10,6 +10,8 @@
 .profile-desc-height {
     height: 100%;
     width: 100%;
+    margin-top: -5vh;
+    margin-bottom: 5vh;
 }
 
 .picture {

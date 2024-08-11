@@ -5,6 +5,7 @@ import {Translations} from "../i18n";
 import {useParams} from "react-router-dom";
 import {Error} from "../Error/Error";
 import {Button} from "@mui/material";
+import {LoadingScreen} from "../LoadingScreen/LoadingScreen";
 
 interface IProps {
     t: Translations;
@@ -13,6 +14,7 @@ interface IProps {
 export const Project = ({t}: IProps) => {
     const [exp, setExp] = useState<IProjects | null>(null);
     const {yearId, projectId} = useParams<{ yearId: string; projectId: string }>();
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
         if (yearId && projectId) {
@@ -29,8 +31,13 @@ export const Project = ({t}: IProps) => {
             } else {
                 setExp(null);
             }
+            setIsLoading(false);
         }
     }, [t, yearId, projectId]);
+
+    if (isLoading) {
+        return <LoadingScreen />;
+    }
 
     if (!exp) {
         return <Error t={t}/>;

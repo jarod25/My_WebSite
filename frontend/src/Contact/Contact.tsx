@@ -22,7 +22,6 @@ export const Contact = ({t, availability}: IProps) => {
     const [openSnackBar, setOpenSnackBar] = useState(false);
     const [snackResult, setSnackResult] = useState({AlertColor: "success", message: ""})!;
 
-
     const handleClick = (data: string) => {
         copyText(data);
         setOpenSnackBar(true);
@@ -76,21 +75,19 @@ export const Contact = ({t, availability}: IProps) => {
                 const url = window.URL.createObjectURL(new Blob([blob]));
                 const link = document.createElement('a');
                 link.href = url;
-                link.setAttribute('download', 'CV Jarod KOHLER.pdf'); // Nom du fichier téléchargé
+                link.setAttribute('download', 'CV Jarod KOHLER.pdf');
                 document.body.appendChild(link);
                 link.click();
-                // Vérifiez que le parent existe avant de le supprimer
                 if (link.parentNode) {
                     link.parentNode.removeChild(link);
                 }
-                // Révoquer l'URL de l'objet après l'utilisation pour libérer la mémoire
                 window.URL.revokeObjectURL(url);
             })
             .catch(error => console.error('Erreur lors du téléchargement du fichier:', error));
     };
 
     return (
-        <div className="page contact" id="contact">
+        <div className="page contact" id="take-contact">
             <div className="title-banner center-items">
                 <h1>{t.contact.title}</h1>
             </div>

@@ -12,15 +12,17 @@ import Timeline from "@mui/lab/Timeline";
 import {Error} from "../Error/Error";
 import Grid2 from "@mui/material/Unstable_Grid2";
 import {Button} from "@mui/material";
+import {LoadingScreen} from "../LoadingScreen/LoadingScreen";
 
 interface IProps {
     t: Translations;
 }
 
-export const ProjectYear = ({t}: IProps) => {
+export const ProjectYear = ({ t }: IProps) => {
     const [projects, setProjects] = useState<IProjects[] | null>(null);
     const [universityYear, setUniversityYear] = useState<IUniv | null>(null);
-    const {yearId} = useParams<{ yearId: string }>();
+    const [isLoading, setIsLoading] = useState(true);
+    const { yearId } = useParams<{ yearId: string }>();
 
     useEffect(() => {
         if (yearId) {
@@ -34,11 +36,16 @@ export const ProjectYear = ({t}: IProps) => {
 
             setProjects(universityYear?.projects || null);
             setUniversityYear(universityYear || null);
+            setIsLoading(false);
         }
     }, [t, yearId]);
 
+    if (isLoading) {
+        return <LoadingScreen />;
+    }
+
     if (!projects || projects.length === 0 || !universityYear) {
-        return <Error t={t}/>;
+        return <Error t={t} />;
     }
 
     const projectList = (projects: IProjects) => {
@@ -107,7 +114,7 @@ export const ProjectYear = ({t}: IProps) => {
         ));
 
     const backToProjects = () => {
-        window.history.back();
+        window.location.href = "/#misc";
     };
 
     return (
