@@ -20,11 +20,26 @@ h1 {
   color: var(--important-text);
 }
 
+h2 {
+  font-family: "Clear Sans Medium", sans-serif;
+  font-size: calc(2vh + 2vmin);
+  color: var(--important-text);
+  margin: 2vh 0;
+}
+
 h3 {
   font-family: "Clear Sans Thin", sans-serif;
   color: var(--theme-text);
   font-size: calc(1.4vh + 0.7vmin);
   text-transform: uppercase;
+}
+
+h4 {
+  font-size: calc(1rem);
+  font-weight: 500;
+  text-align: justify;
+  font-family: "Clear Sans Light", sans-serif;
+  margin: 0 7vw;
 }
 
 body {
@@ -66,6 +81,12 @@ html {
 @media screen and (min-width: 769px) {
   h1 {
     font-size: calc(3.5vh + 2vmin);
+  }
+
+  h4 {
+    font-size: calc(1.5vh + 0.7vmin);
+    text-align: center;
+    margin: 0 10vw;
   }
 
   .page {

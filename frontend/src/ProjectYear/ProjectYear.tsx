@@ -1,5 +1,5 @@
 import "./ProjectYear.css";
-import React, {useState, useEffect} from "react";
+import {useState, useEffect} from "react";
 import {getExperience, IProjects, IUniv} from "../experience";
 import {Translations} from "../i18n";
 import {useParams} from "react-router-dom";
@@ -10,9 +10,9 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import Timeline from "@mui/lab/Timeline";
 import {Error} from "../Error/Error";
-import Grid2 from "@mui/material/Unstable_Grid2";
 import {Button} from "@mui/material";
 import {LoadingScreen} from "../LoadingScreen/LoadingScreen";
+import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 
 interface IProps {
     t: Translations;
@@ -50,14 +50,14 @@ export const ProjectYear = ({ t }: IProps) => {
 
     const projectList = (projects: IProjects) => {
         return (
-            <div className="bubble">
-                <h3 className="bubble-title">{projects.title}</h3>
-                <div className="bubble-desc">
+            <div className="card">
+                <h3 className="card-title">{projects.title}</h3>
+                <div className="card-desc">
                     <p style={{whiteSpace: "pre-wrap"}}>{projects.descShort}</p>
                 </div>
-                <div className="bubble-skills-group">
+                <div className="card-skills-group">
                     {projects.skills.map((skill, index) => (
-                        <span className="bubble-skill" key={index}>
+                        <span className="card-skill" key={index}>
                             {skill}
                         </span>
                     ))}
@@ -118,24 +118,19 @@ export const ProjectYear = ({ t }: IProps) => {
     };
 
     return (
-        <div className="page">
-            <div className="margin-top"></div>
-            <Button onClick={backToProjects}>
-                <span>&#8592; {t.backLink}</span>
-            </Button>
-            <div className="title-header">
-                <Grid2 className="center-items" margin={0}>
-                    <Grid2>
-                        <Grid2 className="center-items">
-                            <h3>{universityYear.title}</h3>
-                        </Grid2>
-                        {universityYear.desc}
-                    </Grid2>
+        <div className="page title-header">
+            <Grid2>
+                <Grid2 lg={3}>
+                    <Button className="back-button" onClick={backToProjects}>
+                        &#8592; {t.backLink}
+                    </Button>
                 </Grid2>
-            </div>
+                <Grid2  lg={9} className="center-items"><h2>{universityYear.title}</h2></Grid2>
+                <Grid2  lg={12} className="center-items" style={{textAlign: 'center'}}><h4>{universityYear.desc}</h4></Grid2>
+            </Grid2>
 
-            <div className="experience">
-                <div className="reverse-gradient">
+            <div className="project-year">
+                <div className="gradient">
 
                     <div className="timeline-view">
                         <Timeline position="alternate" sx={{margin: 0}}>

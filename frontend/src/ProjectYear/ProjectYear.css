@@ -1,12 +1,12 @@
-.experience {
+.project-year {
     background-image: url("../assets/img/bg-exp.png");
     background-position: top;
     background-size: 125%;
     background-repeat: repeat;
-    margin: -10vh 0;
+    margin-top: 5vh;
 }
 
-.reverse-gradient {
+.gradient {
     height: fit-content;
     width: 100%;
     padding: 15vh 0;
@@ -18,22 +18,22 @@
 }
 
 @media screen and (min-width: 780px) {
-    .experience {
+    .project-year {
         background-size: 50%;
     }
 }
 
-.margin-top {
-    margin-top: 10vh;
-}
-
 .title-header {
     background-color: var(--bg-clear);
-    padding: 2% 0;
-    height: 30vh;
+    margin: 10vh 0 -10vh 0;
+    padding-top: 4vh;
 }
 
-.bubble {
+.back-button {
+    margin-left: 3vw;
+}
+
+.card {
     width: 80%;
     border-radius: 7px;
     margin: 4% 0;
@@ -44,32 +44,31 @@
     text-align: left;
 }
 
-.bubble-title {
+.card-title {
     margin: 0 0 2% 1%;
     font-weight: 700;
 }
 
-.bubble-details {
+.card-details {
     width: 98%;
     padding: 1% 2%;
     background-color: var(--theme-text);
     color: var(--shadow);
     border-radius: 7px;
     font-size: calc(.9vh + 1vmin);
-
 }
 
-.bubble-desc {
+.card-desc {
     margin: 1%;
     text-align: justify;
 }
 
-.bubble-skills-group {
+.card-skills-group {
     display: inline;
     width: 100%;
 }
 
-.bubble-skill {
+.card-skill {
     display: inline-block;
     text-align: center;
     background-color: var(--theme-text);
@@ -81,7 +80,7 @@
     transition: all .4s;
 }
 
-.bubble-skill:hover {
+.card-skill:hover {
     background-color: var(--theme-lighter-text);
     color: var(--important-text);
     cursor:default;
@@ -96,10 +95,8 @@
     margin-top: 4%;
 }
 
-
-
 @media screen and (min-width: 1024px) {
-    .bubble {
+    .card {
         margin: 0 0 0 2%;
     }
 
@@ -109,6 +106,10 @@
 
     .mobile-view {
         display: none;
+    }
+
+    .back-button {
+        margin: 0 0 -3vh 3vw;
     }
 }
 

@@ -64,7 +64,7 @@ export const Experience = ({t}: IProps) => {
         const anchor = document.getElementById(val);
         if (anchor) {
             const yOffset = window.innerHeight * 0.1;
-            const y = anchor.getBoundingClientRect().top + window.pageYOffset - yOffset;
+            const y = anchor.getBoundingClientRect().top + window.scrollY - yOffset;
 
             window.scrollTo({ top: y, behavior: 'smooth' });
         }
