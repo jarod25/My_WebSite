@@ -9,7 +9,7 @@ import { BackToTop } from "./BackToTop/BackToTop";
 import { Experience } from "./Experience/Experience";
 import { Contact } from "./Contact/Contact";
 import { Project } from "./Project/Project";
-import { ProjectYear } from "./Project/ProjectYear/ProjectYear";
+import { ProjectYear } from "./ProjectYear/ProjectYear";
 import { Error } from "./Error/Error";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import '@mantine/core/styles.css';
