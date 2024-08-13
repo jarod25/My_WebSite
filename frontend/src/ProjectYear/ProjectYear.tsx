@@ -75,24 +75,24 @@ export const ProjectYear = ({ t }: IProps) => {
             ))}
         </div>
         <div className="link-container">
-            <Button
+            <Button 
                 href={projects.link}
                 sx={[{
                     bgcolor: "var(--theme-lighter-text)",
-                    width: "100%",
+                    width:"100%",
                     height: "5vh",
-                            marginTop:"2.5vh",
-                            borderRadius: "7px",
-                            color: "var(--important-text)!important",
-                        },
-                        (theme) => ({
-                            '&:hover': {
-                            color: "var(--important-text)!important",
-                            border:"2px solid var(--theme-lighter-text)",
-                            margin: "2.25vh 0 -.25vh",
-                            height: "5.5vh",
-                            },
-                        }),
+                    margin: "2.5vh 25% 0 25%",
+                    borderRadius: "7px",
+                    color: "var(--important-text)!important",
+                },
+                (theme) => ({
+                    '&:hover': {
+                    color: "var(--important-text)!important",
+                    border:"2px solid var(--theme-lighter-text)",
+                    margin: "2.25vh 25% -.25vh 25%",
+                    height: "5.5vh",
+                    },
+                }),
                         ]}>
                         {projects.linkDesc}
                     </Button>

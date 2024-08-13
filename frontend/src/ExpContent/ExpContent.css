@@ -83,11 +83,3 @@
     display: flex;
     justify-content: center;
 }
-
-.link-container a {
-    border: 1px solid var(--link);
-    border-radius: 7px;
-    color: var(--link);
-    text-decoration: none;
-    padding: 1% 2%;
-}

@@ -116,16 +116,16 @@ export const ExpContent = ({t, val}: IProps) => {
                     href={exp.link} 
                     sx={[{
                         bgcolor: "var(--theme-lighter-text)",
-                        width:"98%",
+                        width:"50%",
                         height: "5vh",
-                        margin:"2.5vh 0 0 1%",
+                        margin:"2.5vh 25% 0 25%",
                         color: "var(--important-text)!important",
                     },
                     (theme) => ({
                         '&:hover': {
                           color: "var(--important-text)!important",
                           border:"2px solid var(--theme-lighter-text)",
-                          margin: "2.25vh 0 -.25vh 1%",
+                          margin: "2.25vh 25% -.25vh 25%",
                           height: "5.5vh",
                         },
                       }),
