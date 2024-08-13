@@ -52,6 +52,7 @@ export const ProjectYear = ({ t }: IProps) => {
         return (
             <div className="card">
                 <h3 className="card-title">{projects.title}</h3>
+                <hr className="separation"></hr>
                 <div className="card-desc">
                     <p style={{whiteSpace: "pre-wrap"}}>{projects.descShort}</p>
                 </div>
@@ -63,9 +64,27 @@ export const ProjectYear = ({ t }: IProps) => {
                     ))}
                 </div>
                 <div className="link-container">
-                    <a href={projects.link} rel="noreferrer">
+                    <Button 
+                        href={projects.link}
+                        sx={[{
+                            bgcolor: "var(--theme-lighter-text)",
+                            width:"100%",
+                            height: "5vh",
+                            marginTop:"2.5vh",
+                            borderRadius: "7px",
+                            color: "var(--important-text)!important",
+                        },
+                        (theme) => ({
+                            '&:hover': {
+                            color: "var(--important-text)!important",
+                            border:"2px solid var(--theme-lighter-text)",
+                            margin: "2.25vh 0 -.25vh",
+                            height: "5.5vh",
+                            },
+                        }),
+                        ]}>
                         {projects.linkDesc}
-                    </a>
+                    </Button>
                 </div>
             </div>
         );
@@ -121,7 +140,12 @@ export const ProjectYear = ({ t }: IProps) => {
         <div className="page title-header">
             <Grid2>
                 <Grid2 lg={3}>
-                    <Button className="back-button" onClick={backToProjects}>
+                    <Button 
+                        onClick={backToProjects}
+                        sx={{
+                            margin: "0 0 -2vw 3vw"
+                        }}
+                    >
                         &#8592; {t.backLink}
                     </Button>
                 </Grid2>

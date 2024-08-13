@@ -9,6 +9,7 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
+import { Button } from "@mui/material";
 
 interface IProps {
     t: Translations;
@@ -111,9 +112,26 @@ export const ExpContent = ({t, val}: IProps) => {
             </span>
                     ))}
                 </div>
-                <div className="link-container">
-                    <a href={exp.link} rel="noreferrer">{exp.linkDesc}</a>
-                </div>
+                <Button 
+                    href={exp.link} 
+                    sx={[{
+                        bgcolor: "var(--theme-lighter-text)",
+                        width:"98%",
+                        height: "5vh",
+                        margin:"2.5vh 0 0 1%",
+                        color: "var(--important-text)!important",
+                    },
+                    (theme) => ({
+                        '&:hover': {
+                          color: "var(--important-text)!important",
+                          border:"2px solid var(--theme-lighter-text)",
+                          margin: "2.25vh 0 -.25vh 1%",
+                          height: "5.5vh",
+                        },
+                      }),
+                    ]}>
+                    {exp.linkDesc}
+                </Button>
             </div>
         );
     };
@@ -130,6 +148,7 @@ export const ExpContent = ({t, val}: IProps) => {
                             height: "1vh",
                             backgroundColor: "var(--link)",
                             border: ".5vh solid var(--link)",
+                            borderRadius: "7px",
                             boxShadow: "2px 2px 5px var(--weak-shadow)",
                         }}
                     />

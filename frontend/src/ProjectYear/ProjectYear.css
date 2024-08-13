@@ -29,8 +29,10 @@
     padding-top: 4vh;
 }
 
-.back-button {
-    margin-left: 3vw;
+.separation {
+    height: 5px;
+    background-color: var(--theme-lighter-text);
+    width: 98%;
 }
 
 .card {
