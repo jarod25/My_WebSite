@@ -193,6 +193,9 @@
         {
           "id": 0,
           "title": "Token game in Java",
+          "projectType": "University project",
+          "duration" : "1 month",
+          "nbPeople" : "2 people",
           "descShort": "A strategic board game developed in Java, incorporating a JavaFX interface and artificial intelligences to enrich the gameplay experience.",
           "descFull": "The Token game in Java is a strategic board game where two players alternately place tokens of increasing value on a board of 21 squares. Each player must minimize the sum of the points around a remaining empty square to win. This project showcases my skills in Java, JavaFX for the user interface, and programming artificial intelligences to enhance the game. Completed as a pair, this project allowed me to deepen my application development skills, algorithm optimization, and teamwork.",
           "link": "/year/0/project/0",
@@ -229,6 +232,9 @@
         {
           "id": 1,
           "title": "Computer systems administration",
+          "projectType": "University project",
+          "duration" : "1 month",
+          "nbPeople" : "3 people",
           "descShort": "Configure and administer workstations and network services to ensure an efficient IT infrastructure.",
           "descFull": "This project involved installing and configuring workstations in a network environment to ensure connectivity and system security. We set up secure work environments, deployed network services, and solved connectivity issues. Working on this project with two other students allowed me to strengthen my system administration skills, particularly in workstation management and network configuration.",
           "link": "/year/0/project/1",
@@ -263,6 +269,9 @@
         {
           "id": 2,
           "title": "Carpooling website",
+          "projectType": "University project",
+          "duration" : "1 month",
+          "nbPeople" : "3 people",
           "descShort": "Carpooling site in Python with Flask, and MySQL for the database.",
           "descFull": "The project involved creating a carpooling website in Python with Flask, and MySQL for the database. The site allowed users to offer rides with departure or arrival in Belfort and to search for carpoolers to share travel expenses. This project enabled us to practice our web development and database query skills. We worked in a group of 3 students.",
           "link": "/year/0/project/2",
@@ -299,6 +308,9 @@
         {
           "id": 3,
           "title": "Kamisado game in Java",
+          "projectType": "University project",
+          "duration" : "2 month",
+          "nbPeople" : "6 people",
           "descShort": "The Kamisado game in Java, a strategic board game where each player must move their piece to the opponent's line.",
           "descFull": "Players move their piece based on the color of the square it stands on, trying to block the opponent. This project allowed us to practice our skills in Java, JavaFX for the graphic interface, algorithmic for the game logic, and the development of artificial intelligences. We developed two different AIs to offer a varied challenge to players. We worked in a group of 6 for the realization of this project.",
           "link": "/year/0/project/3",
@@ -356,6 +368,9 @@
         {
           "id": 4,
           "title": "E-commerce site in Python",
+          "projectType": "University project",
+          "duration" : "2 month",
+          "nbPeople" : "3 people",
           "descShort": "E-commerce site for ski sales in Python with Flask, and MySQL for the database.",
           "descFull": "The project involved creating an e-commerce site for ski sales in Python with Flask, and MySQL for the database. The site allowed users to view products, add them to the cart, place orders, and manage their account. This project enabled us to practice our web development and database management skills. It also included project management and deployment of the site on Pythonanywhere. We worked in a group of 3 students.",
           "link": "/year/0/project/4",
@@ -421,6 +436,9 @@
         {
           "id": 0,
           "title": "La Cour Médiévale de Monseigneur Ambert",
+          "projectType": "University project",
+          "duration" : "5 month",
+          "nbPeople" : "5 people",
           "descShort": "This site aims to manage the convention \"La Cour Médiévale de Monseigneur Ambert\", a medieval convention taking place at Montby Castle, in Doubs. This convention was entirely imagined and designed by the site's development team.",
           "descFull": "This project was completed by a group of 5 students and allowed us to practice our web development, project management, and communication skills. The site manages participant registrations, proposed activities, stands, and entertainment, as well as practical information about the event. We used HTML, CSS, JavaScript, VueJS, and PostgreSQL to create this application, following the agile SCRUM methodology for project management.",
           "link": "/year/1/project/0",
@@ -485,6 +503,9 @@
         {
           "id": 1,
           "title": "Data exploitation and visualization",
+          "projectType": "University project",
+          "duration" : "2 month",
+          "nbPeople" : "3 people",
           "descShort": "As part of a group project involving three people, we analyzed and visualized data from various sources to extract crucial insights, thereby strengthening decision-making.",
           "descFull": "This project aimed to analyze data from different sources to extract meaningful insights intended to improve decision-making. To achieve this, we used techniques for data collection, cleaning, and transformation before proceeding with a statistical analysis. We then presented the results in the form of clear and informative visualizations. This project allowed us to deepen our skills in data analysis, data processing, and visualization of results.",
           "link": "/year/1/project/1",
@@ -548,6 +569,9 @@
         {
           "id": 2,
           "title": "Internship — Web Developer",
+          "projectType": "Company project",
+          "duration" : "3 month",
+          "nbPeople" : "4 people",
           "descShort": "A 3-month internship in a company to practice my web development skills.",
           "descFull": "I completed a 3-month internship in a company at Web&Design, a web development agency specializing in creating showcase sites and e-commerce sites. I worked on various projects, including a site for selling products and accessories for commercial vehicles. I was able to practice my skills in HTML, CSS, JavaScript, PHP, Symfony, and MySQL to develop advanced features and optimize the site's performance. I also participated in project management using the SCRUM method to organize teamwork and track the progress of the project.",
           "link": "/year/1/project/2",
@@ -607,6 +631,9 @@
         {
           "id": 0,
           "title": "E-commerce site — Chips-Events",
+          "projectType": "Company project",
+          "duration" : "4 month",
+          "nbPeople" : "5 people",
           "descShort": "Collaborative development of an e-commerce site dedicated to renting event equipment.",
           "descFull": "Our team worked together to create an e-commerce platform for renting event equipment. This project involved modeling complex data and integrating secure payment systems.",
           "link": "/year/2/project/0",
@@ -651,6 +678,9 @@
         {
           "id": 1,
           "title": "Showcase site — ComInTime",
+          "projectType": "Company project",
+          "duration" : "1 month",
+          "nbPeople" : "3 people",
           "descShort": "Collaborative design of a showcase site to promote a communication application.",
           "descFull": "We worked on the development of a showcase site aimed at promoting the ComInTime application. This project included managing the displayed content, a blog, contact features, a detailed presentation of the application, and a direct link to it.",
           "link": "/year/2/project/1",
@@ -689,6 +719,9 @@
         {
           "id": 2,
           "title": "Application — ComInTime",
+          "projectType": "Company project",
+          "duration" : "4 month",
+          "nbPeople" : "6 people",
           "descShort": "Adding new features to an existing communication application.",
           "descFull": "We worked on improving the ComInTime application by developing new features. These included an email notification system, a tool for importing previous social network posts, and a link preview in the content of posts.",
           "link": "/year/2/project/2",
@@ -731,6 +764,9 @@
         {
           "id": 3,
           "title": "Application — CNCE",
+          "projectType": "Company project",
+          "duration" : "1 month",
+          "nbPeople" : "4 people",
           "descShort": "Enhancement of the CNCE site with technical updates and new administrative features.",
           "descFull": "We worked on updating the CNCE application by moving from Symfony 4 to Symfony 6, while adding administrative features for managing public surveys. This included creating dynamic forms and setting up a secure API for data administration.",
           "link": "/year/2/project/3",
@@ -769,6 +805,9 @@
         {
           "id": 4,
           "title": "Application — Preambules",
+          "projectType": "Company project",
+          "duration" : "1 month",
+          "nbPeople" : "2 people",
           "descShort": "Update and extension of the Preambules site with new features and integrations.",
           "descFull": "We worked on improving the Preambules site by adding new features, particularly in the member area for registered users, and integrating third-party services to enrich the site's content.",
           "link": "/year/2/project/4",

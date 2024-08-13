@@ -193,6 +193,9 @@
         {
           "id": 0,
           "title": "Jeu du jeton en Java",
+          "projectType": "Projet universitaire",
+          "duration" : "1 mois",
+          "nbPeople" : "2 personnes",
           "descShort": "Un jeu de plateau stratégique développé en Java, intégrant une interface JavaFX et des intelligences artificielles pour enrichir l'expérience de jeu.",
           "descFull": "Le jeu du jeton en Java est un jeu de plateau stratégique où deux joueurs placent tour à tour des jetons de valeurs croissantes sur un plateau de 21 cases. Chaque joueur doit minimiser la somme des points autour d'une case vide restante pour gagner. Ce projet met en avant mes compétences en Java, JavaFX pour l'interface utilisateur, et la programmation d'intelligences artificielles pour améliorer le jeu. Réalisé en binôme, ce projet m'a permis d'approfondir mes compétences en développement d'application, en optimisation des algorithmes et en travail d'équipe.",
           "link": "/annee/0/projet/0",
@@ -229,6 +232,9 @@
         {
           "id": 1,
           "title": "Administration des systèmes informatiques",
+          "projectType": "Projet universitaire",
+          "duration" : "1 mois",
+          "nbPeople" : "3 personnes",
           "descShort": "Configurer et administrer des postes de travail et services réseau pour assurer une infrastructure informatique efficace.",
           "descFull": "Ce projet consistait à installer et configurer des postes de travail dans un environnement réseau pour garantir la connectivité et la sécurité des systèmes informatiques. Nous avons mis en place des environnements de travail sécurisés, déployé des services réseau et résolu des problèmes de connectivité. Travailler sur ce projet avec deux autres étudiants m'a permis de renforcer mes compétences en administration de systèmes, notamment en gestion des postes de travail et configuration réseau.",
           "link": "/annee/0/projet/1",
@@ -263,6 +269,9 @@
         {
           "id": 2,
           "title": "Site de covoiturage",
+          "projectType": "Projet universitaire",
+          "duration" : "1 mois",
+          "nbPeople" : "3 personnes",
           "descShort": "Site de covoiturage en Python avec Flask, ainsi que MySQL pour la base de données.",
           "descFull": "Le projet consistait à réaliser un site de covoiturage en Python avec Flask, ainsi que MySQL pour la base de données. Le site permettait aux utilisateurs de proposer des trajets avec Départ ou Arrivée à Belfort et de rechercher des covoitureurs pour partager les frais de déplacement. Ce projet nous a permis de mettre en pratique nos compétences en développement Web et en requêtes sur base de données. Nous avons travaillé en groupe de 3 étudiants.",
           "link": "/annee/0/projet/2",
@@ -299,6 +308,9 @@
         {
           "id": 3,
           "title": "Jeu du Kamisado en Java",
+          "projectType": "Projet universitaire",
+          "duration" : "2 mois",
+          "nbPeople" : "6 personnes",
           "descShort": "Le jeu du Kamisado en Java, jeu de plateau stratégique où chaque joueur doit amener son pion à la ligne adverse.",
           "descFull": "Les joueurs déplacent leur pion en fonction de la couleur de la case sur laquelle il se trouve, en essayant de bloquer l'adversaire. Ce projet nous a permis de mettre en pratique nos compétences en Java, en JavaFX pour l'interface graphique, en algorithmique pour la logique du jeu, ainsi qu'en développement d'intelligences artificielles. Nous avons développé deux IA différentes pour offrir un défi varié aux joueurs. Nous avons travaillé en groupe de 6 pour la réalisation de ce projet.",
           "link": "/annee/0/projet/3",
@@ -356,6 +368,9 @@
         {
           "id": 4,
           "title": "Site de e-commerce en Python",
+          "projectType": "Projet universitaire",
+          "duration" : "2 mois",
+          "nbPeople" : "3 personnes",
           "descShort": "Site de e-commerce pour une vente de ski en Python avec Flask, ainsi que MySQL pour la base de données.",
           "descFull": "Le projet consistait à réaliser un site de e-commerce pour une vente de ski en Python avec Flask, ainsi que MySQL pour la base de données. Le site permettait aux utilisateurs de consulter les produits, de les ajouter au panier, de passer commande et de gérer leur compte. Ce projet nous a permis de mettre en pratique nos compétences en développement Web et en gestion de base de données. Il y avait également une partie gestion de projet et déploiement du site sur Pythonanywhere. Nous avons travaillé en groupe de 3 étudiants.",
           "link": "/annee/0/projet/4",
@@ -421,6 +436,9 @@
         {
           "id": 0,
           "title": "La Cour Médiévale De Monseigneur Ambert",
+          "projectType": "Projet universitaire",
+          "duration" : "5 mois",
+          "nbPeople" : "5 personnes",
           "descShort": "Ce site a pour but de gérer la convention \"La Cour Médiévale De Mon Seigneur Ambert\", une convention médiévale se déroulant au château de Montby, dans le Doubs. Cette convention a été totalement imaginée et conçue par l'équipe de développeurs du site.",
           "descFull": "Ce projet a été réalisé en groupe de 5 étudiants et nous a permis de mettre en pratique nos compétences en développement Web, en gestion de projet et en communication. Le site permet de gérer les inscriptions des participants, les activités proposées, les stands et les animations, ainsi que les informations pratiques sur l'événement. Nous avons utilisé HTML, CSS, JavaScript, VueJS et PostgreSQL pour réaliser cette application, en suivant la méthodologie agile SCRUM pour la gestion de projet.",
           "link": "/annee/1/projet/0",
@@ -485,6 +503,9 @@
         {
           "id": 1,
           "title": "Exploitation et visualisation de données",
+          "projectType": "Projet universitaire",
+          "duration" : "2 mois",
+          "nbPeople" : "3 personnes",
           "descShort": "Dans le cadre d'un projet de groupe impliquant trois personnes, nous avons analysé et visualisé des données de sources diverses pour en extraire des insights cruciaux, renforçant ainsi la prise de décision.",
           "descFull": "Ce projet avait pour objectif d'analyser des données provenant de différentes sources afin d'en extraire des insights significatifs destinés à améliorer la prise de décision. Pour le mener à bien, nous avons utilisé des techniques de collecte, de nettoyage et de transformation des données avant de procéder à une analyse statistique. Nous avons ensuite présenté les résultats sous forme de visualisations claires et informatives. Ce projet nous a permis d'approfondir nos compétences en analyse de données, en traitement des données, et en visualisation des résultats.",
           "link": "/annee/1/projet/1",
@@ -548,6 +569,9 @@
         {
           "id": 2,
           "title": "Stage — Développeur Web",
+          "projectType": "Projet d'entreprise",
+          "duration" : "3 mois",
+          "nbPeople" : "4 personnes",
           "descShort": "Stage de 3 mois en entreprise pour mettre en pratique mes compétences en développement Web.",
           "descFull": "J'ai réalisé un stage de 3 mois en entreprise chez Web&Design, une agence de développement Web spécialisée dans la création de sites vitrines et de sites e-commerce. J'ai travaillé sur différents projets, notamment sur un site de vente de produits et d'accessoires pour véhicules utilitaires. J'ai pu mettre en pratique mes compétences en HTML, CSS, JavaScript, PHP, Symfony et MySQL pour développer des fonctionnalités avancées et optimiser les performances du site. J'ai également participé à la gestion de projet en utilisant la méthode SCRUM pour organiser le travail en équipe et suivre l'avancement du projet.",
           "link": "/annee/1/projet/2",
@@ -607,6 +631,9 @@
         {
           "id": 0,
           "title": "Site de e-commerce — Chips-Events",
+          "projectType": "Projet d'entreprise",
+          "duration" : "4 mois",
+          "nbPeople" : "5 personnes",
           "descShort": "Développement collaboratif d'un site e-commerce dédié à la location de matériel pour événements.",
           "descFull": "Notre équipe a travaillé ensemble pour créer une plateforme e-commerce permettant la location de matériel événementiel. Ce projet a impliqué la modélisation de données complexes et l'intégration de systèmes de paiement sécurisés.",
           "link": "/annee/2/projet/0",
@@ -651,6 +678,9 @@
         {
           "id": 1,
           "title": "Site vitrine — ComInTime",
+          "projectType": "Projet d'entreprise",
+          "duration" : "1 mois",
+          "nbPeople" : "3 personnes",
           "descShort": "Conception collaborative d'un site vitrine pour promouvoir une application de communication.",
           "descFull": "Nous avons travaillé sur le développement d'un site vitrine destiné à promouvoir l'application ComInTime. Ce projet comprenait la gestion du contenu affiché, un blog, des fonctionnalités de prise de contact, une présentation détaillée de l'application, ainsi qu'un lien direct vers celle-ci.",
           "link": "/annee/2/projet/1",
@@ -689,6 +719,9 @@
         {
           "id": 2,
           "title": "Application — ComInTime",
+          "projectType": "Projet d'entreprise",
+          "duration" : "4 mois",
+          "nbPeople" : "6 personnes",
           "descShort": "Ajout de nouvelles fonctionnalités à une application de communication existante.",
           "descFull": "Nous avons travaillé sur l'amélioration de l'application ComInTime en développant de nouvelles fonctionnalités. Celles-ci incluent un système de notifications par email, un outil d'importation des publications antérieures des réseaux sociaux, et une prévisualisation des liens dans le contenu des posts.",
           "link": "/annee/2/projet/2",
@@ -731,6 +764,9 @@
         {
           "id": 3,
           "title": "Application — CNCE",
+          "projectType": "Projet d'entreprise",
+          "duration" : "1 mois",
+          "nbPeople" : "4 personnes",
           "descShort": "Amélioration du site CNCE avec des mises à jour techniques et de nouvelles fonctionnalités administratives.",
           "descFull": "Nous avons travaillé sur la mise à jour de l'application CNCE en passant de Symfony 4 à Symfony 6, tout en ajoutant des fonctionnalités administratives pour la gestion des enquêtes publiques. Cela comprenait la création de formulaires dynamiques et la mise en place d'une API sécurisée pour l'administration des données.",
           "link": "/annee/2/projet/3",
@@ -769,6 +805,9 @@
         {
           "id": 4,
           "title": "Application — Preambules",
+          "projectType": "Projet d'entreprise",
+          "duration" : "1 mois",
+          "nbPeople" : "2 personnes",
           "descShort": "Mise à jour et extension du site Preambules avec de nouvelles fonctionnalités et intégrations.",
           "descFull": "Nous avons travaillé sur l'amélioration du site Preambules en apportant de nouvelles fonctionnalités, en particulier dans l'espace membre pour les utilisateurs enregistrés, et en intégrant des services tiers pour enrichir le contenu du site.",
           "link": "/annee/2/projet/4",

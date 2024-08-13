@@ -1,5 +1,5 @@
 import "./ProjectYear.css";
-import {useState, useEffect} from "react";
+import React, {useState, useEffect} from "react";
 import {getExperience, IProjects, IUniv} from "../experience";
 import {Translations} from "../i18n";
 import {useParams} from "react-router-dom";
@@ -13,6 +13,7 @@ import {Error} from "../Error/Error";
 import {Button} from "@mui/material";
 import {LoadingScreen} from "../LoadingScreen/LoadingScreen";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
+import PeopleIcon from '@mui/icons-material/People';
 
 interface IProps {
     t: Translations;
@@ -52,24 +53,34 @@ export const ProjectYear = ({ t }: IProps) => {
         return (
             <div className="card">
                 <h3 className="card-title">{projects.title}</h3>
-                <hr className="separation"></hr>
-                <div className="card-desc">
-                    <p style={{whiteSpace: "pre-wrap"}}>{projects.descShort}</p>
-                </div>
-                <div className="card-skills-group">
-                    {projects.skills.map((skill, index) => (
-                        <span className="card-skill" key={index}>
+                <Grid2 container className="project-details">
+                    <Grid2 xs={12} sm={5}>
+                        🏢 {projects.projectType}
+                    </Grid2>
+                    <Grid2 xs={8} sm={3.5}>
+                        🗓️ {projects.duration}
+                    </Grid2>
+                    <Grid2 xs={4} sm={3.5}>
+                        <PeopleIcon sx={{fontSize: "1.5rem", margin: "0 0 -.25rem"}}/>  {projects.nbPeople}
+                </Grid2>
+            </Grid2>
+        <div className="card-desc">
+            <p style={{whiteSpace: "pre-wrap"}}>{projects.descShort}</p>
+        </div>
+        <div className="card-skills-group">
+            {projects.skills.map((skill, index) => (
+                <span className="card-skill" key={index}>
                             {skill}
                         </span>
-                    ))}
-                </div>
-                <div className="link-container">
-                    <Button 
-                        href={projects.link}
-                        sx={[{
-                            bgcolor: "var(--theme-lighter-text)",
-                            width:"100%",
-                            height: "5vh",
+            ))}
+        </div>
+        <div className="link-container">
+            <Button
+                href={projects.link}
+                sx={[{
+                    bgcolor: "var(--theme-lighter-text)",
+                    width: "100%",
+                    height: "5vh",
                             marginTop:"2.5vh",
                             borderRadius: "7px",
                             color: "var(--important-text)!important",

@@ -29,10 +29,13 @@
     padding-top: 5vh;
 }
 
-.separation {
-    height: 5px;
-    background-color: var(--theme-lighter-text);
+.project-details {
     width: 98%;
+    padding: 1% 2%;
+    background-color: var(--theme-text);
+    color: var(--shadow);
+    border-radius: 7px;
+    font-size: calc(.9vh + 1vmin);
 }
 
 .card {
