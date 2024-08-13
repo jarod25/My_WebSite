@@ -146,7 +146,7 @@ export const ProjectYear = ({ t }: IProps) => {
                             margin: "0 0 -2vw 3vw"
                         }}
                     >
-                        &#8592; {t.backLink}
+                        {t.backLink}
                     </Button>
                 </Grid2>
                 <Grid2  lg={9} className="center-items"><h2>{universityYear.title}</h2></Grid2>

@@ -1,11 +1,16 @@
 .project-container {
     max-width: 85%;
-    padding: 20px;
+    padding: 5vh 2vw;
     color: #333;
     background-color: #f7f9fc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin: 15vh auto 40px;
+    border-radius: 7px;
+    margin: 5vh auto 0 auto;
+}
+
+.project-page {
+    background-color: var(--bg-clear);
+    padding: 15vh 0 10vh 0;
 }
 
 .project-header {
