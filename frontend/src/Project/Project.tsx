@@ -37,7 +37,7 @@ export const Project = ({t}: IProps) => {
     }, [t, yearId, projectId]);
 
     if (isLoading) {
-        return <LoadingScreen />;
+        return <LoadingScreen/>;
     }
 
     if (!exp) {
@@ -52,7 +52,7 @@ export const Project = ({t}: IProps) => {
         <div className="page project-page">
             <Grid2>
                 <Grid2 lg={3}>
-                    <Button 
+                    <Button
                         onClick={backToPreviousPage}
                         sx={{
                             margin: "0 0 -2vw 3vw"
@@ -61,10 +61,20 @@ export const Project = ({t}: IProps) => {
                         {t.backLink}
                     </Button>
                 </Grid2>
-                <Grid2  lg={9} className="center-items"><h2>{exp.title}</h2></Grid2>
-                <Grid2  lg={12} className="center-items" style={{textAlign: 'center'}}><h4>{exp.descShort}</h4></Grid2>
+                <Grid2
+                    lg={9}
+                    className="center-items"
+                    style={{textAlign: 'center'}}>
+                    <h2 style={{margin: '0 20px'}}>{exp.title}</h2>  {/* Ajoute un margin de 20px de chaque côté */}
+                </Grid2>
+                <Grid2
+                    lg={12}
+                    className="center-items"
+                    style={{textAlign: 'center'}}>
+                    <h4>{exp.descShort}</h4>
+                </Grid2>
             </Grid2>
-            
+
             <div className="project-container">
                 <div className="project-description" style={{whiteSpace: "pre-wrap"}}>{exp.descFull}</div>
 
