@@ -128,8 +128,8 @@ export const ExpContent = ({t, val}: IProps) => {
                           margin: "2.25vh 25% -.25vh 25%",
                           height: "5.5vh",
                         },
-                      }),
-                    ]}>
+                    }),
+                ]}>
                     {exp.linkDesc}
                 </Button>
             </div>

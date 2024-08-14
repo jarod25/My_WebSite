@@ -13,7 +13,6 @@ import {Error} from "../Error/Error";
 import {Button} from "@mui/material";
 import {LoadingScreen} from "../LoadingScreen/LoadingScreen";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
-import PeopleIcon from '@mui/icons-material/People';
 
 interface IProps {
     t: Translations;
@@ -61,7 +60,7 @@ export const ProjectYear = ({ t }: IProps) => {
                         🗓️ {projects.duration}
                     </Grid2>
                     <Grid2 xs={4} sm={3.5}>
-                        <PeopleIcon sx={{fontSize: "1.5rem", margin: "0 0 -.25rem"}}/>  {projects.nbPeople}
+                        🙍‍♂️ {projects.nbPeople}
                 </Grid2>
             </Grid2>
         <div className="card-desc">
@@ -93,9 +92,9 @@ export const ProjectYear = ({ t }: IProps) => {
                     height: "5.5vh",
                     },
                 }),
-                        ]}>
-                        {projects.linkDesc}
-                    </Button>
+            ]}>
+                {projects.linkDesc}
+            </Button>
                 </div>
             </div>
         );

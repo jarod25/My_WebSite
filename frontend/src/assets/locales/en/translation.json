@@ -55,7 +55,7 @@
   "errorPage": {
     "title": "Error 404",
     "message": "The page you're looking for doesn't exist.",
-    "buttonText": "Back to home"
+    "buttonText": "Home"
   },
 
   "backLink": "⤺ Back"

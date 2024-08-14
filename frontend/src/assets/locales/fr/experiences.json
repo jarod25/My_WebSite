@@ -146,7 +146,7 @@
       "date": "2021 - 2022",
       "name": "IUT Nord Franche-Comté",
       "link": "/annee/0",
-      "linkDesc": "Voir tous les projets",
+      "linkDesc": "Voir la liste",
       "desc": "Liste des projets réalisés en 1ère année de BUT Informatique. Ces projets sont appelés « SAE » qui signifie « Situation d'Apprentissage et d'Évaluation », et se sont réalisés en groupe entre 2 et 6 étudiants selon la complexité du projet.",
       "skills": [
         "Sites Web de e-commerce",
@@ -161,7 +161,7 @@
       "date": "2022 - 2023",
       "name": "IUT Nord Franche-Comté",
       "link": "/annee/1",
-      "linkDesc": "Voir tous les projets",
+      "linkDesc": "Voir la liste",
       "desc": "Liste des projets réalisés en 2ème année de BUT Informatique. Ils se sont réalisés en groupe de 3 ou de 5 étudiants selon la complexité du projet.",
       "skills": [
         "Site Web d'événements",
@@ -176,7 +176,7 @@
       "date": "2023 - 2024",
       "name": "IUT Nord Franche-Comté",
       "link": "/annee/2",
-      "linkDesc": "Voir tous les projets",
+      "linkDesc": "Voir la liste",
       "desc": "Liste des projets réalisés en 3ème année de BUT Informatique. Ce sont principalement les projets effectués en alternance.",
       "skills": [
         "Alternance",
@@ -199,7 +199,7 @@
           "descShort": "Un jeu de plateau stratégique développé en Java, intégrant une interface JavaFX et des intelligences artificielles pour enrichir l'expérience de jeu.",
           "descFull": "Le jeu du jeton en Java est un jeu de plateau stratégique où deux joueurs placent tour à tour des jetons de valeurs croissantes sur un plateau de 21 cases. Chaque joueur doit minimiser la somme des points autour d'une case vide restante pour gagner. Ce projet met en avant mes compétences en Java, JavaFX pour l'interface utilisateur, et la programmation d'intelligences artificielles pour améliorer le jeu. Réalisé en binôme, ce projet m'a permis d'approfondir mes compétences en développement d'application, en optimisation des algorithmes et en travail d'équipe.",
           "link": "/annee/0/projet/0",
-          "linkDesc": "Voir le projet",
+          "linkDesc": "Détails",
           "skills": [
             "Java",
             "JavaFX",
@@ -238,7 +238,7 @@
           "descShort": "Configurer et administrer des postes de travail et services réseau pour assurer une infrastructure informatique efficace.",
           "descFull": "Ce projet consistait à installer et configurer des postes de travail dans un environnement réseau pour garantir la connectivité et la sécurité des systèmes informatiques. Nous avons mis en place des environnements de travail sécurisés, déployé des services réseau et résolu des problèmes de connectivité. Travailler sur ce projet avec deux autres étudiants m'a permis de renforcer mes compétences en administration de systèmes, notamment en gestion des postes de travail et configuration réseau.",
           "link": "/annee/0/projet/1",
-          "linkDesc": "Voir le projet",
+          "linkDesc": "Détails",
           "skills": [
             "Administration des systèmes",
             "Configuration réseau"

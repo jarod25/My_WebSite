@@ -1,11 +1,11 @@
 .project-container {
-    max-width: 85%;
-    padding: 5vh 2vw;
+    max-width: 100%;
+    padding: 3vh 2vw;
     color: #333;
     background-color: #f7f9fc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 7px;
-    margin: 5vh auto 0 auto;
+    margin: 5vh 3vw 0 3vw;
 }
 
 .project-page {
@@ -92,4 +92,12 @@
 .project-back {
     margin-top: 10vh;
     text-align: center;
+}
+
+@media screen and (min-width: 425px) {
+    .project-container {
+        max-width: 85%;
+        margin: 5vh auto 0 auto;
+        padding: 5vh 2vw;
+    }
 }
