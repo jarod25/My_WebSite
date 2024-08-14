@@ -119,6 +119,7 @@ export const ExpContent = ({t, val}: IProps) => {
                         width:"50%",
                         height: "5vh",
                         margin:"2.5vh 25% 0 25%",
+                        borderRadius: "7px",
                         color: "var(--important-text)!important",
                     },
                     (theme) => ({
