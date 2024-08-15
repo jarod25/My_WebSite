@@ -1,5 +1,5 @@
 .intro {
-    background-size: 300%;
+    background-size: cover;
     background-image: url("../assets/img/bg-intro.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -9,6 +9,7 @@
     min-height: 60vh;
     width: 100%;
     top:0;
+    align-items: center;
      /*background-image: linear-gradient(*/
      /*   to right, */
      /*   rgba(255,0,0,0) 0%, */
@@ -22,10 +23,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .intro {
-        background-size: 100%;
-    }
-
     .half-gradient {
         min-height: 100vh;
     }
@@ -37,10 +34,6 @@
 }
 
 @media screen and (min-width: 1441px) {
-    .intro {
-        background-size: cover;
-    }
-
     .intro-text {
         font-size: calc(3rem + 2vmin);
     }
