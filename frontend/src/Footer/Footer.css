@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--bg-color);
+    height: 10vh;
+    justify-content: center;
+    font-size: calc(0.8vh + 0.75vmin);
+    font-weight: 700;
+    width: 100%;
+}
+
+.copyright {
+    margin: 0;
+    line-height: 10vh;
+    text-align: center;
+    color: var(--theme-text);
+}

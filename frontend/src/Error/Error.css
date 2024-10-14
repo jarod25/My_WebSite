@@ -1,0 +1,34 @@
+.error {
+    flex-direction: column;
+}
+
+.error-img {
+    width: 80vw;
+}
+
+.description {
+    max-width: rem(540px);
+    margin-top: var(--mantine-spacing-sm);
+    margin-bottom: calc(var(--mantine-spacing-xl) * 1.5);
+}
+
+@media screen and (min-width: 425px) {
+    .error-img {
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .error {
+        height: 90vh;
+    }
+    .error-img {
+        width: 60vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .error-img {
+        width: 40vw;
+    }
+}

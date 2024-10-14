@@ -1,0 +1,126 @@
+.project-year {
+    background-image: url("../assets/img/bg-exp.png");
+    background-position: top;
+    background-size: 125%;
+    background-repeat: repeat;
+    margin-top: 5vh;
+}
+
+.gradient {
+    height: fit-content;
+    width: 100%;
+    padding: 15vh 0;
+    background: linear-gradient(
+            90deg,
+            rgba(63,94,251,0) 0%,
+            var(--bg-color) 50%,
+            rgba(63,94,251,0) 100%);
+}
+
+@media screen and (min-width: 780px) {
+    .project-year {
+        background-size: 50%;
+    }
+}
+
+.title-header {
+    background-color: var(--bg-clear);
+    margin: 10vh 0 -10vh 0;
+    padding-top: 5vh;
+}
+
+.project-details {
+    width: 98%;
+    padding: 1% 2%;
+    background-color: var(--theme-text);
+    color: var(--shadow);
+    border-radius: 7px;
+    font-size: calc(.9vh + 1vmin);
+}
+
+.card {
+    width: 80%;
+    border-radius: 7px;
+    margin: 4% 0;
+    padding: 4%;
+    background-color: var(--bg-clear);
+    border: 2px var(--bg-clear) solid;
+    box-shadow: 2px 2px 10px var(--weak-shadow);
+    text-align: left;
+}
+
+.card-title {
+    margin: 0 0 2% 1%;
+    font-weight: 700;
+}
+
+.card-details {
+    width: 98%;
+    padding: 1% 2%;
+    background-color: var(--theme-text);
+    color: var(--shadow);
+    border-radius: 7px;
+    font-size: calc(.9vh + 1vmin);
+}
+
+.card-desc {
+    margin: 1%;
+    text-align: justify;
+}
+
+.card-skills-group {
+    display: inline;
+    width: 100%;
+}
+
+.card-skill {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--theme-text);
+    color: var(--weak-shadow);
+    padding: 1% 2%;
+    border-radius: 7px;
+    margin-block: 1%;
+    margin-inline: 1%;
+    transition: all .4s;
+}
+
+.card-skill:hover {
+    background-color: var(--theme-lighter-text);
+    color: var(--important-text);
+    cursor:default;
+}
+
+.timeline-view {
+    display: none;
+}
+
+.mobile-view {
+    display: block;
+    margin-top: 4%;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        margin: 0 0 0 2%;
+    }
+
+    .timeline-view {
+        display: block;
+    }
+
+    .mobile-view {
+        display: none;
+    }
+
+    .back-button {
+        margin: 0 0 -3vh 3vw;
+    }
+}
+
+.link-container {
+    margin-block: 1%;
+    margin-inline: 1%;
+    display: flex;
+    justify-content: center;
+}

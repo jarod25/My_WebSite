@@ -1,0 +1,40 @@
+.intro {
+    background-size: cover;
+    background-image: url("../assets/img/bg-intro.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.half-gradient {
+    min-height: 60vh;
+    width: 100%;
+    top:0;
+    align-items: center;
+     /*background-image: linear-gradient(*/
+     /*   to right, */
+     /*   rgba(255,0,0,0) 0%, */
+     /*   var(--bg-color) 75%); */
+}
+
+.intro-text {
+    padding: 0 5vw;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .half-gradient {
+        min-height: 100vh;
+    }
+
+    .intro-text {
+        font-size: calc(3.5rem + .5vmin);
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .intro-text {
+        font-size: calc(3rem + 2vmin);
+    }
+}

@@ -1,0 +1,42 @@
+version: "3"
+
+volumes:
+  mariadb_data:
+
+services:
+  mariadb:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: $ROOT_PWD
+      MYSQL_USER: $ADMIN_USER
+      MYSQL_PASSWORD: $ADMIN_PWD
+      MYSQL_DATABASE: $DB_NAME
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./dev/mariadb_init:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+    networks:
+      - db_link
+
+  back-end:
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 5000:5000
+    networks:
+      - db_link
+  front-end:
+    build:
+      context: ./frontend/
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 5001:80
+    networks:
+      - db_link
+
+networks:
+  db_link:

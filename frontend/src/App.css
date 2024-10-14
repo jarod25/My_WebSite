@@ -1,0 +1,96 @@
+/* Color theme */
+:root {
+  --theme-text: hsl(210 100% 11%);
+  --theme-lighter-text: hsl(210 80% 18%);
+  --bg-color: hsl(0 0% 93%);
+  --bg-clear: hsl(0 15% 97%);
+  --plain-text: rgb(22, 105, 156);
+  --important-text: hsl(0, 91%, 53%);
+  --copyright: hsl(214 38% 40%);
+  --shadow: hsl(0 0% 67%);
+  --weak-shadow: hsl(0 0% 82%);
+  --link: hsl(183, 91%, 51%);
+  --timeline: hsla(0, 91%, 46%, 0.6);
+}
+
+/* Text */
+h1 {
+  font-family: "Clear Sans Medium", sans-serif;
+  font-size: calc(2.5vh + 2vmin);
+  color: var(--important-text);
+}
+
+h2 {
+  font-family: "Clear Sans Medium", sans-serif;
+  font-size: calc(2vh + 2vmin);
+  color: var(--important-text);
+  margin: 2vh 0;
+}
+
+h3 {
+  font-family: "Clear Sans Thin", sans-serif;
+  color: var(--theme-text);
+  font-size: calc(1.4vh + 0.7vmin);
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: calc(1rem);
+  font-weight: 500;
+  text-align: justify;
+  font-family: "Clear Sans Light", sans-serif;
+  margin: 0 7vw;
+}
+
+body {
+  font-family: "Clear Sans Light", sans-serif;
+  color: var(--theme-text);
+  font-size: calc(1.4vh + 0.5vmin);
+}
+
+a {
+  color: var(--link);
+}
+
+/* Scrollbar */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*  */
+
+.page {
+  min-height: 90vh;
+  width: 100%;
+  background-color: var(--bg-clear);
+}
+
+.title-banner {
+  width: 100%;
+  height: 15vh;
+  background-color: var(--theme-text);
+}
+
+.center-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: calc(3.5vh + 2vmin);
+  }
+
+  h4 {
+    font-size: calc(1.5vh + 0.7vmin);
+    text-align: center;
+    margin: 0 10vw;
+  }
+
+  .page {
+      min-height: 50vh;
+  }
+  
+}

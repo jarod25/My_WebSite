@@ -1,0 +1,62 @@
+{
+  "welcome": "Welcome to my website!",
+  "lang": "Français",
+  "contactButton": "Contact",
+
+  "intro1": "Student in  ",
+  "intro2": "IT, ",
+  "intro3": "I'm looking to specialize in ",
+  "intro4": "software development.",
+
+  "profile": {
+    "fields": "Interests :",
+    "games": "Video games",
+    "arts": "Creative hobbies",
+    "sports": "Sport",
+    "travels": "Travel",
+    "cars": "Cars",
+    "about": "About me:",
+    "intro": "My name is Jarod Kohler and I'm a student in my last year of the BUT (Bachelor of Technology) program at the IUT in Belfort. Curious by nature, I'm always on the lookout for new knowledge and challenges. That's why I've chosen to do my final year of work-study at Web & Design in Montbéliard.",
+    "values": "Every project I've worked on has been an opportunity to learn and grow, both professionally and personally. I also value integrity, teamwork and innovation. In September 2024, I'll be joining ENSISA in Mulhouse, an engineering school specializing in software development.",
+    "passions": "Aside from programming, I'm passionate about video games, creative hobbies, sports, travel and cars. These activities allow me to escape, stimulate my creativity, stay active and discover new horizons."
+  },
+
+  "experience": {
+    "title1": "Professional experience",
+    "title2": "Studies and Training",
+    "title3": "Personal and academic projects"
+  },
+
+  "contact": {
+    "title": "Keep in touch!",
+    "writeMe": "Write to me at : ",
+    "mail": "kohler.jarod.2004",
+    "domainName": "@gmail.com",
+    "callMe": "Call me at : ",
+    "phone": "+33 6 59 73 51 58",
+    "downloadResume": "Download my resume: ",
+    "resume": "click here",
+    "copyMail": "Phone number successfully copied!",
+    "copyPhone": "E-mail address successfully copied!",
+    "errorCopy": "Copy failed.",
+    "available": "I'm available to work on your project!",
+    "notAvailable": "I'm not yet available for a new project.",
+    "socialNetworks": "My social networks",
+    "linkedInLink": "https://www.linkedin.com/in/jarod-kohler-b55060250",
+    "githubLink": "https://github.com/jarod25"
+  },
+
+  "alt": {
+    "logo": "Jarod Kohler logo: first and last name in blue and red chevrons.",
+    "picture": "Front photo of Jarod Kohler, back-end developer and student.",
+    "contact": "Image illustrating the contact, from \"storyset\\\" on the Freepik website."
+  },
+
+  "errorPage": {
+    "title": "Error 404",
+    "message": "The page you're looking for doesn't exist.",
+    "buttonText": "Home"
+  },
+
+  "backLink": "⤺ Back"
+}

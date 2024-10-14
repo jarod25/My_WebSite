@@ -2,55 +2,55 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
   "dependencies": {
-    "animejs": "^3.2.1",
-    "bootstrap-vue": "^2.23.1",
-    "core-js": "^3.8.3",
-    "sass": "^1.58.3",
-    "sass-loader": "^13.2.0",
-    "vue": "^2.6.14",
-    "vue-responsive-video-background-player": "^2.3.1",
-    "vue-router": "^3.5.1",
-    "vue-videobg": "^2.0.0",
-    "vuetify": "^2.6.14",
-    "vuex": "^3.6.2"
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mantine/core": "^7.11.2",
+    "@mantine/hooks": "^7.11.2",
+    "@mui/icons-material": "^5.16.0",
+    "@mui/lab": "^5.0.0-alpha.171",
+    "@mui/material": "^5.16.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.87",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "animejs": "^3.2.2",
+    "frontend": "file:",
+    "react": "^18.2.0",
+    "react-admin": "^5.0.4",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.26.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "vue-svg-loader": "^0.10.0",
-    "vue-template-compiler": "^2.6.14",
-    "vuetify-loader": "^1.9.2"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   },
   "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/animejs": "^3.1.12"
+  }
 }

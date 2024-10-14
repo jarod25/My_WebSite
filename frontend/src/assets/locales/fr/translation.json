@@ -1,0 +1,62 @@
+{
+  "welcome": "Bienvenue sur mon site !",
+  "lang": "English",
+  "contactButton": "Contact",
+
+  "intro1": "Étudiant en  ",
+  "intro2": "informatique, ",
+  "intro3": "je cherche à me spécialiser en ",
+  "intro4": "développement logiciel.",
+
+  "profile": {
+    "fields": "Centres d'intérêt :",
+    "games": "Jeux vidéo",
+    "arts": "Loisirs créatifs",
+    "sports": "Sport",
+    "travels": "Voyages",
+    "cars": "Voitures",
+    "about": "À propos de moi :",
+    "intro": "Je m’appelle Jarod Kohler et je suis étudiant en dernière année de BUT (Bachelor Universitaire de Technologies) informatique à l’IUT de Belfort. De nature curieuse, je suis toujours à la recherche de nouvelles connaissances et de défis à relever. C'est pourquoi j'ai choisi d'effectuer ma dernière année en alternance chez Web & Design à Montbéliard.",
+    "values": "Chaque projet sur lequel j'ai travaillé a été pour moi une opportunité d'apprendre et de grandir, tant sur le plan professionnel que personnel. De plus, j'attache une grande importance à l'intégrité, au travail d'équipe et à l'innovation. À la rentrée de septembre 2024, je devrais intégrer l’ENSISA de Mulhouse une école d'ingénieurs spécialisée dans le développement logiciel.",
+    "passions": "En-dehors de la programmation, je suis passionné par les jeux vidéo, les loisirs créatifs, le sport, les voyages et les voitures. Ces activités me permettent de m'évader, de stimuler ma créativité, de rester actif et de découvrir de nouveaux horizons."
+  },
+
+  "experience": {
+    "title1": "Expériences professionnelles",
+    "title2": "Études et Formations",
+    "title3": "Projets personnels et universitaires"
+  },
+
+  "contact": {
+    "title" : "Restons en contact !",
+    "writeMe": "Écrivez-moi à : ",
+    "mail": "kohler.jarod.2004",
+    "domainName": "@gmail.com",
+    "callMe": "Appelez-moi au : ",
+    "phone": "+33 6 59 73 51 58",
+    "downloadResume": "Téléchargez mon CV : ",
+    "resume": "cliquez ici",
+    "copyMail": "Adresse mail copiée avec succès !",
+    "copyPhone": "Numéro de téléphone copié avec succès !",
+    "errorCopy": "Échec de la copie.",
+    "available": "Je suis disponible pour travailler sur votre projet !",
+    "notAvailable": "Je ne suis pas encore disponible pour un nouveau projet.",
+    "socialNetworks": "Mes réseaux sociaux",
+    "linkedInLink": "https://www.linkedin.com/in/jarod-kohler-b55060250",
+    "githubLink": "https://github.com/jarod25"
+  },
+
+  "alt": {
+    "logo": "Logo de Jarod Kohler, il s'agit du nom et du prénom dans des chevrons de couleurs bleu et rouge.",
+    "picture": "Photo de face de Jarod Kohler, développeur back-end et étudiant.",
+    "contact": "Image illustrant le contact, provenant de \"storyset\" sur le site Freepik."
+  },
+
+  "errorPage": {
+    "title": "Erreur 404",
+    "message": "La page que vous recherchez n'existe pas.",
+    "buttonText": "Accueil"
+  },
+
+  "backLink": "⤺ Retour"
+}

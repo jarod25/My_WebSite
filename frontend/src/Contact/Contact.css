@@ -1,0 +1,62 @@
+.contact {
+margin-top: -10vh;
+padding-top: 10vh;
+background-color: inherit;
+}
+
+.contact-infos {
+    padding: 15vh 5vw;
+}
+
+.mail-and-phone {
+    background-color: var(--theme-text);
+    color: var(--bg-clear);
+    text-decoration: none;
+    padding: 1.2%;
+    margin: 2vh 0;
+    border-radius: 7px;
+    transition: all .4s;
+}
+
+.mail-and-phone:hover {
+    background-color: var(--theme-lighter-text);
+    color: var(--link);
+    font-size: calc(1vh + 1vmin);
+    padding: 1.2%;
+    cursor:pointer;
+}
+.contact-font {
+    font-size: .85rem;
+}
+
+.margin-links {
+    margin-top: 3vh;
+}
+
+.margin-button {
+    margin-left: 2vh;
+}
+
+copy-text {
+    cursor: pointer;
+}
+
+.social-networks {
+    padding: 0;
+    margin-top: 10vh;
+}
+
+.image-contact {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+@media screen and (min-width: 1024px) {
+    .image-contact {
+        margin-bottom: 0;
+        width: 80%;
+    }
+    .contact-font {
+        font-size: 1rem;
+    }
+}
