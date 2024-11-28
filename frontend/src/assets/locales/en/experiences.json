@@ -136,7 +136,22 @@
         "MySQL",
         "English"
       ]
-    }
+    },
+    {
+      "id": 3,
+      "diploma": "Engineering Cycle — Computer Science and Networks",
+      "place": "Mulhouse",
+      "name": "ENSISA",
+      "date": "2024-2027",
+      "desc": "Engineering program in computer science and networks at ENSISA in Mulhouse. Training focused on acquiring skills in software development, networking, and cybersecurity.",
+      "skills": [
+        "Software Development",
+        "Networking",
+        "Cybersecurity",
+        "Project Management",
+        "English"
+      ]
+    }    
   ],
   "miscellaneous": [
     {
