@@ -136,6 +136,21 @@
         "MySQL",
         "Anglais"
       ]
+    },
+    {
+      "id": 3,
+      "diploma": "Cycle Ingénieur — Informatique et Réseaux",
+      "place": "Mulhouse",
+      "name": "ENSISA",
+      "date": "2024-2027",
+      "desc": "Cycle ingénieur en informatique et réseaux à l'ENSISA de Mulhouse. Formation pour acquérir des compétences en développement logiciel, en réseaux et en sécurité informatique.",
+      "skills": [
+        "Développement logiciel",
+        "Réseaux",
+        "Sécurité informatique",
+        "Gestion de projet",
+        "Anglais"
+      ]
     }
   ],
   "miscellaneous": [
