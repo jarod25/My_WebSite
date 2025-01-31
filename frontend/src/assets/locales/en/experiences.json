@@ -151,7 +151,7 @@
         "Project Management",
         "English"
       ]
-    }    
+    }
   ],
   "miscellaneous": [
     {
@@ -197,6 +197,20 @@
         "Apprenticeship",
         "Websites (e-commerce, showcase, events)"
       ]
+    },
+    {
+      "id": 3,
+      "title": "First-Year Engineering Projects",
+      "place": "Mulhouse",
+      "date": "2024 - 2025",
+      "name": "ENSISA",
+      "link": "/year/3",
+      "linkDesc": "See the list",
+      "desc": "List of projects carried out in the first year of the Computer Science and Networks engineering program at ENSISA in Mulhouse.",
+      "skills": [
+        "Web development",
+        "Application development"
+      ]
     }
   ],
   "university": [
@@ -209,8 +223,8 @@
           "id": 0,
           "title": "Token game in Java",
           "projectType": "University project",
-          "duration" : "1 month",
-          "nbPeople" : "2 people",
+          "duration": "1 month",
+          "nbPeople": "2 people",
           "descShort": "A strategic board game developed in Java, incorporating a JavaFX interface and artificial intelligences to enrich the gameplay experience.",
           "descFull": "The Token game in Java is a strategic board game where two players alternately place tokens of increasing value on a board of 21 squares. Each player must minimize the sum of the points around a remaining empty square to win. This project showcases my skills in Java, JavaFX for the user interface, and programming artificial intelligences to enhance the game. Completed as a pair, this project allowed me to deepen my application development skills, algorithm optimization, and teamwork.",
           "link": "/year/0/project/0",
@@ -248,8 +262,8 @@
           "id": 1,
           "title": "Computer systems administration",
           "projectType": "University project",
-          "duration" : "1 month",
-          "nbPeople" : "3 people",
+          "duration": "1 month",
+          "nbPeople": "3 people",
           "descShort": "Configure and administer workstations and network services to ensure an efficient IT infrastructure.",
           "descFull": "This project involved installing and configuring workstations in a network environment to ensure connectivity and system security. We set up secure work environments, deployed network services, and solved connectivity issues. Working on this project with two other students allowed me to strengthen my system administration skills, particularly in workstation management and network configuration.",
           "link": "/year/0/project/1",
@@ -285,8 +299,8 @@
           "id": 2,
           "title": "Carpooling website",
           "projectType": "University project",
-          "duration" : "1 month",
-          "nbPeople" : "3 people",
+          "duration": "1 month",
+          "nbPeople": "3 people",
           "descShort": "Carpooling site in Python with Flask, and MySQL for the database.",
           "descFull": "The project involved creating a carpooling website in Python with Flask, and MySQL for the database. The site allowed users to offer rides with departure or arrival in Belfort and to search for carpoolers to share travel expenses. This project enabled us to practice our web development and database query skills. We worked in a group of 3 students.",
           "link": "/year/0/project/2",
@@ -324,8 +338,8 @@
           "id": 3,
           "title": "Kamisado game in Java",
           "projectType": "University project",
-          "duration" : "2 month",
-          "nbPeople" : "6 people",
+          "duration": "2 month",
+          "nbPeople": "6 people",
           "descShort": "The Kamisado game in Java, a strategic board game where each player must move their piece to the opponent's line.",
           "descFull": "Players move their piece based on the color of the square it stands on, trying to block the opponent. This project allowed us to practice our skills in Java, JavaFX for the graphic interface, algorithmic for the game logic, and the development of artificial intelligences. We developed two different AIs to offer a varied challenge to players. We worked in a group of 6 for the realization of this project.",
           "link": "/year/0/project/3",
@@ -384,8 +398,8 @@
           "id": 4,
           "title": "E-commerce site in Python",
           "projectType": "University project",
-          "duration" : "2 month",
-          "nbPeople" : "3 people",
+          "duration": "2 month",
+          "nbPeople": "3 people",
           "descShort": "E-commerce site for ski sales in Python with Flask, and MySQL for the database.",
           "descFull": "The project involved creating an e-commerce site for ski sales in Python with Flask, and MySQL for the database. The site allowed users to view products, add them to the cart, place orders, and manage their account. This project enabled us to practice our web development and database management skills. It also included project management and deployment of the site on Pythonanywhere. We worked in a group of 3 students.",
           "link": "/year/0/project/4",
@@ -452,8 +466,8 @@
           "id": 0,
           "title": "La Cour Médiévale de Monseigneur Ambert",
           "projectType": "University project",
-          "duration" : "5 month",
-          "nbPeople" : "5 people",
+          "duration": "5 month",
+          "nbPeople": "5 people",
           "descShort": "This site aims to manage the convention \"La Cour Médiévale de Monseigneur Ambert\", a medieval convention taking place at Montby Castle, in Doubs. This convention was entirely imagined and designed by the site's development team.",
           "descFull": "This project was completed by a group of 5 students and allowed us to practice our web development, project management, and communication skills. The site manages participant registrations, proposed activities, stands, and entertainment, as well as practical information about the event. We used HTML, CSS, JavaScript, VueJS, and PostgreSQL to create this application, following the agile SCRUM methodology for project management.",
           "link": "/year/1/project/0",
@@ -519,8 +533,8 @@
           "id": 1,
           "title": "Data exploitation and visualization",
           "projectType": "University project",
-          "duration" : "2 month",
-          "nbPeople" : "3 people",
+          "duration": "2 month",
+          "nbPeople": "3 people",
           "descShort": "As part of a group project involving three people, we analyzed and visualized data from various sources to extract crucial insights, thereby strengthening decision-making.",
           "descFull": "This project aimed to analyze data from different sources to extract meaningful insights intended to improve decision-making. To achieve this, we used techniques for data collection, cleaning, and transformation before proceeding with a statistical analysis. We then presented the results in the form of clear and informative visualizations. This project allowed us to deepen our skills in data analysis, data processing, and visualization of results.",
           "link": "/year/1/project/1",
@@ -585,8 +599,8 @@
           "id": 2,
           "title": "Internship — Web Developer",
           "projectType": "Company project",
-          "duration" : "3 month",
-          "nbPeople" : "4 people",
+          "duration": "3 month",
+          "nbPeople": "4 people",
           "descShort": "A 3-month internship in a company to practice my web development skills.",
           "descFull": "I completed a 3-month internship in a company at Web&Design, a web development agency specializing in creating showcase sites and e-commerce sites. I worked on various projects, including a site for selling products and accessories for commercial vehicles. I was able to practice my skills in HTML, CSS, JavaScript, PHP, Symfony, and MySQL to develop advanced features and optimize the site's performance. I also participated in project management using the SCRUM method to organize teamwork and track the progress of the project.",
           "link": "/year/1/project/2",
@@ -647,8 +661,8 @@
           "id": 0,
           "title": "E-commerce site — Chips-Events",
           "projectType": "Company project",
-          "duration" : "4 month",
-          "nbPeople" : "5 people",
+          "duration": "4 month",
+          "nbPeople": "5 people",
           "descShort": "Collaborative development of an e-commerce site dedicated to renting event equipment.",
           "descFull": "Our team worked together to create an e-commerce platform for renting event equipment. This project involved modeling complex data and integrating secure payment systems.",
           "link": "/year/2/project/0",
@@ -694,8 +708,8 @@
           "id": 1,
           "title": "Showcase site — ComInTime",
           "projectType": "Company project",
-          "duration" : "1 month",
-          "nbPeople" : "3 people",
+          "duration": "1 month",
+          "nbPeople": "3 people",
           "descShort": "Collaborative design of a showcase site to promote a communication application.",
           "descFull": "We worked on the development of a showcase site aimed at promoting the ComInTime application. This project included managing the displayed content, a blog, contact features, a detailed presentation of the application, and a direct link to it.",
           "link": "/year/2/project/1",
@@ -735,8 +749,8 @@
           "id": 2,
           "title": "Application — ComInTime",
           "projectType": "Company project",
-          "duration" : "4 month",
-          "nbPeople" : "6 people",
+          "duration": "4 month",
+          "nbPeople": "6 people",
           "descShort": "Adding new features to an existing communication application.",
           "descFull": "We worked on improving the ComInTime application by developing new features. These included an email notification system, a tool for importing previous social network posts, and a link preview in the content of posts.",
           "link": "/year/2/project/2",
@@ -780,8 +794,8 @@
           "id": 3,
           "title": "Application — CNCE",
           "projectType": "Company project",
-          "duration" : "1 month",
-          "nbPeople" : "4 people",
+          "duration": "1 month",
+          "nbPeople": "4 people",
           "descShort": "Enhancement of the CNCE site with technical updates and new administrative features.",
           "descFull": "We worked on updating the CNCE application by moving from Symfony 4 to Symfony 6, while adding administrative features for managing public surveys. This included creating dynamic forms and setting up a secure API for data administration.",
           "link": "/year/2/project/3",
@@ -821,8 +835,8 @@
           "id": 4,
           "title": "Application — Preambules",
           "projectType": "Company project",
-          "duration" : "1 month",
-          "nbPeople" : "2 people",
+          "duration": "1 month",
+          "nbPeople": "2 people",
           "descShort": "Update and extension of the Preambules site with new features and integrations.",
           "descFull": "We worked on improving the Preambules site by adding new features, particularly in the member area for registered users, and integrating third-party services to enrich the site's content.",
           "link": "/year/2/project/4",
@@ -843,6 +857,143 @@
               "title": "Integration with third-party services",
               "desc": "Integration of the CNCE API was carried out via a command to enrich the site's data. This allowed us to add new features based on this data, making the site more interactive and informative.",
               "competences": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idYear": 3,
+      "title": "First-Year Engineering Projects",
+      "desc": "The first year of the engineering cycle is quite general, covering different aspects of development, such as web development and application development.",
+      "projects": [
+        {
+          "id": 0,
+          "title": "Chomp Game in C",
+          "projectType": "University project",
+          "duration": "2 weeks",
+          "nbPeople": "7 people",
+          "descShort": "Development of a Chomp game in C with a GTK graphical interface, AI, and network connectivity for multiplayer gameplay.",
+          "descFull": "The project involved developing a Chomp game in C with a GTK graphical interface, an artificial intelligence to play against the computer, and network connectivity for multiplayer gameplay. We worked in a group of 7 students to complete this project in 2 weeks. It was the C immersion project of the first year of the engineering program.",
+          "link": "/year/3/project/0",
+          "linkDesc": "See the project",
+          "skills": [
+            "C",
+            "GTK",
+            "Artificial Intelligence",
+            "Networking",
+            "Project management"
+          ],
+          "content": [
+            {
+              "title": "Development in C",
+              "desc": "We used the C language to develop the Chomp game, following the project constraints. This allowed us to strengthen our skills in imperative programming and memory management.",
+              "competences": [
+                {
+                  "title": "Programming in C",
+                  "desc": "Master fundamental concepts of C, such as pointers, control structures, and functions, to develop efficient and high-performance applications."
+                },
+                {
+                  "title": "Memory management",
+                  "desc": "Use dynamic memory allocation and properly free memory to avoid memory leaks and ensure application stability."
+                }
+              ]
+            },
+            {
+              "title": "GTK Graphical Interface",
+              "desc": "We developed a graphical interface using the GTK library to display the game board, buttons, and graphical elements necessary for user interaction.",
+              "competences": [
+                {
+                  "title": "Create a graphical interface",
+                  "desc": "Use the GTK library to design an interactive and user-friendly interface, allowing players to intuitively play the Chomp game."
+                }
+              ]
+            },
+            {
+              "title": "Artificial Intelligence",
+              "desc": "We developed an artificial intelligence to play against the computer. This AI needed to make strategic decisions to win the game against a human player.",
+              "competences": [
+                {
+                  "title": "Develop an artificial intelligence",
+                  "desc": "Implement search and decision-making algorithms to create an AI capable of competitively playing the Chomp game."
+                }
+              ]
+            },
+            {
+              "title": "Network Connectivity",
+              "desc": "We implemented a network connection to allow multiple players to compete online. This feature required setting up communication protocols and managing data exchanges.",
+              "competences": [
+                {
+                  "title": "Develop a network application",
+                  "desc": "Create a communication system between different players using sockets and network protocols to exchange data and synchronize matches."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Chat Website in Django",
+          "projectType": "University project",
+          "duration": "1 month",
+          "nbPeople": "3 people",
+          "descShort": "Development of a chat website in Django with instant messaging features, user management, and chat rooms.",
+          "descFull": "We developed a chat website using the Django framework in Python. This project included instant messaging features, user management, and chat room creation. The use of WebSockets was not allowed. We worked in a group of 3 students to complete this project in 1 month.",
+          "link": "/year/3/project/1",
+          "linkDesc": "See the project",
+          "skills": [
+            "Python",
+            "Django",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JQuery",
+            "Project management"
+          ],
+          "content": [
+            {
+              "title": "Development in Django",
+              "desc": "We used the Django framework in Python to develop the chat website while adhering to the project constraints. Django allowed us to quickly create a robust and secure web application.",
+              "competences": [
+                {
+                  "title": "Use Django for web development",
+                  "desc": "Master Django concepts such as models, views, and templates to create dynamic and interactive web applications."
+                },
+                {
+                  "title": "Secure a web application",
+                  "desc": "Implement security mechanisms to protect the application against common attacks, such as SQL injections and CSRF attacks."
+                }
+              ]
+            },
+            {
+              "title": "Instant Messaging Features",
+              "desc": "We developed instant messaging features to allow users to communicate in real time. This included sending and receiving messages, managing conversations, and notifying users of new messages.",
+              "competences": [
+                {
+                  "title": "Create an instant messaging system",
+                  "desc": "Use web technologies like AJAX and JQuery to implement a responsive and efficient instant messaging system."
+                }
+              ]
+            },
+            {
+              "title": "User Management",
+              "desc": "We implemented an authentication and user management system to allow members to register, log in, and log out. Each user had a personalized profile with specific information.",
+              "competences": [
+                {
+                  "title": "Manage users in a web application",
+                  "desc": "Implement a secure authentication system to control access to application features. Allow users to manage their profiles and preferences."
+                }
+              ]
+            },
+            {
+              "title": "Chat Room Creation",
+              "desc": "We developed a chat room system to group users based on their interests or affinities. Each room had specific features to facilitate exchanges and communication.",
+              "competences": [
+                {
+                  "title": "Implement chat rooms",
+                  "desc": "Create themed chat rooms to gather users around common topics. Allow users to create, manage, and moderate chat rooms."
+                }
+              ]
             }
           ]
         }
