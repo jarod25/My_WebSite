@@ -1,5 +1,4 @@
 import skill from "../Models/skill-model";
-import blockHasSkills from "../Models/blockHasSkills-model";
 
 export default class SkillService {
     static async getSkills(): Promise<any> {
@@ -27,9 +26,5 @@ export default class SkillService {
                 skill_id: id
             }
         });
-    }
-
-    static async getSkillByBlockId(id: number): Promise<any> {
-        return await blockHasSkills.findAll({where: {block_id: id}});
     }
 }

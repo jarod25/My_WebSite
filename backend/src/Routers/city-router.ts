@@ -1,5 +1,12 @@
-import { Router } from "express";
-import {getCities, getCityById, createCity, updateCity, deleteCity, getCityByBlockId} from "../Controllers/city-controller";
+import {Router} from "express";
+import {
+    getCities,
+    getCityById,
+    createCity,
+    updateCity,
+    deleteCity,
+    getCityByBlockId
+} from "../Controllers/city-controller";
 import authenticateToken from "../Utils/auth-middleware";
 
 const cityRouter = Router();

@@ -45,12 +45,3 @@ export const deleteSkill = async (req: Request, res: Response): Promise<void> =>
         res.status(500).json(e);
     }
 }
-
-export const getSkillByBlockId = async (req: Request, res: Response): Promise<void> => {
-    try {
-        let skill = await skillService.getSkillByBlockId(parseInt(req.params.id));
-        res.status(200).json(skill);
-    } catch (e) {
-        res.status(500).json(e);
-    }
-}

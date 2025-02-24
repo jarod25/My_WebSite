@@ -13,9 +13,9 @@ import blockRouter from "./Routers/block-router";
 import cityRouter from "./Routers/city-router";
 import contentRouter from "./Routers/content-router";
 import institutionRouter from "./Routers/institution-router";
+import periodRouter from "./Routers/period-router";
 import sectionRouter from "./Routers/section-router";
 import skillRouter from "./Routers/skill-router";
-import statusRouter from "./Routers/status-router";
 
 const app: Express = express();
 const port: number = process.env.PORT ? parseInt(process.env.PORT) : 5000;
@@ -69,9 +69,9 @@ app.use('/api/blocks', blockRouter);
 app.use('/api/cities', cityRouter);
 app.use('/api/contents', contentRouter);
 app.use('/api/institutions', institutionRouter);
+app.use('/api/periods', periodRouter);
 app.use('/api/sections', sectionRouter);
 app.use('/api/skills', skillRouter);
-app.use('/api/statuses', statusRouter);
 
 app.listen(port, (): void => {
     console.log(`Server start on http://localhost:${port}`);

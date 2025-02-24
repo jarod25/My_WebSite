@@ -22,8 +22,52 @@ institutionRouter.get('/', getInstitutions);
  */
 
 institutionRouter.get('/block/:id', getInstitutionByBlockId);
+/**
+ * @swagger
+ * /api/institution/block/{id}:
+ *   get:
+ *      description: Get all institutions by block ID
+ *      tags:
+ *          - Institutions
+ *      parameters:
+ *          - name: id
+ *            in: path
+ *            description: ID of the block
+ *            required: true
+ *            schema:
+ *              type: integer
+ *      responses:
+ *          '200':
+ *              description: A successful response
+ *          '500':
+ *              description: An error occurred
+ *          '400':
+ *              description: Bad request
+ */
 
 institutionRouter.get('/:id', getInstitutionById);
+/**
+ * @swagger
+ * /api/institution/{id}:
+ *   get:
+ *      description: Get an institution by ID
+ *      tags:
+ *          - Institutions
+ *      parameters:
+ *          - name: id
+ *            in: path
+ *            description: ID of the institution
+ *            required: true
+ *            schema:
+ *              type: integer
+ *      responses:
+ *          '200':
+ *              description: A successful response
+ *          '500':
+ *              description: An error occurred
+ *          '400':
+ *              description: Bad request
+ */
 
 institutionRouter.post('/', authenticateToken, createInstitution);
 /**

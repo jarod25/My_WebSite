@@ -1,5 +1,5 @@
 import {Router} from 'express';
-import {getSkills, getSkillById, getSkillByBlockId, createSkill, updateSkill, deleteSkill} from '../Controllers/skill-controller';
+import {getSkills, getSkillById, createSkill, updateSkill, deleteSkill} from '../Controllers/skill-controller';
 import authenticateToken from '../Utils/auth-middleware';
 
 const skillRouter = Router();
@@ -21,9 +21,29 @@ skillRouter.get('/', getSkills);
  *              description: Bad request
  */
 
-skillRouter.get('/block/:id', getSkillByBlockId);
-
 skillRouter.get('/:id', getSkillById);
+/**
+ * @swagger
+ * /api/skills/{id}:
+ *   get:
+ *      description: Get a skill by ID
+ *      tags:
+ *          - Skills
+ *      parameters:
+ *          - name: id
+ *            in: path
+ *            description: ID of the skill
+ *            required: true
+ *            schema:
+ *              type: integer
+ *      responses:
+ *          '200':
+ *              description: A successful response
+ *          '500':
+ *              description: An error occurred
+ *          '400':
+ *              description: Bad request
+ */
 
 skillRouter.post('/', authenticateToken, createSkill);
 /**

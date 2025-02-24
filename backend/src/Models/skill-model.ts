@@ -10,6 +10,7 @@ const skill = db.define('skill', {
     },
     skill_name: {
         type: DataTypes.STRING,
+        unique: true,
         allowNull: false
     }
 });

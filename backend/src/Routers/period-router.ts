@@ -1,17 +1,17 @@
 import {Router} from 'express';
-import {getContents, getContentById, getContentByBlockId, createContent, updateContent, deleteContent} from '../Controllers/content-controller';
+import {getPeriods, getPeriodById, getPeriodByBlockId,createPeriod, updatePeriod, deletePeriod} from '../Controllers/period-controller';
 import authenticateToken from '../Utils/auth-middleware';
 
-const contentRouter = Router();
+const periodRouter = Router();
 
-contentRouter.get('/', getContents);
+periodRouter.get('/', getPeriods);
 /**
  * @swagger
- * /api/contents:
+ * /api/periods:
  *   get:
- *      description: Get all contents
+ *      description: Get all periods
  *      tags:
- *          - Contents
+ *          - Periods
  *      responses:
  *          '200':
  *              description: A successful response
@@ -21,14 +21,14 @@ contentRouter.get('/', getContents);
  *              description: Bad request
  */
 
-contentRouter.get('/block/:id', getContentByBlockId);
+periodRouter.get('/block/:id', getPeriodByBlockId);
 /**
  * @swagger
- * /api/contents/block/{id}:
+ * /api/periods/block/{id}:
  *   get:
- *      description: Get all contents by block ID
+ *      description: Get all periods by block ID
  *      tags:
- *          - Contents
+ *          - Periods
  *      parameters:
  *          - name: id
  *            in: path
@@ -45,18 +45,18 @@ contentRouter.get('/block/:id', getContentByBlockId);
  *              description: Bad request
  */
 
-contentRouter.get('/:id', getContentById);
+periodRouter.get('/:id', getPeriodById);
 /**
  * @swagger
- * /api/contents/{id}:
+ * /api/periods/{id}:
  *   get:
- *      description: Get a content by ID
+ *      description: Get a period by ID
  *      tags:
- *          - Contents
+ *          - Periods
  *      parameters:
  *          - name: id
  *            in: path
- *            description: ID of the content
+ *            description: ID of the period
  *            required: true
  *            schema:
  *              type: integer
@@ -69,14 +69,14 @@ contentRouter.get('/:id', getContentById);
  *              description: Bad request
  */
 
-contentRouter.post('/', authenticateToken, createContent);
+periodRouter.post('/', authenticateToken, createPeriod);
 /**
  * @swagger
- * /api/contents:
+ * /api/periods:
  *   post:
- *      description: Create a content
+ *      description: Create a period
  *      tags:
- *          - Contents
+ *          - Periods
  *      responses:
  *          '200':
  *              description: A successful response
@@ -86,52 +86,41 @@ contentRouter.post('/', authenticateToken, createContent);
  *              description: Bad request
  */
 
-contentRouter.put('/:id', authenticateToken, updateContent);
+periodRouter.put('/:id', authenticateToken, updatePeriod);
 /**
  * @swagger
- * /api/contents/{id}:
+ * /api/periods/{id}:
  *   put:
- *      description: Update a content
+ *      description: Update a period
  *      tags:
- *          - Contents
+ *          - Periods
  *      parameters:
  *          - name: id
  *            in: path
- *            description: ID of the content
+ *            description: ID of the period
  *            required: true
  *            schema:
  *              type: integer
  *      responses:
- *          '200':
- *              description: A successful response
- *          '500':
- *              description: An error occurred
- *          '400':
- *              description: Bad request
  */
 
-contentRouter.delete('/:id', authenticateToken, deleteContent);
+periodRouter.delete('/:id', authenticateToken, deletePeriod);
 /**
  * @swagger
- * /api/contents/{id}:
+ * /api/periods/{id}:
  *   delete:
- *      description: Delete a content
+ *      description: Delete a period
  *      tags:
- *          - Contents
+ *          - Periods
  *      parameters:
  *          - name: id
  *            in: path
- *            description: ID of the content
+ *            description: ID of the period
  *            required: true
  *            schema:
  *              type: integer
  *      responses:
- *          '200':
- *              description: A successful response
- *          '500':
- *              description: An error occurred
- *          '400':
- *              description: Bad request
  */
 
-export default contentRouter;
+
+export default periodRouter;

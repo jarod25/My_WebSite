@@ -1,0 +1,176 @@
+USE mywebsite;
+
+INSERT INTO sections (section_name, createdAt, updatedAt)
+VALUES ('Home', NOW(), NOW()),
+       ('About', NOW(), NOW()),
+       ('Work', NOW(), NOW()),
+       ('School', NOW(), NOW()),
+       ('Projects', NOW(), NOW()),
+       ('Contact', NOW(), NOW());
+
+INSERT INTO blocks (block_name, block_position, createdAt, updatedAt)
+VALUES ('work-alternance-but',1, NOW(), NOW()),
+       ('work-stage-but',2, NOW(), NOW()),
+       ('work-bk',3, NOW(), NOW()),
+       ('work-benev',4, NOW(), NOW()),
+       ('work-stage-3e',5, NOW(), NOW()),
+       ('edu-ensisa',6, NOW(), NOW()),
+       ('edu-but',7, NOW(), NOW()),
+       ('edu-dut',8, NOW(), NOW()),
+       ('edu-bac',9, NOW(), NOW()),
+       ('proj-1a-ensisa', 10, NOW(), NOW()),
+       ('proj-3a-but', 11, NOW(), NOW()),
+       ('proj-2a-but', 12, NOW(), NOW()),
+       ('proj-1a-but', 13, NOW(), NOW());
+
+INSERT INTO cities (city_name, createdAt, updatedAt)
+VALUES ('Montbéliard', NOW(), NOW()),
+       ('Belfort', NOW(), NOW()),
+       ('Exincourt', NOW(), NOW()),
+       ('Sévènans', NOW(), NOW()),
+       ('Mulhouse', NOW(), NOW());
+
+INSERT INTO skills (skill_name, createdAt, updatedAt)
+VALUES ('Impression 3D (laser)', NOW(), NOW()),
+       ('Découpage laser', NOW(), NOW()),
+       ('Projection thermique', NOW(), NOW()),
+       ('Fabrication additive', NOW(), NOW()),
+       ('Atomisation de poudre', NOW(), NOW()),
+       ('Sablage', NOW(), NOW()),
+       ('Accueil des enfants', NOW(), NOW()),
+       ('Préparation des ingrédients', NOW(), NOW()),
+       ('Façonnage des brioches', NOW(), NOW()),
+       ('Cuisson', NOW(), NOW()),
+       ('Nettoyage', NOW(), NOW()),
+       ('Travail en équipe', NOW(), NOW()),
+       ('Gestion du stress', NOW(), NOW()),
+       ('Polyvalence', NOW(), NOW()),
+       ('Relation client', NOW(), NOW()),
+       ('Écoute', NOW(), NOW()),
+       ('Service rapide', NOW(), NOW()),
+       ('HTML', NOW(), NOW()),
+       ('CSS', NOW(), NOW()),
+       ('JavaScript', NOW(), NOW()),
+       ('PHP', NOW(), NOW()),
+       ('Symfony', NOW(), NOW()),
+       ('MySQL', NOW(), NOW()),
+       ('Gestion de projet', NOW(), NOW()),
+       ('SCRUM', NOW(), NOW()),
+       ('Algorithmique', NOW(), NOW()),
+       ('Programmation', NOW(), NOW()),
+       ('Base de données', NOW(), NOW()),
+       ('Réseaux', NOW(), NOW()),
+       ('Communication', NOW(), NOW()),
+       ('Anglais', NOW(), NOW()),
+       ('Développement Web', NOW(), NOW()),
+       ('Développement logiciel', NOW(), NOW()),
+       ('Sécurité informatique', NOW(), NOW()),
+       ('Sites Web de e-commerce', NOW(), NOW()),
+       ('Jeux', NOW(), NOW()),
+       ('Installation de machines virtuelles', NOW(), NOW()),
+       ('Site Web d\'événements', NOW(), NOW()),
+       ('Exploitation de données', NOW(), NOW()),
+       ('Stage', NOW(), NOW()),
+       ('Alternance', NOW(), NOW()),
+       ('Sites Web (e-commerce, vitrine, événementiel)', NOW(), NOW()),
+       ('Python', NOW(), NOW()),
+       ('Django', NOW(), NOW()),
+       ('Flask', NOW(), NOW()),
+       ('JQuery', NOW(), NOW()),
+       ('C', NOW(), NOW()),
+       ('GTK', NOW(), NOW()),
+       ('C++', NOW(), NOW()),
+       ('QT', NOW(), NOW()),
+       ('Java', NOW(), NOW()),
+       ('Intelligence Artificielle', NOW(), NOW()),
+       ('JavaFX', NOW(), NOW()),
+       ('Administration des systèmes', NOW(), NOW()),
+       ('Déploiement de site', NOW(), NOW()),
+       ('VueJS', NOW(), NOW()),
+       ('PostreSQL', NOW(), NOW()),
+       ('Analyse de donées', NOW(), NOW()),
+       ('Traitement de données', NOW(), NOW()),
+       ('Visualisation de données', NOW(), NOW()),
+       ('Doctrine', NOW(), NOW()),
+       ('Odoo', NOW(), NOW()),
+       ('PayPlug', NOW(), NOW()),
+       ('CMS', NOW(), NOW()),
+       ('SEO', NOW(), NOW()),
+       ('API', NOW(), NOW());
+INSERT INTO skills (skill_name, createdAt, updatedAt)
+VALUES ('Jeux vidéo', NOW(), NOW()),
+       ('Loisirs créatifs', NOW(), NOW()),
+       ('Sport', NOW(), NOW()),
+       ('Voyages', NOW(), NOW()),
+       ('Voitures', NOW(), NOW());
+
+INSERT INTO institutions (institution_name, createdAt, updatedAt)
+VALUES ('Web&Design', NOW(), NOW()),
+       ('Burger King', NOW(), NOW()),
+       ('Festival des Mômes', NOW(), NOW()),
+       ('LERMPS', NOW(), NOW()),
+       ('ENSISA', NOW(), NOW()),
+       ('IUT Nord Franche-Comté', NOW(), NOW()),
+       ('Lycée polyvalent Germaine Tillion', NOW(), NOW());
+
+INSERT INTO periods (period_start_year, period_end_year, createdAt, updatedAt)
+VALUES (STR_TO_DATE('01/01/2018', '%d/%m/%Y'), STR_TO_DATE('01/01/2018', '%d/%m/%Y'), NOW(), NOW()),
+       (STR_TO_DATE('01/01/2019', '%d/%m/%Y'), STR_TO_DATE('01/01/2019', '%d/%m/%Y'), NOW(), NOW()),
+       (STR_TO_DATE('01/01/2021', '%d/%m/%Y'), STR_TO_DATE('01/01/2021', '%d/%m/%Y'), NOW(), NOW()),
+       (STR_TO_DATE('01/01/2021', '%d/%m/%Y'), STR_TO_DATE('01/01/2022', '%d/%m/%Y'), NOW(), NOW()),
+       (STR_TO_DATE('01/01/2022', '%d/%m/%Y'), STR_TO_DATE('01/01/2022', '%d/%m/%Y'), NOW(), NOW()),
+       (STR_TO_DATE('01/01/2022', '%d/%m/%Y'), STR_TO_DATE('01/01/2023', '%d/%m/%Y'), NOW(), NOW()),
+       (STR_TO_DATE('01/01/2023', '%d/%m/%Y'), STR_TO_DATE('01/01/2023', '%d/%m/%Y'), NOW(), NOW()),
+       (STR_TO_DATE('01/01/2023', '%d/%m/%Y'), STR_TO_DATE('01/01/2024', '%d/%m/%Y'), NOW(), NOW()),
+       (STR_TO_DATE('01/01/2024', '%d/%m/%Y'), STR_TO_DATE('01/01/2024', '%d/%m/%Y'), NOW(), NOW()),
+       (STR_TO_DATE('01/01/2024', '%d/%m/%Y'), STR_TO_DATE('01/01/2025', '%d/%m/%Y'), NOW(), NOW()),
+       (STR_TO_DATE('01/01/2024', '%d/%m/%Y'), STR_TO_DATE('01/01/2027', '%d/%m/%Y'), NOW(), NOW());
+
+INSERT INTO block_city (blockBlockId, city_id, createdAt, updatedAt)
+VALUES (1, 1, NOW(), NOW()),
+       (2, 1, NOW(), NOW()),
+       (3, 3, NOW(), NOW()),
+       (4, 1, NOW(), NOW()),
+       (5, 4, NOW(), NOW()),
+       (6, 5, NOW(), NOW()),
+       (7, 2, NOW(), NOW()),
+       (8, 2, NOW(), NOW()),
+       (9, 1, NOW(), NOW()),
+       (10, 5, NOW(), NOW()),
+       (11, 2, NOW(), NOW()),
+       (12, 2, NOW(), NOW()),
+       (13, 2, NOW(), NOW());
+
+INSERT INTO block_period (blockBlockId, period_id, createdAt, updatedAt)
+VALUES (1, 8, NOW(), NOW()),
+       (2, 7, NOW(), NOW()),
+       (3, 5, NOW(), NOW()),
+       (4, 2, NOW(), NOW()),
+       (5, 1, NOW(), NOW()),
+       (6, 11, NOW(), NOW()),
+       (7, 10, NOW(), NOW()),
+       (8, 9, NOW(), NOW()),
+       (9, 3, NOW(), NOW()),
+       (10, 10, NOW(), NOW()),
+       (11, 8, NOW(), NOW()),
+       (12, 6, NOW(), NOW()),
+       (13, 4, NOW(), NOW());
+
+INSERT INTO block_institution (blockBlockId, institution_id, createdAt, updatedAt)
+VALUES (1, 1, NOW(), NOW()),
+       (2, 1, NOW(), NOW()),
+       (3, 2, NOW(), NOW()),
+       (4, 3, NOW(), NOW()),
+       (5, 4, NOW(), NOW()),
+       (6, 5, NOW(), NOW()),
+       (7, 6, NOW(), NOW()),
+       (8, 6, NOW(), NOW()),
+       (9, 7, NOW(), NOW()),
+       (10, 5, NOW(), NOW()),
+       (11, 6, NOW(), NOW()),
+       (12, 6, NOW(), NOW()),
+       (13, 6, NOW(), NOW());
+
+# Ça va être long
+INSERT INTO block_has_skills (blockBlockId, skill_id, createdAt, updatedAt)
+VALUES ();

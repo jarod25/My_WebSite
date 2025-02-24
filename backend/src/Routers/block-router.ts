@@ -29,6 +29,28 @@ blockRouter.get('/', getBlocks);
  */
 
 blockRouter.get('/section/:id', getBlockBySectionId);
+/**
+ * @swagger
+ * /api/blocks/section/{id}:
+ *   get:
+ *      description: Get all blocks by section id
+ *      tags:
+ *          - Blocks
+ *      parameters:
+ *          - name: id
+ *            in: path
+ *            description: ID of the section
+ *            required: true
+ *            schema:
+ *                type: integer
+ *      responses:
+ *        '200':
+ *            description: A successful response
+ *        '500':
+ *            description: An error occurred
+ *        '400':
+ *            description: Bad request
+ */
 
 blockRouter.get('/:id', getBlockById);
 /**

@@ -22,6 +22,28 @@ sectionRouter.get('/', getSections);
  */
 
 sectionRouter.get('/:id', getSectionById);
+/**
+ * @swagger
+ * /api/sections/{id}:
+ *   get:
+ *      description: Get a section by ID
+ *      tags:
+ *          - Sections
+ *      parameters:
+ *          - name: id
+ *            in: path
+ *            description: ID of the section
+ *            required: true
+ *            schema:
+ *              type: integer
+ *      responses:
+ *          '200':
+ *              description: A successful response
+ *          '500':
+ *              description: An error occurred
+ *          '400':
+ *              description: Bad request
+ */
 
 sectionRouter.post('/', authenticateToken, createSection);
 /**

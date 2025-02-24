@@ -1,21 +1,21 @@
 import db from "../Utils/db-connect";
 import { DataTypes } from 'sequelize';
 
-const block = db.define('block', {
-    block_id: {
+const period = db.define('period', {
+    period_id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true,
         allowNull: false
     },
-    block_name: {
-        type: DataTypes.STRING,
+    period_start_year: {
+        type: DataTypes.DATEONLY,
         allowNull: false
     },
-    block_position: {
-        type: DataTypes.INTEGER,
+    period_end_year: {
+        type: DataTypes.DATEONLY,
         allowNull: false
     },
 });
 
-export default block;
+export default period;
