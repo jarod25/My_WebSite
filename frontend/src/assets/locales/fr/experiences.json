@@ -82,6 +82,22 @@
         "Gestion de projet",
         "SCRUM"
       ]
+    },
+    {
+      "id": 5,
+      "title": "Stage Ingénieur — Développeur Full Stack",
+      "date": "2025",
+      "place": "Ensisheim",
+      "company": "THK",
+      "desc": "Stage de première année de cycle ingénieur en entreprise durant 2 mois. J'ai travaillé en tant que développeur Full Stack sur un projet interne de gestion des réservations des repas à la cantine de l'entreprise.",
+      "skills": [
+        "Java Spring Boot",
+        "Angular",
+        "PrimeNG",
+        "PostgreSQL",
+        "Jenkins",
+        "Kubernetes"
+      ]
     }
   ],
   "education": [
