@@ -103,7 +103,7 @@ export const Contact = ({t, availability}: IProps) => {
                     </div>
                 </Grid2>
                 <Grid2 className="contact-font" xs={12} sm={10} md={8} lg={6}>
-                    {/* {availableForWork()} */}
+                    {availability && <p>{t.contact.available}</p>}
                     <p className="margin-links">
                         <MailIcon sx={{fontSize: "1.2rem", margin: "0 1rem -.2rem"}}/>
                         {t.contact.writeMe}
