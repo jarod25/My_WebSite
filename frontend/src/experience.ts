@@ -56,6 +56,7 @@ export interface IProjects {
     descFull: string;
     link: string;
     linkDesc: string;
+    links?: { label: string; url: string }[];
 }
 
 export interface IUniv {
