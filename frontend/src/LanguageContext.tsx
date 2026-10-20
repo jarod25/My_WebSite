@@ -20,11 +20,13 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
         const savedLanguage = localStorage.getItem('language') || browserLanguage;
         setLanguage(savedLanguage);
         setTranslate(getTranslations(savedLanguage));
+        document.documentElement.lang = savedLanguage === 'fr' ? 'fr' : 'en';
     }, []);
 
     const changeLanguage = (code: string) => {
         setLanguage(code);
         setTranslate(getTranslations(code));
+        document.documentElement.lang = code === 'fr' ? 'fr' : 'en';
         localStorage.setItem('language', code);
     };
 
