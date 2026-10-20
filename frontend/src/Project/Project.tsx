@@ -97,6 +97,22 @@ export const Project = ({t}: IProps) => {
                         </div>
                     </div>
                 ))}
+                {exp.links && exp.links.length > 0 && (
+                    <div className="project-content center-items">
+                        {exp.links.map((link) => (
+                            <Button
+                                key={link.url}
+                                href={link.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                variant="outlined"
+                                sx={{margin: "0.5rem", borderColor: "var(--link)", color: "var(--link)"}}
+                            >
+                                {link.label}
+                            </Button>
+                        ))}
+                    </div>
+                )}
             </div>
         </div>
     );

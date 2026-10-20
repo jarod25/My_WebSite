@@ -2,33 +2,29 @@
   "welcome": "Bienvenue sur mon site !",
   "lang": "English",
   "contactButton": "Contact",
-
-  "intro1": "Étudiant en  ",
-  "intro2": "informatique, ",
-  "intro3": "je cherche à me spécialiser en ",
-  "intro4": "développement logiciel.",
-
+  "intro1": "Étudiant ingénieur en ",
+  "intro2": "informatique et réseaux, ",
+  "intro3": "je m'intéresse au ",
+  "intro4": "développement backend, full-stack et logiciel.",
   "profile": {
     "fields": "Centres d'intérêt :",
     "games": "Jeux vidéo",
-    "arts": "Loisirs créatifs",
-    "sports": "Sport",
+    "arts": "LEGO et loisirs créatifs",
+    "sports": "Badminton",
     "travels": "Voyages",
-    "cars": "Voitures",
+    "cars": "Sport automobile",
     "about": "À propos de moi :",
-    "intro": "Je m’appelle Jarod Kohler et je suis étudiant en première année de cycle ingénieur en Informatique et Réseaux à l’ENSISA de Mulhouse. De nature curieuse, je suis toujours à la recherche de nouvelles connaissances et de défis à relever. C'est pourquoi j'ai choisi d'effectuer ma dernière année en alternance chez Web & Design à Montbéliard.",
-    "values": "Chaque projet sur lequel j'ai travaillé a été pour moi une opportunité d'apprendre et de grandir, tant sur le plan professionnel que personnel. De plus, j'attache une grande importance à l'intégrité, au travail d'équipe et à l'innovation.",
-    "passions": "En-dehors de la programmation, je suis passionné par les jeux vidéo, les loisirs créatifs, le sport, les voyages et les voitures. Ces activités me permettent de m'évader, de stimuler ma créativité, de rester actif et de découvrir de nouveaux horizons."
+    "intro": "Je suis étudiant ingénieur en Informatique et Réseaux à l’ENSISA (Université de Haute-Alsace), avec un diplôme prévu en 2027. Je poursuis actuellement un semestre d’échange au Kyoto Institute of Technology, au Japon, de septembre 2026 à mars 2027.",
+    "values": "Mes stages, mon alternance et mes projets m'ont permis de participer au développement d'applications concrètes, de l'analyse des besoins au déploiement. Je m'intéresse particulièrement au backend, aux applications métier, aux API et aux bases de données. Je recherche un stage de fin d'études de six mois à partir d'avril 2027.",
+    "passions": "En dehors de l'informatique, je pratique le badminton et je m'intéresse au sport automobile, aux jeux vidéo, aux LEGO et aux voyages."
   },
-
   "experience": {
     "title1": "Expériences professionnelles",
     "title2": "Études et Formations",
     "title3": "Projets personnels et universitaires"
   },
-
   "contact": {
-    "title" : "Restons en contact !",
+    "title": "Restons en contact !",
     "writeMe": "Écrivez-moi à : ",
     "mail": "kohler.jarod.2004",
     "domainName": "@gmail.com",
@@ -39,24 +35,21 @@
     "copyMail": "Adresse mail copiée avec succès !",
     "copyPhone": "Numéro de téléphone copié avec succès !",
     "errorCopy": "Échec de la copie.",
-    "available": "Je suis disponible pour travailler sur votre projet !",
-    "notAvailable": "Je ne suis pas encore disponible pour un nouveau projet.",
+    "available": "Je recherche un stage de fin d'études de 6 mois à partir d'avril 2027.",
+    "notAvailable": "Je ne suis pas disponible pour un nouveau projet pour le moment.",
     "socialNetworks": "Mes réseaux sociaux",
     "linkedInLink": "https://www.linkedin.com/in/jarod-kohler",
     "githubLink": "https://github.com/jarod25"
   },
-
   "alt": {
     "logo": "Logo de Jarod Kohler, il s'agit du nom et du prénom dans des chevrons de couleurs bleu et rouge.",
     "picture": "Photo de face de Jarod Kohler, développeur back-end et étudiant.",
     "contact": "Image illustrant le contact, provenant de \"storyset\" sur le site Freepik."
   },
-
   "errorPage": {
     "title": "Erreur 404",
     "message": "La page que vous recherchez n'existe pas.",
     "buttonText": "Accueil"
   },
-
   "backLink": "⤺ Retour"
 }

@@ -49,11 +49,11 @@
     },
     {
       "id": 3,
-      "title": "Stage — Développeur Web",
+      "title": "Stage — Développeur backend",
       "date": "2023",
       "place": "Montbéliard",
       "company": "Web&Design",
-      "desc": "J'ai travaillé sur un projet d'initiation à Symfony, puis sur un projet client de vente de produit et d'accessoires pour véhicules utilitaires.",
+      "desc": "Stage de développement web chez Web&Design. J'ai découvert Symfony et participé au développement d'une application client, en travaillant sur des fonctionnalités backend et des données métier.",
       "skills": [
         "HTML",
         "CSS",
@@ -67,11 +67,11 @@
     },
     {
       "id": 4,
-      "title": "Alternance — Développeur Web",
+      "title": "Alternance — Développeur backend",
       "date": "2023 - 2024",
       "place": "Montbéliard",
       "company": "Web&Design",
-      "desc": "J'ai travaillé sur différents projets, notamment sur un site de e-commerce pour une entreprise qui loue du matériel pour des événements et un site vitrine pour la promotion d'une application de communication.",
+      "desc": "Développement et maintenance d'applications Symfony pour plusieurs clients : fonctionnalités métier, interfaces d'administration, corrections et migration de projets de Symfony 4 vers Symfony 6.",
       "skills": [
         "HTML",
         "CSS",
@@ -85,16 +85,17 @@
     },
     {
       "id": 5,
-      "title": "Stage Ingénieur — Développeur Full Stack",
-      "date": "2025",
+      "title": "Stage ingénieur — Développeur full-stack",
+      "date": "juil. - août 2025",
       "place": "Ensisheim",
       "company": "THK",
-      "desc": "Stage de première année de cycle ingénieur en entreprise durant 2 mois. J'ai travaillé en tant que développeur Full Stack sur un projet interne de gestion des réservations des repas à la cantine de l'entreprise.",
+      "desc": "Développement d'une application interne de réservation des repas, avec Spring Boot, Angular et PostgreSQL. Implémentation de règles métier (menus, jours ouvrés, délais de réservation), internationalisation FR/JA et déploiement en préproduction avec Jenkins et Kubernetes.",
       "skills": [
-        "Java Spring Boot",
+        "Java",
+        "Spring Boot",
         "Angular",
-        "PrimeNG",
         "PostgreSQL",
+        "Internationalisation FR/JA",
         "Jenkins",
         "Kubernetes"
       ]
@@ -135,36 +136,44 @@
     },
     {
       "id": 2,
-      "diploma": "BUT — Informatique",
+      "diploma": "BUT Informatique — Parcours AGED",
       "place": "Belfort",
       "name": "IUT Nord Franche-Comté",
-      "date": "2024",
-      "desc": "Bachelor Universitaire de Technologie en informatique (suite du DUT).\nDiplôme en cours avec une formation en alternance chez Web&Design pour approfondir mes compétences en développement Web et en gestion de projet.",
+      "date": "2021 - 2024",
+      "desc": "BUT Informatique obtenu en 2024, parcours Administration, gestion et exploitation des données (AGED). Troisième année effectuée en alternance chez Web&Design.",
       "skills": [
-        "Développement Web",
+        "Développement logiciel",
+        "Bases de données",
         "Gestion de projet",
-        "SCRUM",
         "Symfony",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "PHP",
-        "MySQL",
-        "Anglais"
+        "SQL"
       ]
     },
     {
       "id": 3,
-      "diploma": "Cycle Ingénieur — Informatique et Réseaux",
+      "diploma": "Cycle ingénieur — Informatique et Réseaux",
       "place": "Mulhouse",
-      "name": "ENSISA",
+      "name": "ENSISA — Université de Haute-Alsace",
       "date": "2024-2027",
-      "desc": "Cycle ingénieur en informatique et réseaux à l'ENSISA de Mulhouse. Formation pour acquérir des compétences en développement logiciel, en réseaux et en sécurité informatique.",
+      "desc": "Cycle ingénieur en Informatique et Réseaux en cours, avec diplôme prévu en 2027. Enseignements en développement logiciel, réseaux et sécurité informatique.",
       "skills": [
         "Développement logiciel",
         "Réseaux",
         "Sécurité informatique",
         "Gestion de projet",
+        "Anglais"
+      ]
+    },
+    {
+      "id": 4,
+      "diploma": "Échange académique — Informatique et Réseaux",
+      "place": "Kyoto, Japon",
+      "name": "Kyoto Institute of Technology",
+      "date": "sept. 2026 - mars 2027",
+      "desc": "Semestre d'échange universitaire au Kyoto Institute of Technology (KIT), avec des cours principalement dispensés en anglais.",
+      "skills": [
+        "Informatique",
+        "Réseaux",
         "Anglais"
       ]
     }
@@ -226,6 +235,22 @@
       "skills": [
         "Développement web",
         "Développement d'applications"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Projets récents (2025 - 2026)",
+      "place": "France",
+      "date": "2025 - 2026",
+      "name": "Projets personnels et universitaires",
+      "link": "/annee/4",
+      "linkDesc": "Voir les projets",
+      "desc": "Sélection de projets récents : une plateforme pour un événement réel et des projets d'informatique réalisés à l'ENSISA.",
+      "skills": [
+        "Backend et full-stack",
+        "Applications métier",
+        "Python",
+        "Algorithmique"
       ]
     }
   ],
@@ -1010,6 +1035,167 @@
                   "desc": "Créer des salons de discussion thématiques pour regrouper les utilisateurs autour de sujets communs. Permettre la création, la gestion et la modération des salons par les utilisateurs."
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idYear": 4,
+      "title": "Projets récents — 2025 à 2026",
+      "desc": "Une sélection de projets concrets : développement web, applications métier et algorithmique.",
+      "projects": [
+        {
+          "id": 0,
+          "title": "Mulhouse Gaming Tournament Website",
+          "projectType": "Projet client",
+          "duration": "Depuis avril 2026",
+          "nbPeople": "Pilotage du projet",
+          "descShort": "Plateforme de gestion des inscriptions, paiements HelloAsso et équipes pour un tournoi e-sport.",
+          "descFull": "J'ai piloté ce projet, de l'analyse des besoins jusqu'au déploiement en production. L'application permet aux participants de s'inscrire à un tournoi, de payer via HelloAsso et de créer ou rejoindre des équipes. Elle comporte aussi des interfaces d'administration et des contenus en français, anglais et allemand.",
+          "link": "/annee/4/projet/0",
+          "linkDesc": "Détails",
+          "skills": [
+            "PHP",
+            "Symfony",
+            "MariaDB",
+            "Doctrine",
+            "HelloAsso",
+            "Docker",
+            "Nginx",
+            "GitHub Actions"
+          ],
+          "content": [
+            {
+              "title": "Inscriptions et règles métier",
+              "desc": "Conception des parcours d'inscription, des règles d'éligibilité et de la gestion des équipes selon les jeux.",
+              "competences": [
+                {
+                  "title": "Modéliser des règles métier",
+                  "desc": "Gérer les différents types de billets, les capacités d'équipe et les contraintes propres à chaque jeu."
+                }
+              ]
+            },
+            {
+              "title": "Paiements et mise en production",
+              "desc": "Intégration de HelloAsso, traitement des notifications de paiement et déploiement sur un serveur web.",
+              "competences": [
+                {
+                  "title": "Intégrer un service externe",
+                  "desc": "Authentifier les webhooks HelloAsso et rapprocher les paiements avec les inscriptions."
+                },
+                {
+                  "title": "Déployer et maintenir une application",
+                  "desc": "Utiliser GitHub Actions, Docker et Nginx pour livrer et exploiter l'application."
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "label": "Code sur GitHub",
+              "url": "https://github.com/jarod25/MGL-website"
+            },
+            {
+              "label": "Site en ligne",
+              "url": "https://mulhousegamingtournament.fr/"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Chronos Racing",
+          "projectType": "Projet universitaire",
+          "duration": "mai - juin 2026",
+          "nbPeople": "2 personnes",
+          "descShort": "Simulation de course automobile en 2D avec plusieurs approches de conduite autonome.",
+          "descFull": "Projet de fin d'année réalisé en binôme. Nous avons développé une simulation en Python et Pygame dans laquelle une voiture tente de parcourir des circuits à l'aide de capteurs raycast. Le projet propose plusieurs modes de conduite, dont une approche génétique, ainsi que des outils de suivi des tours et des performances.",
+          "link": "/annee/4/projet/1",
+          "linkDesc": "Détails",
+          "skills": [
+            "Python",
+            "Pygame",
+            "Raycasting",
+            "Algorithmes génétiques",
+            "NumPy",
+            "Matplotlib"
+          ],
+          "content": [
+            {
+              "title": "Simulation et capteurs",
+              "desc": "Mise en place d'une physique simplifiée, de capteurs de piste, de checkpoints et du chronométrage.",
+              "competences": [
+                {
+                  "title": "Construire une simulation interactive",
+                  "desc": "Gérer les mouvements du véhicule, les limites de la piste et l'affichage en temps réel."
+                }
+              ]
+            },
+            {
+              "title": "Différentes approches de conduite",
+              "desc": "Comparaison d'une IA simple, d'une approche heuristique et d'une IA entraînée génétiquement.",
+              "competences": [
+                {
+                  "title": "Analyser les performances",
+                  "desc": "Suivre les temps au tour, sauvegarder les modèles et visualiser les résultats des entraînements."
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "label": "Code sur GitHub",
+              "url": "https://github.com/jarod25/Chronos-Racing"
+            },
+            {
+              "label": "Démonstration vidéo",
+              "url": "https://www.youtube.com/watch?v=MWYh4yesfQs"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Connect Four AI",
+          "projectType": "Projet universitaire",
+          "duration": "2025 - 2026",
+          "nbPeople": "2 personnes",
+          "descShort": "Puissance 4 en Python avec interface Tkinter et IA minimax avec élagage alpha-bêta.",
+          "descFull": "Projet en binôme réalisé à l'ENSISA. Le jeu propose plusieurs modes joueur/IA et une profondeur de recherche configurable. L'IA utilise minimax, l'élagage alpha-bêta et une évaluation heuristique du plateau. Des tests automatisés couvrent les règles du jeu et les coups valides.",
+          "link": "/annee/4/projet/2",
+          "linkDesc": "Détails",
+          "skills": [
+            "Python",
+            "Tkinter",
+            "Minimax",
+            "Alpha-bêta",
+            "Tests automatisés"
+          ],
+          "content": [
+            {
+              "title": "Recherche adversariale",
+              "desc": "Implémentation de minimax et de l'élagage alpha-bêta pour sélectionner les coups de l'IA.",
+              "competences": [
+                {
+                  "title": "Concevoir une fonction d'évaluation",
+                  "desc": "Combiner des critères offensifs, défensifs et positionnels pour évaluer le plateau."
+                }
+              ]
+            },
+            {
+              "title": "Interface et fiabilité",
+              "desc": "Interface jouable avec plusieurs modes et tests sur les règles et les choix de coups.",
+              "competences": [
+                {
+                  "title": "Tester les comportements",
+                  "desc": "Vérifier les victoires, l'empilement des jetons et la sélection de coups légaux."
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "label": "Code sur GitHub",
+              "url": "https://github.com/jarod25/Connect-Four-AI"
             }
           ]
         }

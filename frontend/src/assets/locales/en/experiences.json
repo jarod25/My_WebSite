@@ -49,11 +49,11 @@
     },
     {
       "id": 3,
-      "title": "Internship — Web Developer",
+      "title": "Internship — Backend Developer",
       "date": "2023",
       "place": "Montbéliard",
       "company": "Web&Design",
-      "desc": "I worked on an introductory Symfony project, then on a client project selling products and accessories for utility vehicles.",
+      "desc": "Web development internship at Web&Design. I learned Symfony and contributed to a client application, working on backend features and business data.",
       "skills": [
         "HTML",
         "CSS",
@@ -67,11 +67,11 @@
     },
     {
       "id": 4,
-      "title": "Apprenticeship — Web Developer",
+      "title": "Apprenticeship — Backend Developer",
       "date": "2023 - 2024",
       "place": "Montbéliard",
       "company": "Web&Design",
-      "desc": "I worked on different projects, notably on an e-commerce site for a company that rents equipment for events and a showcase site for the promotion of a communication application.",
+      "desc": "Developed and maintained Symfony applications for several clients, including business features, admin interfaces, bug fixes and migrations from Symfony 4 to Symfony 6.",
       "skills": [
         "HTML",
         "CSS",
@@ -81,6 +81,23 @@
         "MySQL",
         "Project management",
         "SCRUM"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Engineering internship — Full-stack Developer",
+      "date": "Jul - Aug 2025",
+      "place": "Ensisheim",
+      "company": "THK",
+      "desc": "Developed an internal meal-booking application using Spring Boot, Angular and PostgreSQL. Implemented business rules for menus, working days and booking deadlines, localized the interface in French and Japanese, and deployed to Kubernetes pre-production with Jenkins.",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "PostgreSQL",
+        "French/Japanese localization",
+        "Jenkins",
+        "Kubernetes"
       ]
     }
   ],
@@ -119,36 +136,44 @@
     },
     {
       "id": 2,
-      "diploma": "BUT — Computer science",
+      "diploma": "Bachelor of Technology in Computer Science — Data Management (AGED)",
       "place": "Belfort",
       "name": "IUT Nord Franche-Comté",
-      "date": "2024",
-      "desc": "University Bachelor of Technology in computer science (continuation of the DUT).\nDeclaring with a dual training at Web&Design to deepen my skills in Web development and project management.",
+      "date": "2021 - 2024",
+      "desc": "Completed the French BUT in Computer Science in 2024, specializing in Data Administration, Management and Operations (AGED). The final year included an apprenticeship at Web&Design.",
       "skills": [
-        "Web development",
-        "Project management",
-        "SCRUM",
+        "Software Development",
+        "Databases",
+        "Project Management",
         "Symfony",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "PHP",
-        "MySQL",
-        "English"
+        "SQL"
       ]
     },
     {
       "id": 3,
-      "diploma": "Engineering Cycle — Computer Science and Networks",
+      "diploma": "Engineering degree — Computer Science and Networks",
       "place": "Mulhouse",
-      "name": "ENSISA",
+      "name": "ENSISA — University of Haute-Alsace",
       "date": "2024-2027",
-      "desc": "Engineering program in computer science and networks at ENSISA in Mulhouse. Training focused on acquiring skills in software development, networking, and cybersecurity.",
+      "desc": "Engineering degree in Computer Science and Networks in progress, with graduation expected in 2027. Coursework covers software development, networks and computer security.",
       "skills": [
         "Software Development",
         "Networking",
         "Cybersecurity",
         "Project Management",
+        "English"
+      ]
+    },
+    {
+      "id": 4,
+      "diploma": "Academic exchange — Computer Science and Networks",
+      "place": "Kyoto, Japan",
+      "name": "Kyoto Institute of Technology",
+      "date": "Sep 2026 - Mar 2027",
+      "desc": "Academic exchange semester at Kyoto Institute of Technology (KIT), with courses mainly taught in English.",
+      "skills": [
+        "Computer Science",
+        "Networking",
         "English"
       ]
     }
@@ -210,6 +235,22 @@
       "skills": [
         "Web development",
         "Application development"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Recent projects (2025 - 2026)",
+      "place": "France",
+      "date": "2025 - 2026",
+      "name": "Personal and university projects",
+      "link": "/year/4",
+      "linkDesc": "View projects",
+      "desc": "Recent work, including a platform for a real event and computer science projects completed at ENSISA.",
+      "skills": [
+        "Backend and full-stack",
+        "Business applications",
+        "Python",
+        "Algorithms"
       ]
     }
   ],
@@ -994,6 +1035,167 @@
                   "desc": "Create themed chat rooms to gather users around common topics. Allow users to create, manage, and moderate chat rooms."
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idYear": 4,
+      "title": "Recent projects — 2025 to 2026",
+      "desc": "A selection of practical projects in web development, business applications and algorithms.",
+      "projects": [
+        {
+          "id": 0,
+          "title": "Mulhouse Gaming Tournament Website",
+          "projectType": "Client project",
+          "duration": "Since Apr 2026",
+          "nbPeople": "Project lead",
+          "descShort": "Tournament platform for registration, HelloAsso payments and team management.",
+          "descFull": "I led this project from requirements analysis to production deployment. The application lets participants register for a tournament, pay through HelloAsso and create or join teams. It also includes administration interfaces and content in French, English and German.",
+          "link": "/year/4/project/0",
+          "linkDesc": "More details",
+          "skills": [
+            "PHP",
+            "Symfony",
+            "MariaDB",
+            "Doctrine",
+            "HelloAsso",
+            "Docker",
+            "Nginx",
+            "GitHub Actions"
+          ],
+          "content": [
+            {
+              "title": "Registration and business rules",
+              "desc": "Designed registration workflows, eligibility checks and team management rules for different games.",
+              "competences": [
+                {
+                  "title": "Model business rules",
+                  "desc": "Handle ticket types, team capacity and game-specific registration constraints."
+                }
+              ]
+            },
+            {
+              "title": "Payments and production delivery",
+              "desc": "Integrated HelloAsso, processed payment notifications and deployed the web application.",
+              "competences": [
+                {
+                  "title": "Integrate an external service",
+                  "desc": "Authenticate HelloAsso webhooks and reconcile payments with participant registrations."
+                },
+                {
+                  "title": "Deploy and maintain an application",
+                  "desc": "Use GitHub Actions, Docker and Nginx to deliver and operate the platform."
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "label": "GitHub repository",
+              "url": "https://github.com/jarod25/MGL-website"
+            },
+            {
+              "label": "Live website",
+              "url": "https://mulhousegamingtournament.fr/"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Chronos Racing",
+          "projectType": "University project",
+          "duration": "May - Jun 2026",
+          "nbPeople": "2 people",
+          "descShort": "2D racing simulation comparing different autonomous driving approaches.",
+          "descFull": "An end-of-year project developed in a team of two. We built a Python/Pygame simulation in which a car navigates racing circuits using raycast sensors. The project includes several driving controllers, including genetic training, plus lap timing and performance tracking.",
+          "link": "/year/4/project/1",
+          "linkDesc": "More details",
+          "skills": [
+            "Python",
+            "Pygame",
+            "Raycasting",
+            "Genetic algorithms",
+            "NumPy",
+            "Matplotlib"
+          ],
+          "content": [
+            {
+              "title": "Simulation and sensors",
+              "desc": "Built simplified vehicle physics, track sensing, checkpoints and lap timing.",
+              "competences": [
+                {
+                  "title": "Build an interactive simulation",
+                  "desc": "Handle vehicle movement, track boundaries and real-time rendering."
+                }
+              ]
+            },
+            {
+              "title": "Autonomous driving approaches",
+              "desc": "Compared a simple controller, heuristic driving and a genetically trained AI.",
+              "competences": [
+                {
+                  "title": "Analyze performance",
+                  "desc": "Track lap times, save AI models and visualize training results."
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "label": "GitHub repository",
+              "url": "https://github.com/jarod25/Chronos-Racing"
+            },
+            {
+              "label": "Video demo",
+              "url": "https://www.youtube.com/watch?v=MWYh4yesfQs"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Connect Four AI",
+          "projectType": "University project",
+          "duration": "2025 - 2026",
+          "nbPeople": "2 people",
+          "descShort": "Python Connect Four with a Tkinter interface and minimax AI using alpha-beta pruning.",
+          "descFull": "A two-person ENSISA project featuring human and AI game modes with configurable search depth. The AI uses minimax, alpha-beta pruning and heuristic board evaluation. Automated tests cover game rules and legal move selection.",
+          "link": "/year/4/project/2",
+          "linkDesc": "More details",
+          "skills": [
+            "Python",
+            "Tkinter",
+            "Minimax",
+            "Alpha-beta pruning",
+            "Automated testing"
+          ],
+          "content": [
+            {
+              "title": "Adversarial search",
+              "desc": "Implemented minimax and alpha-beta pruning to choose AI moves.",
+              "competences": [
+                {
+                  "title": "Design an evaluation function",
+                  "desc": "Combine offensive, defensive and positional heuristics to score board states."
+                }
+              ]
+            },
+            {
+              "title": "Interface and reliability",
+              "desc": "Built a playable interface with multiple modes and tests for game rules and move selection.",
+              "competences": [
+                {
+                  "title": "Test expected behavior",
+                  "desc": "Check winning conditions, piece placement and legal AI moves."
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "label": "GitHub repository",
+              "url": "https://github.com/jarod25/Connect-Four-AI"
             }
           ]
         }

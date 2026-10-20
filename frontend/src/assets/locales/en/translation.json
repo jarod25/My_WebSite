@@ -2,31 +2,27 @@
   "welcome": "Welcome to my website!",
   "lang": "Français",
   "contactButton": "Contact",
-
-  "intro1": "Student in  ",
-  "intro2": "IT, ",
-  "intro3": "I'm looking to specialize in ",
-  "intro4": "software development.",
-
+  "intro1": "Computer Science and Networks ",
+  "intro2": "engineering student, ",
+  "intro3": "interested in ",
+  "intro4": "backend, full-stack and software development.",
   "profile": {
     "fields": "Interests :",
     "games": "Video games",
-    "arts": "Creative hobbies",
-    "sports": "Sport",
+    "arts": "LEGO and creative hobbies",
+    "sports": "Badminton",
     "travels": "Travel",
-    "cars": "Cars",
+    "cars": "Motorsport",
     "about": "About me:",
-    "intro": "My name is Jarod Kohler, and I am a first-year engineering student specializing in Computer Science and Networks at ENSISA in Mulhouse. Curious by nature, I'm always on the lookout for new knowledge and challenges. That's why I've chosen to do my final year of work-study at Web & Design in Montbéliard.",
-    "values": "Every project I've worked on has been an opportunity to learn and grow, both professionally and personally. I also value integrity, teamwork and innovation.",
-    "passions": "Aside from programming, I'm passionate about video games, creative hobbies, sports, travel and cars. These activities allow me to escape, stimulate my creativity, stay active and discover new horizons."
+    "intro": "I am a Computer Science and Networks engineering student at ENSISA (University of Haute-Alsace), with graduation expected in 2027. I am currently completing an academic exchange at Kyoto Institute of Technology in Japan, from September 2026 to March 2027.",
+    "values": "My internships, apprenticeship and projects have given me experience with real applications, from understanding requirements to deployment. I am particularly interested in backend development, business applications, APIs and databases. I am looking for a six-month final-year internship starting in April 2027.",
+    "passions": "Outside software development, I play badminton and enjoy motorsport, video games, LEGO and travelling."
   },
-
   "experience": {
     "title1": "Professional experience",
     "title2": "Studies and Training",
     "title3": "Personal and academic projects"
   },
-
   "contact": {
     "title": "Keep in touch!",
     "writeMe": "Write to me at : ",
@@ -36,27 +32,24 @@
     "phone": "+33 6 59 73 51 58",
     "downloadResume": "Download my resume: ",
     "resume": "click here",
-    "copyMail": "Phone number successfully copied!",
-    "copyPhone": "E-mail address successfully copied!",
+    "copyMail": "Email address copied successfully!",
+    "copyPhone": "Phone number copied successfully!",
     "errorCopy": "Copy failed.",
-    "available": "I'm available to work on your project!",
-    "notAvailable": "I'm not yet available for a new project.",
+    "available": "I am looking for a six-month final-year internship starting in April 2027.",
+    "notAvailable": "I am not currently available for new projects.",
     "socialNetworks": "My social networks",
     "linkedInLink": "https://www.linkedin.com/in/jarod-kohler",
     "githubLink": "https://github.com/jarod25"
   },
-
   "alt": {
     "logo": "Jarod Kohler logo: first and last name in blue and red chevrons.",
     "picture": "Front photo of Jarod Kohler, back-end developer and student.",
-    "contact": "Image illustrating the contact, from \"storyset\\\" on the Freepik website."
+    "contact": "Contact illustration by Storyset on Freepik."
   },
-
   "errorPage": {
     "title": "Error 404",
     "message": "The page you're looking for doesn't exist.",
     "buttonText": "Home"
   },
-
   "backLink": "⤺ Back"
 }
